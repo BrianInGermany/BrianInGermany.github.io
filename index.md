@@ -8,14 +8,9 @@
 
 - Excerpt Cards: a system for organizing ideas and keeping track of sources.
 
-  - [Example card](https://brianingermany.github.io/excerptCards/index.html)
-  - [Scripts for dynamically generating cards for printing](https://github.com/BrianInGermany/excerptCards)
-  - *Exzerpieren:* a process for extracting and recording knowledge
+  - [excerptCards Repo](https://github.com/BrianInGermany/excerptCards)
 
-    - [Leitfaden zur Erstellung eines Exzerpts](https://www.uni-bielefeld.de/erziehungswissenschaft//scs/pdf/leitfaeden/studierende/exzerpt.pdf), Uni Bielefeld
-    - [How do I excerpt?](https://www.uni-kassel.de/uni/index.php?eID=dumpFile&t=f&f=907&token=57252036805e1227831a802f377dde1c13925dbc), Uni Kassel
-    - [Exzerpieren](https://www.europa-uni.de/de/struktur/zsfl/institutionen/schreibzentrum/angebote/lehrende/materialien/Exzerpieren.pdf), Europa-Uni Frankfurt (Oder)
-    - [Leitfaden: Ein Exzerpt erstllen](https://mentoren.philol.uni-leipzig.de/fileadmin/mentoren.philol.uni-leipzig.de/uploads/dokumente/Leitfaden_Exzerpt_01.pdf), Uni Leipzig
+    - Tool for generating A6 idea cards from CSV: for writing papers, speeches etc.
 
 - Arduino Fun: various projects with microcontrollers like the Arduino and ESP boards
 
