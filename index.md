@@ -24,7 +24,7 @@
 
 ## Professional Projects
 
-- [Die Woche in VUI](https://soundcloud.com/consetto) podcast from [Consetto GmbH](www.consetto.com)(up to Episode 16)
+- [Die Woche in VUI](https://soundcloud.com/consetto/folge-16-2019-britische-regierung-lasst-voice-apps-erstellen) podcast from [Consetto GmbH](www.consetto.com)(up to Episode 16)
 
 ## Thanks for visiting and be sure to check out [Brian's CAI tech tips!](https://brianingermany.github.io/recommendations)
 

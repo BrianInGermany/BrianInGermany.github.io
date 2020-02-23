@@ -27,8 +27,3 @@
 - [SAP CAI](cai.tools.sap)
 - Google Dialog Flow
 - Amazon Lex
-
-# [Home](www.brianingermany.github.io)
-
-
-
