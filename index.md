@@ -13,7 +13,7 @@
 
 - Arduino Fun: various projects with microcontrollers like the Arduino and ESP boards
 
-  - [A Timer for Toastmasters speeches with a html interface](https://github.com/BrianInGermany/ToastmastersTimerWiFi)
+  - [A timer for Toastmasters speeches with a html interface](https://github.com/BrianInGermany/ToastmastersTimerWiFi)
   - [A scrolling marquee that you can edit via html interface](https://github.com/BrianInGermany/ESPledMatrixWebserver)
   - [A light-up pumpkin with RGB lights inside triggered by a motion sensor](https://github.com/BrianInGermany/ArduinoPumpkin)
   - [A thermometer with a Digispark board and a seven segment display](https://github.com/BrianInGermany/Digispark7SegmentThermometer)
@@ -26,6 +26,6 @@
 
 - [Die Woche in VUI](https://soundcloud.com/consetto) podcast from [Consetto GmbH](www.consetto.com) (temporarily discontinued)
 
-## Thanks for visiting and be sure to check out [Brian's conversational AI recommendations!](https://brianingermany.github.io/recommendations)
+## Thanks for visiting and be sure to check out [Brian's CAI tech tips!](https://brianingermany.github.io/recommendations)
 
 
