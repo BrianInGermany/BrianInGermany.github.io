@@ -6,11 +6,9 @@
 
 ## Hobby Projects
 
-- Excerpt Cards: a system for organizing ideas and keeping track of sources.
+- IdeaStackr: a system for organizing ideas and structuring information.
 
-  - [excerptCards Repo](https://github.com/BrianInGermany/excerptCards)
-
-    - Generates A6 idea cards from CSV
+  - [IdeaStackr Repo](https://github.com/BrianInGermany/IdeaStackr)
 
 - Arduino Fun: various projects with microcontrollers like the Arduino and ESP boards
 
