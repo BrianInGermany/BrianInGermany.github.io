@@ -20,12 +20,12 @@
 
 - Junker Genealogy Website: a digitized registry of relatives going back to the 15th century
 
-  - [Junker Genealogy](http://xml-genealogie-app.herokuapp.com/)
+  - [Junker Genealogy](http://xml-genealogie-app.herokuapp.com/) (takes a moment to load, its on a free Heroku account)
 
 ## Professional Projects
 
 - [Die Woche in VUI](https://soundcloud.com/consetto/folge-16-2019-britische-regierung-lasst-voice-apps-erstellen) podcast from [Consetto GmbH](www.consetto.com)(up to Episode 16)
 
-## Thanks for visiting and be sure to check out [Brian's CAI tech tips!](https://brianingermany.github.io/recommendations)
+## Thanks for visiting and do check out [Brian's CAI tech tips!](https://brianingermany.github.io/recommendations)
 
 
