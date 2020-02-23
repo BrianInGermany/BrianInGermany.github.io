@@ -18,6 +18,7 @@
 
   - NLU, Dialog Management and NLG platform from Uber Research. I'm still figuring this one out.
   
+  
 - [OpenDial](http://www.opendial-toolkit.net/)
 - [Ravenclaw Dialog Management](https://www.cs.cmu.edu/~dbohus/ravenclaw-olympus/research.html)
 
