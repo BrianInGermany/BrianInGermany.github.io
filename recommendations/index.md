@@ -1,9 +1,8 @@
-# Recommended Tools and Tech for Conversational AI
+# Tools and Tech for Conversational AI
 
 ## Tools
 
 - [Chatette](https://pypi.org/project/chatette/): Great Python tool for creating utterances from semantic grammars.
-- []
 
 ## CAI Platforms
 
@@ -15,7 +14,7 @@
   - Dialog policy can be machine learned based on dialog flows (stories) in markdown format.
   - Backend can be selected (pre-trained embeddings vs. train from scratch)
 
-- [Plato]
+- [Plato](https://github.com/uber-research/plato-research-dialogue-system)
 
   - NLU, Dialog Management and NLG platform from Uber Research. I'm still figuring this one out.
 

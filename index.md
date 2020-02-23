@@ -26,6 +26,6 @@
 
 - [Die Woche in VUI](https://soundcloud.com/consetto) podcast from [Consetto GmbH](www.consetto.com) (temporarily discontinued)
 
-# Thanks for visiting and be sure to check out [Brian's conversational AI recommendations!](https://brianingermany.github.io/recommendations)
+## Thanks for visiting and be sure to check out [Brian's conversational AI recommendations!](https://brianingermany.github.io/recommendations)
 
 
