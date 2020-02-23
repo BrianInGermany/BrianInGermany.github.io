@@ -10,7 +10,7 @@
 
   - [excerptCards Repo](https://github.com/BrianInGermany/excerptCards)
 
-    - Tool for generating A6 idea cards from CSV: for writing papers, speeches etc.
+    - Generates A6 idea cards from CSV
 
 - Arduino Fun: various projects with microcontrollers like the Arduino and ESP boards
 
