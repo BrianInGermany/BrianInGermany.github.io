@@ -1,2 +1,2 @@
 # BrianInGermany.github.io
-Github.io Pages Repository
+Public Github.io Pages Repository
