@@ -2,6 +2,8 @@
 
 [![](profileBrian.jpg)](https://github.com/brianingermany)
 
+*[Brian Junker-Latocha](https://www.linkedin.com/in/brian-junker-latocha-1329b615b/): computational linguist, conversational AI enthusiast and microcontroller hobbyist*
+
 ## Hobby Projects
 
 - Excerpt Cards: a system for organizing ideas and keeping track of sources.
@@ -23,3 +25,7 @@
 ## Professional Projects
 
 - [Die Woche in VUI](https://soundcloud.com/consetto) podcast from [Consetto GmbH](www.consetto.com) (temporarily discontinued)
+
+# Thanks for visiting and be sure to check out [Brian's conversational AI recommendations!](https://brianingermany.github.io/recommendations)
+
+
