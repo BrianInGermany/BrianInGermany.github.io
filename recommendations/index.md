@@ -28,7 +28,7 @@
 - Google Dialog Flow
 - Amazon Lex
 
-# [Home](brianingermany.github.io)
+# [Home](www.brianingermany.github.io)
 
 
 
