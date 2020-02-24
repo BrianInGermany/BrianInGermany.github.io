@@ -10,3 +10,6 @@ jekyll/vendor/
 
 # visual studio
 .vscode/
+
+#gem
+Gemfile.lock
