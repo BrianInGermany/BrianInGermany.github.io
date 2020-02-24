@@ -1,4 +1,4 @@
-# Welcome to Brian Junker-Latocha's Project Exhibit
+# Project Exhibit
 
 [![](profileBrian.jpg)](https://github.com/brianingermany)
 
