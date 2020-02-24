@@ -1,14 +1,14 @@
 ---
-layout: page
+layout: default
 title: Tech Recommendations
 permalink: /tech/
 ---
 
 ## Tools
 
-- [Chatette](https://pypi.org/project/chatette/): Great Python tool for creating utterances from semantic grammars.
+- [Chatette](https://pypi.org/project/chatette/): Python tool for generating utterances from semantic grammars.
 
-## CAI Platforms
+## CAI / Dialog System Platforms
 
 ### Open-Source
 
