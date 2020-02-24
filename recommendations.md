@@ -4,13 +4,13 @@ title: Tech Recommendations
 permalink: /tech/
 ---
 
-# Tools
+## Tools
 
 - [Chatette](https://pypi.org/project/chatette/): Great Python tool for creating utterances from semantic grammars.
 
-# CAI Platforms
+## CAI Platforms
 
-## Open-Source
+### Open-Source
 
 - [Rasa](rasa.com)
   - All-in-one platform for CAI/ dialog systems. 
@@ -21,7 +21,7 @@ permalink: /tech/
 - [OpenDial](http://www.opendial-toolkit.net/)
 - [Ravenclaw Dialog Management](https://www.cs.cmu.edu/~dbohus/ravenclaw-olympus/research.html)
 
-## Proprietary
+### Proprietary
 
 - Microsoft Bot Framework
 - [SAP CAI](cai.tools.sap)

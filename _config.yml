@@ -25,7 +25,7 @@ linkedin_username: brian-junker-latocha
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 
