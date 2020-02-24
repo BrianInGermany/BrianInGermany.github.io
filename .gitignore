@@ -13,3 +13,6 @@ vendor/
 
 #gem
 Gemfile.lock
+
+#etc
+installSteps.md
