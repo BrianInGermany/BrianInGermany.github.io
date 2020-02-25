@@ -34,6 +34,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Disqus
+disqus:
+  shortname: BrianJL
 #skins
 minima:
   skin: sunrise
