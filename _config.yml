@@ -23,12 +23,21 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  BrianInGermany
 linkedin_username: brian-junker-latocha
 
+#headers
+header_pages:
+  - projectExhibit.md
+  - recommendations.md
+
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
 
+#skins
+minima:
+  skin: sunrise
+  
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
