@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to the Junkyard!"
+title:  "On the Nature of Junk"
 date:   2020-02-24 20:26:16 +0100
 categories: jekyll update
 ---

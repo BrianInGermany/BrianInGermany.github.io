@@ -3,10 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Welcome to the Junkyard
+# permalink: /projects/
 ---
-# A Space for Ideas
+## Brian Junker-Latocha's Idea Space
 
 ![](roundProfile.png)
 
-*Brian Junker-Latocha:  
-computational linguist, conversational AI enthusiast and microcontroller hobbyist*
+*Brian:  
+Computational linguist, conversational AI enthusiast and microcontroller hobbyist*
