@@ -18,6 +18,7 @@ permalink: /projects/
 
 # Professional Projects
 
-- [Die Woche in VUI](https://soundcloud.com/consetto/folge-16-2019-britische-regierung-lasst-voice-apps-erstellen) podcast from [Consetto GmbH](www.consetto.com):
-  <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/604867464&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+- [Die Woche in VUI](https://soundcloud.com/consetto/folge-16-2019-britische-regierung-lasst-voice-apps-erstellen) podcast from [Consetto GmbH](www.consetto.com):  
+
+  <iframe width="60%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/604867464&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
