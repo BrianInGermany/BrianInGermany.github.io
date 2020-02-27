@@ -1,16 +1,17 @@
 ---
 layout: page
-title: Tech Recommendations
+title: Tech Resources
 permalink: /tech/
 ---
+## 1. Conversational AI
 
-## Tools
+### Tools
 
 - [Chatette](https://pypi.org/project/chatette/): Python tool for generating utterances from semantic grammars.
 
-## CAI / Dialog System Platforms
+### Platforms
 
-### Open-Source
+#### Open-Source
 
 - [Rasa](rasa.com)
   - All-in-one platform for CAI/ dialog systems. 
@@ -18,12 +19,30 @@ permalink: /tech/
   - Backend can be selected (pre-trained embeddings vs. train from scratch)
 - [Plato](https://github.com/uber-research/plato-research-dialogue-system)
   - NLU, Dialog Management and NLG platform from Uber Research. I'm still figuring this one out.
+- [DeepPavlov](https://deeppavlov.ai/)
 - [OpenDial](http://www.opendial-toolkit.net/)
 - [Ravenclaw Dialog Management](https://www.cs.cmu.edu/~dbohus/ravenclaw-olympus/research.html)
 
-### Proprietary
+#### Proprietary
 
 - Microsoft Bot Framework
 - [SAP CAI](cai.tools.sap)
 - Google Dialog Flow
 - Amazon Lex
+
+## 2. Microcontrollers, etc.
+
+### Tools
+
+### Development Platforms
+
+- [M5StickC ESP32 development board](https://m5stack.com/products/stick-c)
+- [ESP8266](https://www.espressif.com/en/products/hardware/esp8266ex/overview)
+- [ESP32](https://www.espressif.com/en/products/hardware/esp32/overview)
+- [Raspberry Pi](https://www.raspberrypi.org/)
+- [Arduino Nano](https://www.arduino.cc/en/pmwiki.php?n=Main/ArduinoBoardNano)
+
+### Suppliers
+
+- [AZDelivery](https://azdelivery.de/)
+- [Aliexpress](www.aliexpress.com)
