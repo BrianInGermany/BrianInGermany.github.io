@@ -27,6 +27,7 @@ linkedin_username: brian-junker-latocha
 header_pages:
   - projectExhibit.md
   - recommendations.md
+  - toRead.md
 
 # Build settings
 markdown: kramdown
