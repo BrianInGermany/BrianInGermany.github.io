@@ -47,5 +47,5 @@ permalink: /tech/
 
 ### Tools
 
-- [Visuino: visual programming for Arduino](https://www.visuino.com/)
+<!-- - [Visuino: visual programming for Arduino](https://www.visuino.com/) -->
 - [Nodered: low-code programming for event-driven applications](https://nodered.org/)
