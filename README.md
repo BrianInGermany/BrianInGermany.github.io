@@ -1,2 +1,3 @@
 # BrianInGermany.github.io
-Public Github.io Pages Repository
+[Brian's Github.io Pages Repository](brianingermany.github.io)
+
