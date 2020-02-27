@@ -5,10 +5,6 @@ permalink: /tech/
 ---
 ## 1. Conversational AI
 
-### Tools
-
-- [Chatette](https://pypi.org/project/chatette/): Python tool for generating utterances from semantic grammars.
-
 ### Platforms
 
 #### Open-Source
@@ -23,16 +19,18 @@ permalink: /tech/
 - [OpenDial](http://www.opendial-toolkit.net/)
 - [Ravenclaw Dialog Management](https://www.cs.cmu.edu/~dbohus/ravenclaw-olympus/research.html)
 
-#### Proprietary
+#### Closed-Source
 
 - Microsoft Bot Framework
 - [SAP CAI](cai.tools.sap)
 - Google Dialog Flow
 - Amazon Lex
 
-## 2. Microcontrollers, etc.
-
 ### Tools
+
+- [Chatette](https://pypi.org/project/chatette/): Python tool for generating utterances from semantic grammars.
+
+## 2. Microcontrollers, etc.
 
 ### Development Platforms
 
@@ -45,4 +43,9 @@ permalink: /tech/
 ### Suppliers
 
 - [AZDelivery](https://azdelivery.de/)
-- [Aliexpress](www.aliexpress.com)
+- [Aliexpress](https://www.aliexpress.com)
+
+### Tools
+
+- [Visuino: visual programming for Arduino](https://www.visuino.com/)
+- [Nodered: low-code programming for event-driven applications](https://nodered.org/)
