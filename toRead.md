@@ -6,6 +6,7 @@ permalink: /readinglist/
 # Version Control
 
 - [How the Creators of Git Do Branching](https://hackernoon.com/how-the-creators-of-git-do-branches-e6fcc57270fb)
+- [gitworkflows](https://git-scm.com/docs/gitworkflows#_managing_branches)
 - [ProGit](https://git-scm.com/book/en/v2)
 
 # Conversational AI
