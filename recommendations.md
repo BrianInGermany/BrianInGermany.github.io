@@ -49,3 +49,8 @@ permalink: /tech/
 
 <!-- - [Visuino: visual programming for Arduino](https://www.visuino.com/) -->
 - [Nodered: low-code programming for event-driven applications](https://nodered.org/)
+
+## 3. Miscellaneous
+
+- [CommonMark Markdown](https://commonmark.org/help/)
+  - Tip: use [Markdown to PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf) in VScode
