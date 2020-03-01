@@ -15,15 +15,20 @@ permalink: /readinglist/
 
 # Microcontrollers, etc.
 
-- [Arduino Book by Benjamin Kappel (German)](https://www.rheinwerk-verlag.de/arduino_3797/)
+- [Arduino Book, by Benjamin Kappel](https://www.rheinwerk-verlag.de/arduino_3797/)
 
 # Scrum and Organization
 
-- [User Story Mapping](https://www.oreilly.com/library/view/user-story-mapping/9781491904893/)
-- [Clean Code](https://www.oreilly.com/library/view/clean-code/9780136083238/)
+- [User Story Mapping, by Jeff Patton](https://www.oreilly.com/library/view/user-story-mapping/9781491904893/)
+- [Clean Code, by Robert Martin](https://www.oreilly.com/library/view/clean-code/9780136083238/)
+
+# Learning Coding
+
+- [Learn Python 3 the Hard Way, by Zed Shaw](https://shop.learncodethehardway.org/access/buy/9/)
+- [Learn JavaScript the Hard Way, by Zed Shaw](https://learncodethehardway.org/javascript/)
+- [C Programmieren von Anfang an, by Helmut Erlenkötter ](https://www.amazon.com/C-Programmieren-von-Anfang/dp/3499600749)
 
 # Miscellaneous 
 
-- [Flask Book by Miguel Grinberg](https://flaskbook.com/)
+- [Flask Book, by Miguel Grinberg](https://flaskbook.com/)
 - [CommonMark Markdown](https://commonmark.org/help/)
-- [Learn Python 3 the Hard Way](https://shop.learncodethehardway.org/access/buy/9/)
