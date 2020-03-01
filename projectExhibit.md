@@ -14,7 +14,8 @@ permalink: /projects/
   - [A light-up pumpkin with RGB lights inside triggered by a motion sensor](https://github.com/BrianInGermany/ArduinoPumpkin)  
   - [A thermometer with a Digispark board and a seven segment display](https://github.com/BrianInGermany/Digispark7SegmentThermometer)  
 - Junker Genealogy: a digitized registry of relatives going back to the 15th century, built with [Flask](https://palletsprojects.com/p/flask/)  
-  - [Website](http://xml-genealogie-app.herokuapp.com/) (takes a moment to load, its on a free Heroku account)
+  - [Junker Genealogy](http://xml-genealogie-app.herokuapp.com/) (takes a moment to load, its on a free Heroku account)
+- [This website](https://github.com/BrianInGermany/BrianInGermany.github.io)
 
 # Professional Projects
 
