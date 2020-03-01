@@ -52,7 +52,8 @@ permalink: /tech/
 
 ## 3. Miscellaneous
 
-- [Heroku] Cloud Application Platform
+- [Flask](https://palletsprojects.com/p/flask/) framework for web development in Python
+- [Heroku](https://www.heroku.com/what) Cloud Application Platform
   - A free way to publish your Flask apps to the internet.
 - [CommonMark Markdown](https://commonmark.org/help/)
   - Tip: use [Markdown to PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf) in VScode
