@@ -22,7 +22,7 @@ permalink: /readinglist/
 # Scrum and Organization
 
 - [User Story Mapping, by Jeff Patton](https://www.oreilly.com/library/view/user-story-mapping/9781491904893/)
-  - Method of planning what features to build when.
+  - Detailed explanation of how user stories work and a method of choosing what stories to do when.
 - [Inspired, by Marty Cagan](https://svpg.com/inspired-how-to-create-products-customers-love/)
   - Guide to the role of the product manager and to the process of discovering and implementing tech products
 
