@@ -26,3 +26,4 @@ permalink: /readinglist/
 
 - [Flask Book by Miguel Grinberg](https://flaskbook.com/)
 - [CommonMark Markdown](https://commonmark.org/help/)
+- [Learn Python 3 the Hard Way](https://shop.learncodethehardway.org/access/buy/9/)
