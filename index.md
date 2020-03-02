@@ -11,4 +11,4 @@ title: Welcome to the Junkyard
 ![](roundProfile.png)
 
 *Brian:  
-Computational linguist, conversational AI enthusiast and microcontroller hobbyist*
+Computational linguist, conversational AI enthusiast and electronics hobbyist*
