@@ -57,3 +57,7 @@ permalink: /tech/
   - A free way to publish your Flask apps to the internet.
 - [CommonMark Markdown](https://commonmark.org/help/)
   - Tip: use [Markdown to PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf) in VScode
+
+## 4. Organization
+
+- [tiddlyWiki](https://tiddlywiki.com/): open-source note-taking/wiki software that runs from a single html file.
