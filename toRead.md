@@ -41,5 +41,5 @@ permalink: /readinglist/
 
 - [Flask Book, by Miguel Grinberg](https://flaskbook.com/)
   - Step-by-step guide to the components of the Flask framework for web development in Python.
-- [List of Open-Source projects by language](https://github.com/lk-geimfari/awesomo)
+- [List of open-source projects by language](https://github.com/lk-geimfari/awesomo)
 
