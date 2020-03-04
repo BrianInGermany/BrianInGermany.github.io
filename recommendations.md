@@ -50,12 +50,15 @@ permalink: /tech/
 <!-- - [Visuino: visual programming for Arduino](https://www.visuino.com/) -->
 - [Nodered: low-code programming for event-driven applications](https://nodered.org/)
 
-## 3. Miscellaneous
+## 3. Web Development
 
 - [Flask](https://palletsprojects.com/p/flask/) framework for web development in Python
 - [Bottle](https://github.com/bottlepy/bottle): mini version of Flask, a whole website in one file
 - [Heroku](https://www.heroku.com/what) Cloud Application Platform
-  - A free way to publish your Flask apps to the internet.
+  - A free way to publish your Flask/Bottle apps to the internet.
+
+## 4. Miscellaneous
+
 - [CommonMark Markdown](https://commonmark.org/help/)
   - Tip: use [Markdown to PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf) in VScode
 - [Termux](https://termux.com/): Linux shell for Android
