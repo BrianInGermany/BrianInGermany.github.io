@@ -8,7 +8,7 @@ categories: jekyll update
 
 *It's not a full-fledged Linux distro, but certainly enough to have some fun with!*
 
-![screenshot](screenshot.png)
+![screenshot](/assets/images/screenshot.png)
 
 With [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en) Linux environment, you can run bash shell on your Android phone without rooting it. It's great for cloning git repositories to your phone, writing simple automation scripts with Android functionalities, and more.
 
