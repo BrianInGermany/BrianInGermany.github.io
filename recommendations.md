@@ -53,6 +53,7 @@ permalink: /tech/
 ## 3. Miscellaneous
 
 - [Flask](https://palletsprojects.com/p/flask/) framework for web development in Python
+- [Bottle](https://github.com/bottlepy/bottle): mini version of Flask, a whole website in one file
 - [Heroku](https://www.heroku.com/what) Cloud Application Platform
   - A free way to publish your Flask apps to the internet.
 - [CommonMark Markdown](https://commonmark.org/help/)
