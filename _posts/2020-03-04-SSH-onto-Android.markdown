@@ -8,6 +8,8 @@ categories: jekyll update
 
 *It's not a full-fledged Linux distro, but certainly enough to have some fun with!*
 
+![screenshot](screenshot.png)
+
 With [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en) Linux environment, you can run bash shell on your Android phone without rooting it. It's great for cloning git repositories to your phone, writing simple automation scripts with Android functionalities, and more.
 
 With the plug-in [Termux:Widget](https://play.google.com/store/apps/details?id=com.termux.widget), you also get a nifty box on the homescreen to run your favorite scripts with one click without having to open the app.
@@ -16,11 +18,11 @@ Also, [Termux:API](https://play.google.com/store/apps/details?id=com.termux.api&
 
 # Steps to SSH into the Termux Terminal
 
-## 1. Install Termux Linux Environment
+#### 1. Install Termux Linux Environment
 
 - From Google Play Store, install [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en)
 
-## 2. Starting an SSH Server on Termux
+#### 2. Starting an SSH Server on Termux
 
 - Open Termux app
 - Set password for SSH access with the command `passwd`
@@ -29,7 +31,7 @@ Also, [Termux:API](https://play.google.com/store/apps/details?id=com.termux.api&
 - Run `sshd -d` to start an SSH server in debug mode
 - To make this easier, you can create a shell script to do this and run it from [Termux:Widget](https://play.google.com/store/apps/details?id=com.termux.widget) on the home screen
 
-## 3. Access Termux from Computer via SSH
+#### 3. Access Termux from Computer via SSH
 
 - From your computer, run `ssh -p 8022 <androids_ip_address>`
   - Look up ip address via Android settings -> about phone -> IP address
