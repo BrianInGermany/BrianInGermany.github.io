@@ -57,6 +57,7 @@ permalink: /tech/
   - A free way to publish your Flask apps to the internet.
 - [CommonMark Markdown](https://commonmark.org/help/)
   - Tip: use [Markdown to PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf) in VScode
+- [Termux](https://termux.com/): Linux shell for Android
 
 ## 4. Organization
 
