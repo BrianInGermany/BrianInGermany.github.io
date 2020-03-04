@@ -4,8 +4,6 @@ title:  "Run Linux on Android and SSH in"
 date:   2020-03-04 21:25:00 +0100
 categories: jekyll update
 ---
-<img src="assets/images/screenshot.png" class="align-left" alt="">
-
 # What is Termux?
 
 *It's not a full-fledged Linux distro, but certainly enough to have some fun with!*
