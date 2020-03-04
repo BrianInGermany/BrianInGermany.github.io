@@ -57,12 +57,13 @@ permalink: /tech/
 - [Heroku](https://www.heroku.com/what) Cloud Application Platform
   - A free way to publish your Flask/Bottle apps to the internet.
 
-## 4. Miscellaneous
-
-- [CommonMark Markdown](https://commonmark.org/help/)
-  - Tip: use [Markdown to PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf) in VScode
-- [Termux](https://termux.com/): Linux shell for Android
-
 ## 4. Organization
 
 - [tiddlyWiki](https://tiddlywiki.com/): open-source note-taking/wiki software that runs from a single html file.
+
+## 5. Miscellaneous
+
+- [CommonMark Markdown](https://commonmark.org/help/)
+  - Tip: use [Markdown to PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf) in VScode
+- [Termux](https://termux.com/): Linux environment for Android
+
