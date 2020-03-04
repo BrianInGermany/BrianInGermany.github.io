@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Run Linux on Android and SSH onto it"
+title:  "Run Linux on Android and SSH into it"
 date:   2020-03-04 21:25:00 +0100
 categories: jekyll update
 ---
@@ -8,7 +8,7 @@ categories: jekyll update
 
 *It's not a full-fledged Linux distro, but certainly enough to have some fun with!*
 
-![screenshot](/assets/images/screenshot.png)
+![screenshot](/assets/images/screenshot.png){: .align-left}
 
 With [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en) Linux environment, you can run bash shell on your Android phone without rooting it. It's great for cloning git repositories to your phone, writing simple automation scripts with Android functionalities, and more.
 
