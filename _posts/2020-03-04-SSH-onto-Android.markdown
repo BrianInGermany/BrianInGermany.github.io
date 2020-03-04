@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Running Linux on Android and SSHing onto Your Device"
+title:  "Run Linux on Android and SSH onto Your Device"
 date:   2020-03-04 21:25:00 +0100
 categories: jekyll update
 ---
