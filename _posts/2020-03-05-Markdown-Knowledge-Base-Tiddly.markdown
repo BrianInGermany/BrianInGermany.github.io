@@ -34,3 +34,9 @@ Instead of wasting time deciding what notes belong in which notebook, section or
 
   ![renderedMarkdown](/assets/images/renderedM.png)
 
+- [Save to Github or Gitlab](https://tiddlywiki.com/static/Saving%2520to%2520a%2520Git%2520service.html)
+
+#### Conclusion
+
+My original motivation for using TiddlyWiki was to keep a searchable record of what I said in each day's standup, since I was writing it down beforehand anyway. But it's proving to be useful for reminders, to do lists and other private notes, too. Definitely worth a test!
+
