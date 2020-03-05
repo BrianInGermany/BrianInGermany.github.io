@@ -7,8 +7,6 @@ permalink: /tech/
 
 ### Platforms
 
-#### Open-Source
-
 - [Rasa](rasa.com)
   - All-in-one platform for CAI/ dialog systems. 
   - Dialog policy can be machine learned based on dialog flows (stories) in markdown format.
@@ -18,9 +16,6 @@ permalink: /tech/
 - [DeepPavlov](https://deeppavlov.ai/)
 - [OpenDial](http://www.opendial-toolkit.net/)
 - [Ravenclaw Dialog Management](https://www.cs.cmu.edu/~dbohus/ravenclaw-olympus/research.html)
-
-#### Closed-Source
-
 - Microsoft Bot Framework
 - [SAP CAI](cai.tools.sap)
 - Google Dialog Flow
@@ -30,7 +25,7 @@ permalink: /tech/
 
 - [Chatette](https://pypi.org/project/chatette/): Python tool for generating utterances from semantic grammars.
 
-## 2. Microcontrollers, etc.
+## 2. Microcontrollers and IoT
 
 ### Development Platforms
 
@@ -39,16 +34,12 @@ permalink: /tech/
 - [ESP32](https://www.espressif.com/en/products/hardware/esp32/overview)
 - [Raspberry Pi](https://www.raspberrypi.org/)
 - [Arduino Nano](https://www.arduino.cc/en/pmwiki.php?n=Main/ArduinoBoardNano)
+- [Nodered: low-code programming for event-driven applications](https://nodered.org/)
 
-### Suppliers
+### Board Suppliers
 
 - [AZDelivery](https://azdelivery.de/)
 - [Aliexpress](https://www.aliexpress.com)
-
-### Tools
-
-<!-- - [Visuino: visual programming for Arduino](https://www.visuino.com/) -->
-- [Nodered: low-code programming for event-driven applications](https://nodered.org/)
 
 ## 3. Web Development
 
