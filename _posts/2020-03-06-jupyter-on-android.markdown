@@ -5,7 +5,9 @@ date:   2020-03-06 18:03:00 +0100
 categories: jekyll update
 ---
 # View and Edit Jupyter files on Android
+
 ![jupyterLogo](/assets/images/jupyter.png)
+
 #### Why run a Jupyter notebook on your phone?
 That's a very good question. Maybe you're in a hurry, maybe you want to have a quick look at some files without taking out your laptop. Or maybe you're just bored in the bus on your way to work... 
 
@@ -21,4 +23,4 @@ The terminal will display a url on `localhost` with a port number and a key at t
 For a more extended tutorial on this subject, see this great article by @leouieda:
 - [Running Jupyter and the Scipy stack on Android](https://www.leouieda.com/blog/scipy-on-android.html)
 
-The Jupyter logo was downloaded from the [Jupyter Design Github repository](https://github.com/jupyter/design)
+*The Jupyter logo was downloaded from the [Jupyter Design Github repository](https://github.com/jupyter/design)*
