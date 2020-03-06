@@ -28,6 +28,8 @@ header_pages:
   - projectExhibit.md
   - recommendations.md
   - toRead.md
+  
+google_analytics: UA-159935743-1
 
 # Build settings
 markdown: kramdown
