@@ -19,6 +19,8 @@ With the [Termux](https://termux.com/) app for Android you can install Python, [
 
 The terminal will display a url on `localhost` with a port number and a key at the end of it. Copy this url into your browser, and voilá, Jupyter notebook!
 
+  ![screenshot](/assets/images/jupyter_termux.png)
+
 #### Note:
 For a more extended tutorial on this subject, see this great article by [@leouieda](https://github.com/leouieda):
 - [Running Jupyter and the Scipy stack on Android](https://www.leouieda.com/blog/scipy-on-android.html)
