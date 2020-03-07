@@ -7,6 +7,12 @@
     }
 </style>
 <div id="cookie-notice"><span>We would like to use third party cookies and scripts to improve the functionality of this website.</span><a id="cookie-notice-accept" class="btn btn-primary btn-sm">Approve</a><a href="/privacy" class="btn btn-primary btn-sm">More info</a></div>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159935743-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  
+</script>
 <script>
     function createCookie(name,value,days) {
         var expires = "";
@@ -32,7 +38,8 @@
     }
 
     if(readCookie('cookie-notice-dismissed')=='true') {
-        {% include google-analytics.html %}
+        gtag('js', new Date());
+        gtag('config', 'UA-159935743-1');
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
     }
