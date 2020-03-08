@@ -29,7 +29,7 @@ header_pages:
   - recommendations.md
   - toRead.md
   
-google_analytics: UA-159935743-1
+# google_analytics: UA-159935743-1
 
 # Build settings
 markdown: kramdown

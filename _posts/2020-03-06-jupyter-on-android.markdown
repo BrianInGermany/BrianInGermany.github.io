@@ -1,17 +1,19 @@
 ---
 layout: post
-title:  "Run Jupyter Notebook Server on Android"
+title:  "Run a Jupyter Notebook Server on Android"
 date:   2020-03-06 18:03:00 +0100
 categories: jekyll update
+tags: android
 ---
-# View and Edit Jupyter files on Android
+<!-- # View and Edit Jupyter files on Android -->
 
-![jupyterLogo](/assets/images/jupyter.png)
+<img src="/assets/images/jupyter.png" alt="juypterLogo" width="60%">
+<!-- ![jupyterLogo](/assets/images/jupyter.png) -->
 
-#### Why run a Jupyter notebook on your phone?
+# Why run a Jupyter notebook on your phone?
 That's a very good question. Maybe you're in a hurry. Maybe you want to have a quick look at some files without taking out your laptop. Or maybe you're just bored in the bus on your way to work... 
 
-#### Solution
+#### Use Jupyter on Android via Termux
 With the [Termux](https://termux.com/) app for Android you can install Python, [Jupyter](https://jupyter.org/) and a wide variety of Python packages from a Linux command line.
 
 - Start off by installing Python with `pkg install python` to get Python 3.
