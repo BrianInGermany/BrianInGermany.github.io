@@ -9,7 +9,7 @@ categories: jekyll update
 ![jupyterLogo](/assets/images/jupyter.png)
 
 #### Why run a Jupyter notebook on your phone?
-That's a very good question. Maybe you're in a hurry, maybe you want to have a quick look at some files without taking out your laptop. Or maybe you're just bored in the bus on your way to work... 
+That's a very good question. Maybe you're in a hurry. Maybe you want to have a quick look at some files without taking out your laptop. Or maybe you're just bored in the bus on your way to work... 
 
 #### Solution
 With the [Termux](https://termux.com/) app for Android you can install Python, [Jupyter](https://jupyter.org/) and a wide variety of Python packages from a Linux command line.
