@@ -10,7 +10,7 @@ tags: github-pages jekyll
 # Why use Github and Jekyll?
 
 - [Jekyll](https://jekyllrb.com/) lets you build a website fast from pre-made templates, extensible with your own code
-  - Use built-in templates or override them with your own changes
+  - Use built-in templates, or override them with your own changes file by file
 - And [GitHub](https://pages.github.com/) hosts your website and generates you a free SSL certificate for https encryption
 - Super easy to connect with your own domain name
 
