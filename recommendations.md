@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tech Resources
+title: Tech Tips
 permalink: /tech/
 ---
 ## 1. Conversational AI
