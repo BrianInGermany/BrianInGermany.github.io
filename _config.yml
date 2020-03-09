@@ -14,14 +14,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: The Junkyard
-# email: your-email@example.com
+
+author: "© 2020 Brian Junker-Latocha"
 description: >- # this means to ignore newlines until "baseurl:"
-  The Junkyard: a collection of tech musings from Brian Junker-Latocha
+  The Junkyard: A Myriad of Tech Musings
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  BrianInGermany
-linkedin_username: brian-junker-latocha
+linkedin_username: Junker-Latocha
+twitter_username: JunkerLatocha
+telegram_username: BrianJL
 
 #headers
 header_pages:

@@ -3,6 +3,7 @@ layout: post
 title:  "Purpose of the Junkyard"
 date:   2020-02-26 21:55:00 +0100
 categories: jekyll update
+tags: organization
 ---
 
 # Why have a personal website?
