@@ -4,7 +4,7 @@ title: Credits
 permalink: /credits/
 ---
 
-*A lot of great articles and tutorials helped in building this website. Here is a list of some of the great resources that have made this site reality (sources for individual blog posts are listed directly there).*
+*A lot of great articles and tutorials helped in building this website. Here is a list of some of the resources that have made this site reality (sources for individual blog posts are listed directly there).*
 
 Setting up keyword tagging on the blog entries:
 - [Jekyll Tags on Github Pages](https://longqian.me/2017/02/09/github-jekyll-tag/)
