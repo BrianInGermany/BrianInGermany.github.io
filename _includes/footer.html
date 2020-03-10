@@ -10,10 +10,10 @@
         <ul class="contact-list">
           
           {% if site.telegram_username %}
-          <li><a rel="me" target="_blank" href="https://t.me/{{ site.telegram_username |cgi_escape | escape }}" title="{{ site.telegram_username | escape}}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#telegram' | relative_url }}"></use></svg>{{ site.telegram_username | escape }}</a></li>
+          <li><a rel="me" href="https://t.me/{{ site.telegram_username |cgi_escape | escape }}" title="{{ site.telegram_username | escape}}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#telegram' | relative_url }}"></use></svg>{{ site.telegram_username | escape }}</a></li>
           {% endif %}
           {% if site.twitter_username %}
-          <li><a rel="me" target="_blank" href="https://twitter.com/{{ site.twitter_username | cgi_escape | escape }}" title="{{ site.twitter_username | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg>{{ site.twitter_username | escape }}</a></li>
+          <li><a rel="me" href="https://twitter.com/{{ site.twitter_username | cgi_escape | escape }}" title="{{ site.twitter_username | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg>{{ site.twitter_username | escape }}</a></li>
           {% endif %}
             <!-- {% if site.email %}
             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
@@ -24,10 +24,10 @@
       <div class="footer-col footer-col-2">
         <ul class="contact-list">
           {% if site.github_username %}
-          <li><a rel="me" target="_blank" href="https://github.com/{{ site.github_username | cgi_escape | escape }}" title="{{ site.github_username | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg>{{ site.github_username | escape }}</a></li>
+          <li><a rel="me" href="https://github.com/{{ site.github_username | cgi_escape | escape }}" title="{{ site.github_username | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg>{{ site.github_username | escape }}</a></li>
           {% endif %}
           {% if site.linkedin_username %}
-          <li><a rel="me" target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="{{ site.linkedin_username }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg>{{ site.linkedin_username | escape }}</a></li>
+          <li><a rel="me" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="{{ site.linkedin_username }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg>{{ site.linkedin_username | escape }}</a></li>
           {% endif %}
           
         </ul>

@@ -29,3 +29,7 @@ permalink: /credits/
 #### SSL Certificate on Custom Github-Pages Domains
 - [How to set up custom domain for Github Pages with HTTPS](https://www.devdiaries.net/blog/How-to-set-up-custom-domain-for-Github-Pages-with-HTTPS/#enable-https-for-your-github-pages-website)
   - Accessed 08.03.2020
+
+#### Deciding whether to use target="_blank"
+- [When to use target=”_blank”](https://css-tricks.com/use-target_blank/)
+  - Accessed 10.03.2020
