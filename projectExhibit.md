@@ -16,10 +16,17 @@ permalink: /projects/
 - Junker Genealogy: a digitized registry of relatives going back to the 15th century, built with [Flask](https://palletsprojects.com/p/flask/)  
   - [Junker Genealogy](http://genealogy.thejunkyard.cc/) (takes a moment to load, its on a free Heroku account)
 - [This website](https://github.com/BrianInGermany/BrianInGermany.github.io)
-
+- "Darmstädter Kneipen" Alexa Skill
+  - [Die digitale Kneipenführerin](https://www.frizzmag.de/urban/darmstadt-digital/die-digitale-kneipenf%C3%BChrerin/)
+- Democratic Global Presidential Primary 2020 in Darmstadt
+  - [US-Amerikaner geben in Darmstadt Stimme für Vorwahlen ab](https://www.echo-online.de/lokales/darmstadt/us-amerikaner-geben-in-darmstadt-stimme-fur-vorwahlen-ab_21383871)
+  
 # Professional Projects
 
+- FRIZZ Magazin Skill for Alexa
+  - [Heute schon was vor?](https://www.frizzmag.de/urban/darmstadt-digital/FRIZZ_spricht_Dank_Alexa/)
 - [Die Woche in VUI](https://soundcloud.com/consetto/folge-16-2019-britische-regierung-lasst-voice-apps-erstellen) podcast from [Consetto GmbH](www.consetto.com):  
 
   <iframe width="60%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/604867464&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
 
