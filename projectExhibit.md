@@ -15,7 +15,7 @@ permalink: /projects/
   - [A thermometer with a Digispark board and a seven segment display](https://github.com/BrianInGermany/Digispark7SegmentThermometer)  
 - [Junker Genealogy](http://genealogy.thejunkyard.cc/): a digitized registry of relatives going back to the 15th century, built with [Flask](https://palletsprojects.com/p/flask/)  
   - takes a moment to load, its on a free Heroku account
-- [thejunkyard.cc](https://github.com/BrianInGermany/BrianInGermany.github.io)
+- [www.thejunkyard.cc](https://github.com/BrianInGermany/BrianInGermany.github.io)
 - "Darmstädter Kneipen" Alexa Skill
   - ["Die digitale Kneipenführerin"](https://www.frizzmag.de/urban/darmstadt-digital/die-digitale-kneipenf%C3%BChrerin/)
 - Democratic Global Presidential Primary 2020 in Darmstadt
