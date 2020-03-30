@@ -21,6 +21,8 @@ permalink: /projects/
   - ["Die digitale Kneipenführerin"](https://www.frizzmag.de/urban/darmstadt-digital/die-digitale-kneipenf%C3%BChrerin/)
 - Democratic Global Presidential Primary 2020 in Darmstadt
   - ["US-Amerikaner geben in Darmstadt Stimme für Vorwahlen ab"](https://www.echo-online.de/lokales/darmstadt/us-amerikaner-geben-in-darmstadt-stimme-fur-vorwahlen-ab_21383871)
+- [Brian Kenneth Band](https://briankenneth.rocks)
+  - My Irish and American folk music project
   
 # Professional Projects
 
