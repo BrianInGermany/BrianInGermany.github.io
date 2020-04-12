@@ -6,6 +6,6 @@ categories: jekyll update
 tags: ESP32 raspberrypi
 ---
 # Project Pictures
-![The Phone](/assets/images/phone.jpeg)
-![The Handset](/assets/images/telephoning.jpeg)
-![Dialing](/assets/images/dialingM5stickc.gif)
+<img src="/assets/images/phone.jpeg">
+<img src="/assets/images/telephoning.jpeg">
+<img src="/assets/images/dialingM5stickc.gif">
