@@ -6,6 +6,7 @@ permalink: /projects/
 
 # Hobby Projects
 
+- [Rotary IP-Phone](https://www.thejunkyard.cc/jekyll/update/2020/04/12/retro-voip.html): A Raspberry Pi project
 - [IdeaStackr](https://github.com/BrianInGermany/IdeaStackr): a system for organizing ideas and structuring information.  
   - See blog post ["Clustering Ideas with IdeaStackr"](/jekyll/update/2020/03/12/ideastackr.html)  
 - Arduino Fun: various projects with microcontrollers like the Arduino and ESP boards  
