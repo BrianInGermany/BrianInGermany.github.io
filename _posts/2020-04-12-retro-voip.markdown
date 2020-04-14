@@ -9,3 +9,4 @@ tags: ESP32 raspberrypi
 <img src="/assets/images/phone.jpeg">
 <img src="/assets/images/telephoning.jpeg">
 <img src="/assets/images/dialingM5stickc.gif">
+<img src="/assets/images/finalFoto.jpg">
