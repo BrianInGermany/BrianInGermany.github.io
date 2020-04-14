@@ -3,7 +3,7 @@ layout: post
 title:  "VoIP-- Retro Style"
 date:   2020-04-12 09:55:00 +0100
 categories: jekyll update
-tags: VoIP raspberrypi linphone
+tags: raspberrypi voip linphone
 ---
 # Project Pictures
 <img src="/assets/images/phone.jpeg">

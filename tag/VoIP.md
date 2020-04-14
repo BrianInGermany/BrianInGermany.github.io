@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: VoIP"
-tag: VoIP
+title: "Tag: voip"
+tag: voip
 ---
