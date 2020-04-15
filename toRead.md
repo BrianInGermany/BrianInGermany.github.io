@@ -35,7 +35,7 @@ permalink: /readinglist/
 - [Clean Code, by Robert Martin](https://www.oreilly.com/library/view/clean-code/9780136083238/)
   - Still working on this one.
 - [C Programmieren von Anfang an, by Helmut Erlenkötter ](https://www.amazon.com/C-Programmieren-von-Anfang/dp/3499600749)
-  - Hopefully my microcontroller sketches will throw fewer errors once I've finished this...
+  - Guide to getting down the basics in C
 
 # Miscellaneous 
 
