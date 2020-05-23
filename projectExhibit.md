@@ -23,7 +23,7 @@ permalink: /projects/
 - Democratic Global Presidential Primary 2020 in Darmstadt
   - ["US-Amerikaner geben in Darmstadt Stimme für Vorwahlen ab"](https://www.echo-online.de/lokales/darmstadt/us-amerikaner-geben-in-darmstadt-stimme-fur-vorwahlen-ab_21383871)
 - [www.briankenneth.rocks](https://briankenneth.rocks)
-  - Brian Kenneth: my Irish and American folk music project
+  - Brian Kenneth: my folk and country music project
   
 # Professional Projects
 
