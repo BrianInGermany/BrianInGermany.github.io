@@ -37,6 +37,10 @@ permalink: /readinglist/
 - [C Programmieren von Anfang an, by Helmut Erlenkötter ](https://www.amazon.com/C-Programmieren-von-Anfang/dp/3499600749)
   - Guide to getting down the basics in C
 
+# Writing
+- [Writing a Thesis in Markdown](https://www.theurbanist.com.au/2018/02/writing-a-thesis-in-markdown/)
+  - I sometimes write in Latex, but came to the realization that in the end, it is a paper-dependent system. Who needs paper anyway?
+
 # Miscellaneous 
 
 - [Flask Book, by Miguel Grinberg](https://flaskbook.com/)
