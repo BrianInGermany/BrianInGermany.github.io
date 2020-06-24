@@ -40,7 +40,9 @@ permalink: /readinglist/
 # Writing
 - [Writing a Thesis in Markdown](https://www.theurbanist.com.au/2018/02/writing-a-thesis-in-markdown/)
   - I sometimes write in Latex, but came to the realization that in the end, it is a paper-dependent system. Who needs paper anyway?
-
+- [Writing Thesis in Markdown with Ulysses](https://leolabs.org/blog/thesis-in-markdown)
+  - Another option for the same, this time using Github Actions for rendering to PDF/HTML
+  
 # Miscellaneous 
 
 - [Flask Book, by Miguel Grinberg](https://flaskbook.com/)
