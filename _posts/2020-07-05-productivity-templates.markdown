@@ -6,14 +6,14 @@ categories: jekyll update
 tags: organization
 ---
 # Use Planning Templates to Structure Your Day, Week, Sprint...
-After finding a great daily planning template from Christopher at [vitaminp.info](https://vitaminp.info/mein-kreativer-tagesplaner-fuer-einen-produktiven-tag/), and later a decent weekly tear-off planner from Aldi, I decided to try my own hand at something to organize the whole month.
+After finding a great daily planning template from Christopher at [vitaminp.info](https://vitaminp.info/mein-kreativer-tagesplaner-fuer-einen-produktiven-tag/) (thanks!), and later a decent weekly tear-off planner from Aldi, I decided to try my own hand at something to organize the whole month.
 <figure>
 <img src="/assets/images/wochenplanerAldi.jpg" width="70%">
 <figcaption>Tear-Away Week Planner from Aldi-Süd (3 July 2020)</figcaption>
 </figure>
 
 ## Where's the Benefit?
-Though I do think the questions raised by a template play a central role in how useful a template is, for me the main benefit in using templates, is that I get into a routine of thinking about certain things again and again. And when you fill out planning templates for a day, week or month, you get into the habit of going through a mental checklist at regular intervals. 
+Though I do think the questions raised by a template play a central role in how useful a template is, for me the main benefit in using templates is that I get into a routine of thinking about certain things again and again. When you fill out planning templates for a day, week or month, you get into the habit of going through a mental checklist at regular intervals. 
 
 I tend to migrate through different templates a few times a year. But even after having left a particular template behind me, the effect usually remains that I think more regularly about certain things that I didn't before. It's a crutch that helps me build a rhythm until I can uphold one on my own, but at the same time a tool for organizing my thoughts I in a way I couldn't without it. 
 
