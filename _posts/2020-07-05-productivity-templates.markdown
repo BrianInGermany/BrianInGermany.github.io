@@ -8,12 +8,12 @@ tags: organization
 # Structure Your Time with Planning Templates for the Day, Week, Month, Sprint...
 After finding a great daily planning template from Christopher at [vitaminp.info](https://vitaminp.info/mein-kreativer-tagesplaner-fuer-einen-produktiven-tag/), and later a decent weekly tear-off planner from Aldi, I decided to try my own hand at something to organize the whole month.
 <figure>
-<img src="/assets/images/wochenPlanerAldi.jpg">
+<img src="/assets/images/wochenplanerAldi.jpg">
 <figcaption>Tear-Away Week Planner from Aldi-Süd (3 July 2020)</figcaption>
 </figure>
 <figure>
 <a href="https://github.com/BrianInGermany/productivity_templates/archive/master.zip">
-<img src="/assets/images/monthlyPlannerJunkyard.jpg">
+<img src="/assets/images/monthlyPlannerJunkyard.jpg" width="50%">
 </a>
 <figcaption>I thought I would take a crack at it.</figcaption>
 </figure>
