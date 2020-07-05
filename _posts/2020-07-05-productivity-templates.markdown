@@ -27,6 +27,6 @@ I tend to migrate through different templates a few times a year. But even after
 ## Why Should I Use Your Monthly Planner?
 Maybe you shouldn't. Maybe the topics it encourages you to remember are already on your game plan. But maybe, right now, you need just the level of cognitive prodding that this template lays out for you. 
 
-If this is the case, please [download the pdf](https://github.com/BrianInGermany/productivity_templates/archive/master.zip) and print out copies to your hearts desire.
+If this is the case, please [download the pdf](https://github.com/BrianInGermany/productivity_templates/archive/master.zip) and print out copies to your heart's desire.
 
 Happy planning!
