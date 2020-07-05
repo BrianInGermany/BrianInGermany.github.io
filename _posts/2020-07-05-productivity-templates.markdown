@@ -30,3 +30,5 @@ Maybe you shouldn't. Maybe the topics it encourages you to remember are already 
 If this is the case, please [download the pdf](https://github.com/BrianInGermany/productivity_templates/archive/master.zip) and print out copies to your heart's desire.
 
 Happy planning!
+
+Brian
