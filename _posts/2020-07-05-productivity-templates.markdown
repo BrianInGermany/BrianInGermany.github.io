@@ -15,6 +15,11 @@ After finding a great daily planning template from Christopher at [vitaminp.info
 ## Where's the Benefit?
 Though I do think the questions raised by a template play a central role in how useful the template is, for me the main benefit in using templates is that I get into a routine of thinking about certain things again and again. When you fill out planning templates for a day, week or month, you get into the habit of going through a mental checklist at regular intervals. 
 
+<figure>
+<img src="/assets/images/plannerDay.jpg" width="70%">
+<figcaption>Hourly planner from the craft store Søstrene Grene</figcaption>
+</figure>
+
 I tend to migrate through different templates a few times a year. But even after having left a particular template behind me, the effect usually remains that I think more regularly about certain things that I didn't before. It's a crutch that helps me build a rhythm until I can uphold one on my own, but at the same time a tool for organizing my thoughts I in a way I couldn't without it. 
 
 <figure>
