@@ -17,11 +17,12 @@ permalink: /projects/
 - [Junker Genealogy](http://genealogy.thejunkyard.cc/): a digitized registry of relatives going back to the 15th century, built with [Flask](https://palletsprojects.com/p/flask/)  
   - takes a moment to load, its on a free Heroku account
 - [My great grandfather's birth certificate](https://s3.amazonaws.com/tei-junker-latocha/Meffert/geburtsurkunde1.xml)
-- [www.thejunkyard.cc](https://github.com/BrianInGermany/BrianInGermany.github.io)
 - "Darmstädter Kneipen" Alexa Skill
   - ["Die digitale Kneipenführerin"](https://www.frizzmag.de/urban/darmstadt-digital/die-digitale-kneipenf%C3%BChrerin/)
 - Democratic Global Presidential Primary 2020 in Darmstadt
   - ["US-Amerikaner geben in Darmstadt Stimme für Vorwahlen ab"](https://www.echo-online.de/lokales/darmstadt/us-amerikaner-geben-in-darmstadt-stimme-fur-vorwahlen-ab_21383871)
+- [www.americansingermany.club](https://americansingermany.club)
+  - Americans in Germany: a Slack community I moderate for Americans and friends in Germany
 - [www.briankenneth.rocks](https://briankenneth.rocks)
   - Brian Kenneth: my folk and country music project
   
