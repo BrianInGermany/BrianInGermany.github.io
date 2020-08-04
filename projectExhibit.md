@@ -25,6 +25,7 @@ permalink: /projects/
   - Americans in Germany: a Slack community I moderate for Americans and friends in Germany
 - [www.briankenneth.rocks](https://briankenneth.rocks)
   - Brian Kenneth: my folk and country music project
+  - ["Ein Lagerfeuer mitten in Darmstadt"](https://www.echo-online.de/freizeit/kunst-und-kultur/musik/ein-lagerfeuer-mitten-in-darmstadt_22032124), article in the Darmstädter Echo
   
 # Professional Projects
 
