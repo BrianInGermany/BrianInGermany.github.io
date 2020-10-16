@@ -18,7 +18,7 @@ Once you've wired your sensor to the board, you can program the board to read th
 <figcaption>This ESP8266 is wired to a magnetic door switch, which sends a signal each time it is opened.</figcaption>
 </figure>
 
-Set up a few different sensors around the house connected to NodeMCUs, and program them all to publish their readings to your MQTT broker.
+Set up a few different sensors around the house connected to ESPs, and program them all to publish their readings to your MQTT broker.
 
 # Receiving Sensor Data, Generating the Dashboard
 With the open-source low-code programming suite [Nodered](https://nodered.org/) running on a server of your choice, you can easily subscribe to an unlimited number of MQTT topics and perform actions based on the input you receive. 
