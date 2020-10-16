@@ -8,7 +8,7 @@ title: Welcome to the Junkyard
 ---
 ## Brian Junker-Latocha's Idea Space
 
-![profile_pic](/assets/images/roundProfile.png)
+![profile_pic](/assets/images/spainCircle.png)
 
 *Brian:  
 Computational linguist, conversational AI enthusiast and electronics hobbyist*
