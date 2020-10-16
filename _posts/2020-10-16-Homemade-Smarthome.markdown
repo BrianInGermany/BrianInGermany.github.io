@@ -15,7 +15,7 @@ To build a sensor dashboard accessible from the internet, the first step is gett
 Once you've wired your sensor to the board, you can program the board to read these sensor values and send over the internet to a place where your dashboard can access it. Using the [MQTT](https://de.wikipedia.org/wiki/MQTT)) protocol, you can publish data at regular intervals to a so-called MQTT broker, which is a server that receives messages published by sensors and forwards them onward to any programs that have subscribed to the topic the message was published to. You can run an MQTT server on a raspberry pi using [Mosquitto](https://mosquitto.org/) or use free online services like [cloudMQTT.com](https://cloudmqtt.com/).
 <figure>
 <img src="/assets/images/fridgeSensor.jpeg" alt="fridge" width="75%">
-<figcaption>This NodeMCU is wired to a magnetic door switch, which sends a signal each time it is opened.</figcaption>
+<figcaption>This ESP8266 is wired to a magnetic door switch, which sends a signal each time it is opened.</figcaption>
 </figure>
 
 Set up a few different sensors around the house connected to NodeMCUs, and program them all to publish their readings to your MQTT broker.
