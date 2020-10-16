@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Build a Smarthome Dashboard with MQTT and Node-Red"
+title:  "Rig up a Smarthome Dashboard with NodeMCU and Node-Red"
 date:   2020-10-16 22:17:00 +0100
 categories: jekyll update
 tags: raspberrypi arduino ESP32
