@@ -29,9 +29,9 @@ telegram_username: BrianJL
 #headers
 header_pages:
   - projectExhibit.md
-  - recommendations.md
-  - toRead.md
-  - credits.md
+  # - toRead.md
+  # - recommendations.md
+  - post_archive.md
   - profile.md
   
 # google_analytics: UA-159935743-1
