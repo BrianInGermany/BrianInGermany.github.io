@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Rig up a Smarthome Dashboard with NodeMCU and Node-Red"
+title:  "DIY Smarthome with ESP8266 and Node-Red"
 date:   2020-10-16 22:17:00 +0100
 categories: jekyll update
-tags: raspberrypi arduino ESP32
+tags: raspberrypi arduino ESP8266
 ---
 # Start with the Sensors
 To build a sensor dashboard accessible from the internet, the first step is getting your sensor connected to the internet. This can be done with a microcontroller like the wifi board in the picture below ([ESP8266 NodeMCU](https://de.wikipedia.org/wiki/ESP8266)):
