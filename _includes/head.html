@@ -2,19 +2,28 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="{{ page.header.teaser }}" />
-  <meta property="og:site_name" content="{{ site.title }}" />
-  <meta property="og:title" content="{{ page.title }}">
+
+<!-- Primary Meta Tags -->
+<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+<meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+<meta name="title" content="{{ page.title }}">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
+<meta property="og:title" content="{{ page.title }}">
 <meta property="og:description" content="{{ page.description }}">
-<meta property="og:url" content="{{ page.url }}">
-<meta property="twitter:image" content="{{ page.header.teaser }}" />
-  <meta property="twitter:title" content="{{ page.title }}">
+<meta property="og:image" content="{{ page.header.teaser }}">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">>
+<meta property="twitter:title" content="{{ page.title }}">
 <meta property="twitter:description" content="{{ page.description }}">
+<meta property="twitter:image" content="{{ page.header.teaser }}">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
+  
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
