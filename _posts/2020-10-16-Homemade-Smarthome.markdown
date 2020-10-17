@@ -8,8 +8,8 @@ tags: raspberrypi arduino ESP8266
 # Start with the Sensors
 To build a sensor dashboard accessible from the internet, the first step is getting your sensor connected to the internet. This can be done with a microcontroller like the wifi board in the picture below:
 <figure>
-<img src="/assets/images/nodemcu.jpg" alt="nodemcu" width="30%">
-<figcaption>An <a href="https://en.wikipedia.org/wiki/NodeMCU">ESP8266 NodeMCU</a> Wifi Board</figcaption>
+<img src="/assets/images/NodeMCU_DEVKIT_1.0.jpg" alt="nodemcu" width="30%">
+<figcaption>An <a href="https://en.wikipedia.org/wiki/NodeMCU">ESP8266 NodeMCU</a> Wifi Board (image credit <a href="https://commons.wikimedia.org/wiki/User:Vowstar">Vowstar</a></figcaption>
 </figure>
 
 Once you've wired your sensor to the board, you can program the board with the [Arduino IDE](https://arduino.cc) to read these sensor values and send them over the internet to a place where your dashboard can access them. Using the [MQTT](https://de.wikipedia.org/wiki/MQTT) protocol, you can publish data at regular intervals to a so-called MQTT broker, which is a server that receives messages published by sensors and forwards them onward to any programs that have subscribed to the topic the message was published to. You can run an MQTT server on a Raspberry Pi using [Mosquitto](https://mosquitto.org/) or use free online services like [cloudMQTT](https://www.cloudmqtt.com/).
