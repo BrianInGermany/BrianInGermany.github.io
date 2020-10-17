@@ -5,7 +5,7 @@ date:   2020-04-12 09:55:00 +0100
 categories: jekyll update
 tags: raspberrypi linphone arduino
 header:
-    teaser: "/assets/images/finalFoto.jpg"
+    teaser: "assets/images/finalFoto.jpg"
 ---
 # Project Pictures
 <img src="/assets/images/phone.jpeg">
