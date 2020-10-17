@@ -1,9 +1,12 @@
 ---
 layout: post
 title:  "Host Your Domain on Github with Jekyll"
+description: "Setting up a static website"
 date:   2020-03-08 21:36:00 +0100
 categories: jekyll update
 tags: github-pages jekyll
+header:
+  teaser: "/assets/images/jekyll.png"
 ---
 <img src="/assets/images/jekyll.png" alt="githubLogo" width="60%">
 

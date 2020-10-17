@@ -1,9 +1,12 @@
 ---
 layout: post
 title:  "Clustering Ideas with IdeaStackr"
+description: "A technique and app for writing papers and gathering thoughts"
 date:   2020-03-12 20:55:00 +0100
 categories: jekyll update
 tags: organization writing
+header:
+    teaser: "/assets/images/clusterCards.jpg"
 ---
 # An Anecdote
 When writing one of my first research papers in university, I was plagued by a writers' block. Though no newbie to writing, I found the topic for this particular paper difficult to break down into a logical sequence, and had no idea where to start.

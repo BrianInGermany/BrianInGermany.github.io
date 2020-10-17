@@ -1,9 +1,12 @@
 ---
 layout: post
 title:  "Run Linux on Android and SSH in"
+description: "Playing around with the Termux Linux environment"
 date:   2020-03-04 21:25:00 +0100
 categories: jekyll update
 tags: android
+header:
+  teaser: "/assets/images/screenshot.png"
 ---
 # What is Termux?
 

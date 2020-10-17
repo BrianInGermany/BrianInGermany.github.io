@@ -1,9 +1,12 @@
 ---
 layout: post
 title:  "Create a Markdown Knowledge Base with TiddlyWiki"
+description: "Store your notes in searchable HTML"
 date:   2020-03-05 20:03:00 +0100
 categories: jekyll update
 tags: organization wiki
+header:
+  teaser: "/assets/images/wochenplanerAldi.jpg"
 ---
 # Markdown plus TiddlyWiki: Your Searchable, Non-Hierarchical Logbook
 

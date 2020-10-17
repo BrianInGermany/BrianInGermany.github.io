@@ -1,9 +1,12 @@
 ---
 layout: post
 title:  "Plan the Work, Then Work the Plan"
+description: "Getting organized with daily, weekly and monthly planning templates"
 date:   2020-07-05 19:17:00 +0100
 categories: jekyll update
 tags: organization
+header:
+    teaser: "/assets/images/monthlyPlannerJunkyard.jpg"
 ---
 # Use Planning Templates to Structure Your Day, Week, Sprint...
 After finding a great daily planning template from Christopher at [vitaminp.info](https://vitaminp.info/mein-kreativer-tagesplaner-fuer-einen-produktiven-tag/) (thanks!), and later a decent weekly tear-off planner from Aldi, I decided to try my own hand at something to organize the whole month.
