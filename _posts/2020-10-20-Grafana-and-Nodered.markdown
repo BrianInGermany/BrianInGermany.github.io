@@ -40,7 +40,7 @@ As soon as you've configured the InfluxDB credentials and DB name in Nodered (pr
 Finally, go to your Grafana dashboard, add a new panel, and select your measurement from the `select measurement` dropdown field, which autopopulates from InfluxDB if there's data in it:
 
 
-<img src="/assets/images/load_influx_measurement.png" alt="measurement" width="75%">
+<img src="/assets/images/load_influx_measurement.png" alt="measurement" width="100%">
 
 As soon as you click somewhere else on the screen the datapoints will appear on the chart! If you don't like the dots and prefer a continuous line just choose the setting `Stacking and Null Value` -> `Null Value` -> `connected` here:
 
@@ -139,6 +139,6 @@ The final step here is to import the dashboard into our Grafana. There is an eas
 
 <img src="/assets/images/importdash.png" alt="importdash" width="50%">
 
-You did it! Navigate to your new dashboard, and gaze in awe at your new Raspberry metrics...
+You did it! Now, navigate to your new dashboard, and gaze in awe at your new Raspberry metrics...
 
 <img src="/assets/images/raspiMonitor.png" alt="monitor" width="100%">
