@@ -35,19 +35,19 @@ Of course, you'll need to have installed InfluxDB on your server first! To do th
 
 As soon as you've configured the InfluxDB credentials and DB name in Nodered (providing your flow has received any data, in my case via the MQTT-in node), you will be able to access these so-called InfluxDB measurements in the Grafana panel setup page. Remember, first add the datasource to Grafana like this, under the datasources tab:
 
-<img src="/assets/images/addDatasource.png" alt="add_datasource" width="25%">
+<img src="/assets/images/addDatasource.png" alt="add_datasource" width="50%">
 
 Finally, go to your Grafana dashboard, add a new panel, and select your measurement from the `select measurement` dropdown field, which autopopulates from InfluxDB if there's data in it:
 
 
 <img src="/assets/images/load_influx_measurement.png" alt="measurement" width="75%">
 
-As soon as you click somewhere else on the screen the datapoints will appear on the chart! If you don't like the dots and prefer a continuous line just choose the setting `Stacking and Null Value` - `Null Value` -> `connected` here:
+As soon as you click somewhere else on the screen the datapoints will appear on the chart! If you don't like the dots and prefer a continuous line just choose the setting `Stacking and Null Value` -> `Null Value` -> `connected` here:
 
 
-<img src="/assets/images/connectedGRafana.png" alt="connected" width="25%">
+<img src="/assets/images/connectedGRafana.png" alt="connected" width="50%">
 
-And if you want multiple lines on one graph, just press the `+ Query` sign to add a new query:
+And if you want multiple lines on one graph, just press the `+ Query` button to add a new query:
 
 <img src="/assets/images/plusQuery.png" alt="plusquery" width="50%">
 
@@ -62,19 +62,25 @@ To get the dashboard up and running, you'll need to install telegraf on your Pi 
 ```bash
 wget https://gist.githubusercontent.com/atanasyanew/fa4cc748c2b3234a0de20db9b76ed00b/raw/411de9c80b2c70bb88497d67fd83b113710f400a/telegraf-install.sh
 ```
-Then make it executable (may need sudo, can't remember :joy:):
+Then make it executable (may need sudo, can't remember :P):
 
 ```bash
 chmod +x telegraf-install.sh
 ```
-Now we just need to add the telegraf configurations for our InfluxDB server, etc. as stated [here](https://grafana.com/grafana/dashboards/10578):
+And run it:
 
-So run this:
+```bash
+. telegraf-install.sh
+``` 
+
+Now we just need to add the telegraf configurations for our InfluxDB server, etc. stated in the homepage of the Grafana Dashboard. I've copied them here for simplicity:
+
+They want you to run this:
 
 ```bash
 sudo usermod -G video telegraf
 ```
-Then add this to `/etc/telegraf/telegraf.conf`:
+Then edit `/etc/telegraf/telegraf.conf` like this:
 
 ```conf
 #In order to monitor both Network interfaces, eth0 and wlan0, uncomment, or add the next:
@@ -95,7 +101,7 @@ Then add this to `/etc/telegraf/telegraf.conf`:
   grok_patterns = ["%{NUMBER:value:float}"]
 ```
 
-The above was recommended by the creator. But I also added my credentials to this file (I am on a local network, so I don't see a security risk here):
+The above was recommended by the creator. But I also added my credentials to this file (I am on a local network, so I don't see a big security risk here):
 
 ```conf
 [[outputs.influxdb]]
@@ -113,7 +119,7 @@ The above was recommended by the creator. But I also added my credentials to thi
 ...
  ## HTTP Basic Auth
 username = "grafana"
-password = "Elessar4104"
+password = "blubblub"
 
 ```
 
