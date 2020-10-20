@@ -54,10 +54,12 @@ And if you want multiple lines on one graph, just press the `+ Query` button to 
 Once you have a few panels configured, it may start to look like this:
 
 
-<iframe src="https://snapshot.raintank.io/dashboard/snapshot/QObgfnMNMAv5lu4ywZcFkI4mRd7uePeE" width="100%" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://snapshot.raintank.io/dashboard/snapshot/QObgfnMNMAv5lu4ywZcFkI4mRd7uePeE" width="100%" height="500" frameborder="0" allowfullscreen></iframe>
 
 
 # Bonus! Pimp out Grafana with Raspberry Pi metrics
+
+<img src="/assets/images/raspiMonitor.png" alt="monitor" width="100%">
 
 So you've got your sensors all logging to InfluxDB and displaying on Grafana, that's great! But you want to see what kind of cool magic Grafana is really capable of? Try out [this dashboard for Raspberry Pi](https://grafana.com/grafana/dashboards/10578) you can import directly into your Grafana UI.
 
@@ -137,6 +139,6 @@ The final step here is to import the dashboard into our Grafana. There is an eas
 
 <img src="/assets/images/importdash.png" alt="importdash" width="50%">
 
-You did it! Navigate to your new dashboard, and gaze in awe at your new Raspberry metrics!
+You did it! Navigate to your new dashboard, and gaze in awe at your new Raspberry metrics...
 
-<img src="/assets/images/raspiMonitor.png" alt="importdash" width="100%">
+<img src="/assets/images/raspiMonitor.png" alt="monitor" width="100%">
