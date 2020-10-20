@@ -4,7 +4,7 @@ title:  "Power-Charge Your Node-Red Data with Grafana and InfluxDB"
 description: "Store your data simply and visualize the crap out of it"
 date:   2020-10-20 20:37:00 +0100
 categories: jekyll update
-tags: raspberrypi grafana Node-Red influxdb
+tags: raspberrypi grafana nodered influxdb
 header:
   teaser: "/assets/images/grafanaDash.png"
 ---
