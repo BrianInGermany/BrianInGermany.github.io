@@ -25,7 +25,7 @@ npm install node-red-contrib-influxdb
 
 Once InfluxDB nodes appear in your node selector panel, just link them up to your desired output and configure.
 <figure>
-<img src="/assets/images/influxDBnode.png" alt="influx_node" width="75%">
+<img src="/assets/images/influxDBnode.png" alt="influx_node" width="50%">
 <figcaption>Configuring the InfluxDB Nodered node</figcaption>
 </figure>
 
@@ -50,6 +50,10 @@ As soon as you click somewhere else on the screen the datapoints will appear on 
 And if you want multiple lines on one graph, just press the `+ Query` button to add a new query:
 
 <img src="/assets/images/plusQuery.png" alt="plusquery" width="50%">
+
+Once you have a few panels configured, it may start to look like this:
+
+<iframe src="https://snapshot.raintank.io/dashboard/snapshot/QObgfnMNMAv5lu4ywZcFkI4mRd7uePeE" width="100%" height="100%" frameborder="0"></iframe>
 
 # Bonus! Pimp out Grafana with Raspberry Pi metrics
 
@@ -123,10 +127,14 @@ password = "blubblub"
 
 ```
 
-Once you've done this, do a `sudo reboot` to load the new conf file. When you're back online, your system will already be logging its stats to InfluxDB. 
+Once you've done this, do a `sudo reboot` to seal the deal. When you're back online, your system will already be logging its stats to InfluxDB. 
 
 ## Last but not least
 
-The final step here is to import the dashboard into our Grafana. There is an easy `import` function for this. Go to `Manage Dashboards` and click the `import` button on the right side. It will bring you to this screen where you can just type in the dashboard id number from the website (it's `10578`):
+The final step here is to import the dashboard into our Grafana. There is an easy import function for this. Go to `Manage Dashboards` and click the `Import` button on the right side. It will bring you to this screen where you can just type in the dashboard id number from the website (it's `10578`):
 
 <img src="/assets/images/importdash.png" alt="importdash" width="50%">
+
+You did it! Navigate to your new dashboard, and gaze in awe at your new Raspberry metrics!
+
+<img src="/assets/images/raspiMonitor.png" alt="importdash" width="50%">
