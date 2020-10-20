@@ -53,7 +53,7 @@ And if you want multiple lines on one graph, just press the `+ Query` button to 
 
 Once you have a few panels configured, it may start to look like this:
 
-<iframe src="https://snapshot.raintank.io/dashboard/snapshot/QObgfnMNMAv5lu4ywZcFkI4mRd7uePeE" width="100%" height="100%" frameborder="0"></iframe>
+<iframe src="https://snapshot.raintank.io/dashboard/snapshot/QObgfnMNMAv5lu4ywZcFkI4mRd7uePeE" height="100%" frameborder="0"></iframe>
 
 # Bonus! Pimp out Grafana with Raspberry Pi metrics
 
