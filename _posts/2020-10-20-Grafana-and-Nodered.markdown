@@ -141,4 +141,5 @@ The final step here is to import the dashboard into our Grafana. There is an eas
 
 You did it! Now, navigate to your new dashboard, and gaze in awe at your new Raspberry metrics...
 
-<img src="/assets/images/raspiMonitor.png" alt="monitor" width="100%">
+<iframe src="https://snapshot.raintank.io/dashboard/snapshot/509taxle0hnDviCj91Ob8LQnc0ImbSBZ?orgId=2" width="100%" height="500" frameborder="0" allowfullscreen></iframe>
+
