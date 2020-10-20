@@ -4,20 +4,20 @@ title:  "Power-Charge Your Node-Red Data with Grafana and InfluxDB"
 description: "Store your data simply and visualize the crap out of it"
 date:   2020-10-20 20:37:00 +0100
 categories: jekyll update
-tags: raspberrypi grafana nodered influxdb
+tags: raspberrypi grafana Node-Red influxdb
 header:
   teaser: "/assets/images/grafanaDash.png"
 ---
 
-# You should be saving to InfluxDB
+## You should be saving to InfluxDB
 
-You're saving sensor readings to text files? There is a more efficient and simple way to do it. [InfluxDB](https://www.influxdata.com/) is an open-source database made especially for time-series data like sensor readings. And the great thing is, you can write to it directly from a Nodered node. 
+You're saving sensor readings from Node-Red to text files? There is a more efficient and simple way to do it. [InfluxDB](https://www.influxdata.com/) is an open-source database made especially for time-series data like sensor readings. And the great thing is, you can write to it directly from a Node-Red node. 
 <figure>
-<img src="/assets/images/mqttFlow.png" alt="nodered_flow" width="75%">
+<img src="/assets/images/mqttFlow.png" alt="Node-Red_flow" width="75%">
 <figcaption>This flow writes incoming MQTT data directly to InfluxDB</figcaption>
 </figure>
 
-It's as easy as `cd`ing into your `.node-red` directory and installing the InfluxDB Nodered package: 
+It's as easy as `cd`ing into your `.node-red` directory and installing the InfluxDB Node-Red package: 
 
 ```bash
 npm install node-red-contrib-influxdb
@@ -26,23 +26,23 @@ npm install node-red-contrib-influxdb
 Once InfluxDB nodes appear in your node selector panel, just link them up to your desired output and configure.
 <figure>
 <img src="/assets/images/influxDBnode.png" alt="influx_node" width="50%">
-<figcaption>Configuring the InfluxDB Nodered node</figcaption>
+<figcaption>Configuring the InfluxDB Node-Red node</figcaption>
 </figure>
 
 Of course, you'll need to have installed InfluxDB on your server first! To do that, check out this [great tutorial](https://simonhearne.com/2020/pi-influx-grafana/) by [Simon Hearne](https://github.com/simonhearne). It's a nice step-by-step, and when you're done you will also have installed [Grafana](https://grafana.com/), which means you'll be ready to start inspecting your DB data, too!
 
-# Grafana
+## Grafana
 
-As soon as you've configured the InfluxDB credentials and DB name in Nodered (providing your flow has received any data, in my case via the MQTT-in node), you will be able to access these so-called InfluxDB measurements in the Grafana panel setup page. Remember, first add the datasource to Grafana like this, under the datasources tab:
+As soon as you've configured the InfluxDB credentials and DB name in Node-Red (providing your flow has received any data, in my case via the MQTT-in node), you will be able to access these so-called InfluxDB measurements in the Grafana panel setup page. Remember, first add the datasource to Grafana like this, under the datasources tab:
 
 <img src="/assets/images/addDatasource.png" alt="add_datasource" width="50%">
 
-Finally, go to your Grafana dashboard, add a new panel, and select your measurement from the `select measurement` dropdown field, which autopopulates from InfluxDB if there's data in it:
+Then go to your Grafana dashboard, add a new panel, and select your measurement from the `select measurement` dropdown field, which autopopulates from InfluxDB if there's data in it:
 
 
 <img src="/assets/images/load_influx_measurement.png" alt="measurement" width="100%">
 
-As soon as you click somewhere else on the screen the datapoints will appear on the chart! If you don't like the dots and prefer a continuous line just choose the setting `Stacking and Null Value` -> `Null Value` -> `connected` here:
+As soon as you click somewhere else on the screen the datapoints will appear on the chart! If you don't like the dots and prefer a continuous line just choose the setting `Stacking and null value` -> `Null value` -> `connected` here:
 
 
 <img src="/assets/images/connectedGRafana.png" alt="connected" width="50%">
@@ -56,8 +56,9 @@ Once you have a few panels configured, it may start to look like this:
 
 <iframe src="https://snapshot.raintank.io/dashboard/snapshot/QObgfnMNMAv5lu4ywZcFkI4mRd7uePeE" width="100%" height="500" frameborder="0" allowfullscreen></iframe>
 
+And that is how you set up InfluxDB and Grafana with Node-Red. But there's more...
 
-# Bonus! Pimp out Grafana with Raspberry Pi metrics
+## Pimp out Grafana with Raspberry Pi metrics!
 
 <img src="/assets/images/raspiMonitor.png" alt="monitor" width="100%">
 
@@ -81,7 +82,7 @@ And run it:
 . telegraf-install.sh
 ``` 
 
-Now we just need to add the telegraf configurations for our InfluxDB server, etc. stated in the homepage of the Grafana Dashboard. I've copied them here for simplicity:
+Now we just need to add the telegraf configurations for our InfluxDB server, etc. stated in the homepage of the Grafana Dashboard. I've copied them here for simplicity's sake.
 
 They want you to run this:
 
