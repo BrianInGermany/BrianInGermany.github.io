@@ -137,4 +137,4 @@ The final step here is to import the dashboard into our Grafana. There is an eas
 
 You did it! Navigate to your new dashboard, and gaze in awe at your new Raspberry metrics!
 
-<img src="/assets/images/raspiMonitor.png" alt="importdash" width="50%">
+<img src="/assets/images/raspiMonitor.png" alt="importdash" width="100%">
