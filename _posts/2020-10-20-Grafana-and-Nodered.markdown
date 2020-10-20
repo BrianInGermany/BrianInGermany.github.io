@@ -17,7 +17,13 @@ You're saving sensor readings to text files? There is a more efficient and simpl
 <figcaption>This flow writes incoming MQTT data directly to InfluxDB</figcaption>
 </figure>
 
-It's as easy as `cd`ing into your `.node-red` directory and installing the InfluxDB Nodered package: `npm install node-red-contrib-influxdb`. Once InfluxDB nodes appear in your node selector panel, just link them up to your desired output and configure.
+It's as easy as `cd`ing into your `.node-red` directory and installing the InfluxDB Nodered package: 
+
+```bash
+npm install node-red-contrib-influxdb
+``` 
+
+Once InfluxDB nodes appear in your node selector panel, just link them up to your desired output and configure.
 <figure>
 <img src="/assets/images/influxDBnode.png" alt="influx_node" width="75%">
 <figcaption>Configuring the InfluxDB Nodered node</figcaption>
@@ -31,7 +37,7 @@ As soon as you've configured the InfluxDB credentials and DB name in Nodered (pr
 
 <img src="/assets/images/addDatasource.png" alt="add_datasource" width="25%">
 
-Finally, go to your Grafana dashboard, add a new panel, and select your measurement from the `select measurement` dropdown field, which autopopulates from InfluxDB if there is data in it:
+Finally, go to your Grafana dashboard, add a new panel, and select your measurement from the `select measurement` dropdown field, which autopopulates from InfluxDB if there's data in it:
 
 
 <img src="/assets/images/load_influx_measurement.png" alt="measurement" width="75%">
@@ -44,3 +50,77 @@ As soon as you click somewhere else on the screen the datapoints will appear on 
 And if you want multiple lines on one graph, just press the `+ Query` sign to add a new query:
 
 <img src="/assets/images/plusQuery.png" alt="plusquery" width="50%">
+
+# Bonus! Pimp out Grafana with Raspberry Pi metrics
+
+So you've got your sensors all logging to InfluxDB and displaying on Grafana, that's great! But you want to see what kind of cool magic Grafana is really capable of? Try out [this dashboard for Raspberry Pi](https://grafana.com/grafana/dashboards/10578) you can import directly into your Grafana UI.
+
+It works with a program called [telegraf](https://www.influxdata.com/time-series-platform/telegraf/), which automatically collects stats on your server and logs them directly to your InfluxDB database, from where they can be accessed by your new dashboard.
+
+To get the dashboard up and running, you'll need to install telegraf on your Pi first. For this, I found this great shell script from [atanasyanew](https://github.com/atanasyanew). It worked great for me on my Raspberry Pi 3B. Get this script with wget first:
+
+```bash
+wget https://gist.githubusercontent.com/atanasyanew/fa4cc748c2b3234a0de20db9b76ed00b/raw/411de9c80b2c70bb88497d67fd83b113710f400a/telegraf-install.sh
+```
+Then make it executable (may need sudo, can't remember :joy:):
+
+```bash
+chmod +x telegraf-install.sh
+```
+Now we just need to add the telegraf configurations for our InfluxDB server, etc. as stated [here](https://grafana.com/grafana/dashboards/10578):
+
+So run this:
+
+```bash
+sudo usermod -G video telegraf
+```
+Then add this to `/etc/telegraf/telegraf.conf`:
+
+```conf
+#In order to monitor both Network interfaces, eth0 and wlan0, uncomment, or add the next:
+[[inputs.net]]
+
+[[inputs.netstat]]
+
+[[inputs.file]]
+  files = ["/sys/class/thermal/thermal_zone0/temp"]
+  name_override = "cpu_temperature"
+  data_format = "value"
+  data_type = "integer"
+
+[[inputs.exec]]
+  commands = ["/opt/vc/bin/vcgencmd measure_temp"]
+  name_override = "gpu_temperature"
+  data_format = "grok"
+  grok_patterns = ["%{NUMBER:value:float}"]
+```
+
+The above was recommended by the creator. But I also added my credentials to this file (I am on a local network, so I don't see a security risk here):
+
+```conf
+[[outputs.influxdb]]
+  ## The full HTTP or UDP URL for your InfluxDB instance.
+  ##
+  ## Multiple URLs can be specified for a single cluster, only ONE of the
+  ## urls will be written to each interval.
+  # urls = ["unix:///var/run/influxdb.sock"]
+  # urls = ["udp://127.0.0.1:8089"]
+  urls = ["http://127.0.0.1:8086"]
+
+  ## The target database for metrics; will be created as needed.
+  ## For UDP url endpoint database needs to be configured on server side.
+  database = "home"
+...
+ ## HTTP Basic Auth
+username = "grafana"
+password = "Elessar4104"
+
+```
+
+Once you've done this, do a `sudo reboot` to load the new conf file. When you're back online, your system will already be logging its stats to InfluxDB. 
+
+## Last but not least
+
+The final step here is to import the dashboard into our Grafana. There is an easy `import` function for this. Go to `Manage Dashboards` and click the `import` button on the right side. It will bring you to this screen where you can just type in the dashboard id number from the website (it's `10578`):
+
+<img src="/assets/images/importdash.png" alt="importdash" width="50%">
