@@ -11,7 +11,7 @@ header:
 
 # You should be saving to InfluxDB
 
-You're saving sensor readings to text files? There is a more efficient and simple way to do it. InfluxDB is an open-source database made especially for time-series data like sensor readings. And the great thing is, you can write to it directly from a Nodered node. 
+You're saving sensor readings to text files? There is a more efficient and simple way to do it. [InfluxDB](https://www.influxdata.com/) is an open-source database made especially for time-series data like sensor readings. And the great thing is, you can write to it directly from a Nodered node. 
 <figure>
 <img src="/assets/images/mqttFlow.png" alt="nodered_flow" width="75%">
 <figcaption>This flow writes incoming MQTT data directly to InfluxDB</figcaption>
