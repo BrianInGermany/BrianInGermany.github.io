@@ -10,6 +10,16 @@ layout: default
         {% capture tag_name %}{{ tag }}{% endcapture %}
         <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>#{{ tag_name }}</nobr></code>&nbsp;</a>
       {% endfor %}
+
+      {% if page.my_setup %}
+        <header4>The Setup</header4>
+        <ul>
+        {% for prereq in page.my_setup %}
+          {% capture prereq_name %}{{ prereq }}{% endcapture %}
+          <li>{{ prereq_name }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
     </span>
   </br>
 </br>

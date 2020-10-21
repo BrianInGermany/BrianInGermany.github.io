@@ -7,6 +7,7 @@ categories: jekyll update
 tags: raspberrypi grafana nodered influxdb
 header:
   teaser: "/assets/images/grafanaDash.png"
+my_setup: "Raspberry Pi 3B" "esp8266 sensors sending MQTT" "MOSQUITTO MQTT broker on Raspbery Pi"
 ---
 
 ## You should be saving to InfluxDB
