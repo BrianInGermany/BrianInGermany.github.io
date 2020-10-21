@@ -17,10 +17,10 @@ layout: default
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
     
     {% if page.my_setup  %}
-    <div class="container">
+   
     <span>
     {% assign my_setup_split = page.my_setup | split: "," %}
-      <b>Setup:</b>
+    <code class="highligher-rouge"><b>Setup:</b></code>
   
       <small>
       <ul>
@@ -31,7 +31,7 @@ layout: default
     </ul>
     </small>
   </span>
-</div>
+
     {% endif %}
 
   
