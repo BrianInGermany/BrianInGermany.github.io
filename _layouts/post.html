@@ -12,10 +12,11 @@ layout: default
       {% endfor %}
 
       {% if page.my_setup  %}
+      {% assign page.my_setup_split = page.my_setup | split: "," %}
         <header4><b>Starting Setup</b></header4>
-         <br/>
+    </br>
         <ul>
-        {% for prereq in page.my_setup | split: "," %}
+        {% for prereq in page.my_setup_split %}
           {% capture prereq_name %}{{ prereq }}{% endcapture %}
           <li>{{- prereq_name -}}</li>
         {% endfor %}
