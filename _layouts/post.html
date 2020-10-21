@@ -16,15 +16,16 @@ layout: default
       {% if page.my_setup  %}
       <span>
       {% assign my_setup_split = page.my_setup | split: "," %}
-        <header4>Setup:</header4>
+        <h4>Setup:</h4>
     
-    
+        <small>
         <ul>
         {% for prereq in my_setup_split %}
           {% capture prereq_name %}{{ prereq }}{% endcapture %}
           <li>{{- prereq_name -}}</li>
         {% endfor %}
       </ul>
+      </small>
     </span>
       {% endif %}
 </br>
