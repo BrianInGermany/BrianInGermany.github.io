@@ -4,7 +4,7 @@ title:  "DIY Smarthome with ESP8266 and Node-Red"
 description: "Create a sensor dashboard with low-code programming in Node-Red"
 date:   2020-10-16 22:17:00 +0100
 categories: jekyll update
-tags: raspberrypi arduino ESP8266
+tags: raspberrypi arduino ESP8266 nodered
 header:
   teaser: "/assets/images/NodeMCU_DEVKIT_1.0.jpg"
 ---
