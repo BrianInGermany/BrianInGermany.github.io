@@ -16,7 +16,7 @@ layout: default
       {% if page.my_setup  %}
       <span>
       {% assign my_setup_split = page.my_setup | split: "," %}
-        <header4><b>Starting Setup</b></header4>
+        <header4>Starting Setup</header4>
     
     
         <ul>
@@ -27,8 +27,6 @@ layout: default
       </ul>
     </span>
       {% endif %}
-    
-  </br>
 </br>
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
   </header>
