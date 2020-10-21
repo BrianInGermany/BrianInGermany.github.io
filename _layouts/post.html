@@ -20,6 +20,7 @@ layout: default
    
     <span>
     {% assign my_setup_split = page.my_setup | split: "," %}
+    <small>
     <b>Setup:</b>
   
       <ul>
@@ -28,7 +29,7 @@ layout: default
         <li>{{- prereq_name -}}</li>
       {% endfor %}
     </ul>
-  
+  </small>
   </span>
 
     {% endif %}
