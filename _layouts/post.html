@@ -10,20 +10,24 @@ layout: default
         {% capture tag_name %}{{ tag }}{% endcapture %}
         <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>#{{ tag_name }}</nobr></code>&nbsp;</a>
       {% endfor %}
+    </br>
     </span>
+
       {% if page.my_setup  %}
+      <span>
       {% assign my_setup_split = page.my_setup | split: "," %}
         <header4><b>Starting Setup</b></header4>
-    </br>
-    <span>
+    
+    
         <ul>
         {% for prereq in my_setup_split %}
           {% capture prereq_name %}{{ prereq }}{% endcapture %}
           <li>{{- prereq_name -}}</li>
         {% endfor %}
       </ul>
-      {% endif %}
     </span>
+      {% endif %}
+    
   </br>
 </br>
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
