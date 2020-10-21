@@ -13,23 +13,26 @@ layout: default
     </br>
     </span>
 
-      {% if page.my_setup  %}
-      <span>
-      {% assign my_setup_split = page.my_setup | split: "," %}
-        <h4>Setup:</h4>
-    
-        <small>
-        <ul>
-        {% for prereq in my_setup_split %}
-          {% capture prereq_name %}{{ prereq }}{% endcapture %}
-          <li>{{- prereq_name -}}</li>
-        {% endfor %}
-      </ul>
-      </small>
-    </span>
-      {% endif %}
-</br>
+     
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    
+    {% if page.my_setup  %}
+    <span>
+    {% assign my_setup_split = page.my_setup | split: "," %}
+      <h4>Setup:</h4>
+  
+      <small>
+      <ul>
+      {% for prereq in my_setup_split %}
+        {% capture prereq_name %}{{ prereq }}{% endcapture %}
+        <li>{{- prereq_name -}}</li>
+      {% endfor %}
+    </ul>
+    </small>
+  </span>
+    {% endif %}
+
+  
   </header>
 
 
