@@ -12,14 +12,14 @@ layout: default
       {% endfor %}
     </br>
     </span>
-
+  </br>
      
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
     
     {% if page.my_setup  %}
     <span>
     {% assign my_setup_split = page.my_setup | split: "," %}
-      <h4>Setup:</h4>
+      <b>Setup:</b>
   
       <small>
       <ul>
