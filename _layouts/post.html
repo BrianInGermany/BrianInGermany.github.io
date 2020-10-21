@@ -11,11 +11,11 @@ layout: default
         <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>#{{ tag_name }}</nobr></code>&nbsp;</a>
       {% endfor %}
 
-      {% if page.my_setup %}
+      {% if page.my_setup  %}
         <header4><b>Starting Setup</b></header4>
          <br/>
         <ul>
-        {% for prereq in page.my_setup %}
+        {% for prereq in page.my_setup | split: "," %}
           {% capture prereq_name %}{{ prereq }}{% endcapture %}
           <li>{{ prereq_name }}</li>
         {% endfor %}
