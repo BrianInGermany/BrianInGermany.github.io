@@ -31,8 +31,10 @@ header_pages:
   - projectExhibit.md
   # - toRead.md
   # - recommendations.md
+  - toRead.md
   - post_archive.md
   - profile.md
+
   
 # google_analytics: UA-159935743-1
 
