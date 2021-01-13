@@ -8,7 +8,7 @@ permalink: /readinglist/
 - [Dialog Systems, by Jurafsky and Martin](https://web.stanford.edu/~jurafsky/slp3/26.pdf)
   - Introduction to terminology and concepts in conversational systems.
 - [Conversational AI in 2020, by Srini Janarthanam](https://medium.com/analytics-vidhya/conversational-ai-in-2020-9ccf265e2e0b)
-  - Summary of the years developments
+  - Summary of the year's developments
   
 # Product Management
 
