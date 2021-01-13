@@ -28,12 +28,12 @@ telegram_username: BrianJL
 
 #headers
 header_pages:
-  - projectExhibit.md
-  # - toRead.md
-  # - recommendations.md
   - toRead.md
-  - post_archive.md
+  - projectExhibit.md
+  # - recommendations.md
   - profile.md
+  - post_archive.md
+
 
   
 # google_analytics: UA-159935743-1
