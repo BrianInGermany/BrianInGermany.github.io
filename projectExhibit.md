@@ -27,7 +27,7 @@ permalink: /projects/
   - Brian Kenneth: my folk and country music project
   - ["Ein Lagerfeuer mitten in Darmstadt"](https://www.echo-online.de/freizeit/kunst-und-kultur/musik/ein-lagerfeuer-mitten-in-darmstadt_22032124), article in the Darmstädter Echo
 - [Talks with Teutons](https://open.spotify.com/show/3QkkpqK6SpZrzUbQ54hRDx)
-  - A just-for-fun podcast where I interview fellow Germany dwellers about life in my adopted country
+  - A just-for-fun podcast where I interview fellow worldly Germany dwellers about life in my adopted country
 
   
 # Professional Projects
