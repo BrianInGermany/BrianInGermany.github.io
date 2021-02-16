@@ -28,6 +28,7 @@ permalink: /projects/
   - ["Ein Lagerfeuer mitten in Darmstadt"](https://www.echo-online.de/freizeit/kunst-und-kultur/musik/ein-lagerfeuer-mitten-in-darmstadt_22032124), article in the Darmstädter Echo
 - [Talks with Teutons](https://open.spotify.com/show/3QkkpqK6SpZrzUbQ54hRDx)
   - A just-for-fun podcast where I interview worldly Germany dwellers about life in my adopted country
+  <iframe src="https://open.spotify.com/embed-podcast/show/3QkkpqK6SpZrzUbQ54hRDx" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
   
 # Professional Projects
