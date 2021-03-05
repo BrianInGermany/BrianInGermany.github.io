@@ -130,3 +130,7 @@ And finally, this:
 This last command runs a program that gets the latest version of Jamulus and installs it on your server according to your preferences. When you've answered all the questions and its done running (you will know because you will see `azureuser@jamulusserver:~$` again), you can close the window and connect to your brand new server on the Jamulus client program!
 
 Note: Your server may take a moment to appear in the Jamulus server list. Until then, use the IP address to join your server via Jamulus.
+
+## Credits
+
+Many thanks to [Simon Tomlinson](https://www.facebook.com/simon.james.tomlinson) for his [great explanation of how this works on AWS](https://www.facebook.com/notes/jamulus-worldjam/howto-idiots-guide-to-installing-or-upgrading-a-jamulus-server-on-amazon-aws-lig/818091045662521/), and his great setup script!
