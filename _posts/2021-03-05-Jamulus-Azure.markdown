@@ -11,6 +11,8 @@ header:
 
 ---
 
+<img src="/assets/images/jamulus.png" alt="logojam" width="100%">
+
 ## Got the Lockdown Blues, but No One to Play Them with?
 
 Jamulus to the rescue! [Jamulus](https://jamulus.io/) is an open-source program for playing music online with latencies of under 50 milliseconds. 
