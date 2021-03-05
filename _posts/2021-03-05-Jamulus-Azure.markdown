@@ -47,7 +47,7 @@ You're all signed up? Move on to step 2:
 Navigate to [portal.azure.com](https://portal.azure.com/) to get to your Microsoft Azure dashboard. Here you can see all the Microsoft resources you have booked (right now zero), and can also press the big plus sign button in the upper left to create new resources. So do it! And you will see the following:
 
 <figure>
-<img src="/assets/images/newUbuntu.png" alt="ubuntu" width="50%">
+<img src="/assets/images/newUbuntu.png" alt="ubuntu" width="100%">
 <figcaption>Choose Ubuntu Server</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ So click on `Ubuntu Server`, and next you'll be asked to enter details about you
 So call your server `jamulusserver` (or whatever you want), choose the region nearest to you, and selec the CPU size `Standard_B1s` as listed in the picture below.
 
 <figure>
-<img src="/assets/images/nameAndRegion.png" alt="region" width="50%">
+<img src="/assets/images/nameAndRegion.png" alt="region" width="100%">
 <figcaption>Input name, region and CPU size</figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ In the field `Key Pair Name` call your key `jamulus SSH key` (or whatever you wa
 Do not edit any other fields, and instead, click in the bottom left corner the blue `Review + Create` button, which if you did everything right, will take you to this screen:
 
 <figure>
-<img src="/assets/images/create.png" alt="create" width="50%">
+<img src="/assets/images/create.png" alt="create" width="100%">
 <figcaption>Create your virtual machine</figcaption>
 </figure>
 
@@ -84,7 +84,7 @@ You just need one change. In the left side bar of [portal.azure.com](https://por
 Once you're on the screen for your virtual machine, look again in the left side bar and click on `Networking`. It should look like this:
 
 <figure>
-<img src="/assets/images/networking.png" alt="networking" width="50%">
+<img src="/assets/images/networking.png" alt="networking" width="100%">
 <figcaption>Networking</figcaption>
 </figure>
 
