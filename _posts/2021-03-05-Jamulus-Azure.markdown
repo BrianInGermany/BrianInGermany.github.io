@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Make Music Online in Realtime with a Jamulus Server in the Cloud"
+title:  "Make Music Online in Realtime with a Jamulus Server"
 description: "Host a Jamulus server for free with Microsoft Azure"
 date:   2021-03-05 18:37:00 +0100
 categories: jekyll update
@@ -11,7 +11,7 @@ header:
 
 ---
 
-## Got the Lockdown Blues, But No One to Play Them With?
+## Got the Lockdown Blues, but No One to Play Them with?
 
 Jamulus to the rescue! [Jamulus](https://jamulus.io/) is an open-source program for playing music online with latencies of under 50 milliseconds. 
 
@@ -22,12 +22,7 @@ To use Jamulus, you generally just need two steps:
    
 See [this how-to](https://jamulus.io/wiki/Getting-Started) for a detailed description for Windows/Mac/Linux.
 
-Once Jamulus is up and running, you just click `connect` to see a list of all the public servers around the world and their latencies:
-
-<figure>
-<img src="/assets/images/mqttFlow.png" alt="Node-Red_flow" width="75%">
-<figcaption>The Jamulus server selection screen</figcaption>
-</figure>
+Once Jamulus is up and running, you just click `connect` to see a list of all the public servers around the world and their latencies.
 
 And once you're in, you're live! That's it, end of story.
 
