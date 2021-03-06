@@ -88,7 +88,12 @@ Once you're on the screen for your virtual machine, look again in the left side 
 <figcaption>Networking</figcaption>
 </figure>
 
-On the right hand side, click `add inbound port rule`. Leave all settings as-is, except `destination port ranges` and `protocol`. In destination port ranges, enter `22120-22130`. In protocol, select `UDP`. And if you want, give the rule a name, like `Jamulusports`.
+On the right hand side, click `add inbound port rule`, and the screen below will pop up. Leave all settings as-is, except `destination port ranges` and `protocol`. In destination port ranges, enter `22120-22130`. In protocol, select `UDP`. And if you want, give the rule a name, like `Jamulusports`:
+
+<figure>
+<img src="/assets/images/ports.png" alt="ports" width="100%">
+<figcaption>Open ports for Jamulus</figcaption>
+</figure>
 
 Once you've done this, you're ready to move to step 4 and connect to your Linux machine to install Jamulus!
 
@@ -100,6 +105,11 @@ Now, if you have a Windows computer, open the program PowerShell. Otherwise on M
 
 ```bash
 ssh -i <private key path> azureuser@<public IP address>
+```
+Your command could look like this:
+
+```bash
+ssh -i "C:\users\brian\downloads\jamulus_azure_key.pem" azureuser@20.42.54.163
 ```
 
 If all goes well you will see a command prompt that has your Linux machine's name in it, like this:
