@@ -91,7 +91,7 @@ Once you're on the screen for your virtual machine, look again in the left side 
 On the right hand side, click `add inbound port rule`, and the screen below will pop up. Leave all settings as-is, except `destination port ranges` and `protocol`. In destination port ranges, enter `22120-22130`. In protocol, select `UDP`. And if you want, give the rule a name, like `Jamulusports`:
 
 <figure>
-<img src="/assets/images/ports.png" alt="ports" width="100%">
+<img src="/assets/images/ports.png" alt="ports" width="75%">
 <figcaption>Open ports for Jamulus</figcaption>
 </figure>
 
