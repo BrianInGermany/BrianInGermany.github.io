@@ -88,7 +88,7 @@ Once you're on the screen for your virtual machine, look again in the left side 
 <figcaption>Networking</figcaption>
 </figure>
 
-On the right hand side, click `add inbound port rule`. Leave all settings as-is, except `destination port ranges` and `protocol`. In `destination port ranges`, enter `22120-22130`. In `protocol`, select `UDP`. And if you want, give the rule a name, like `Jamulusports`.
+On the right hand side, click `add inbound port rule`. Leave all settings as-is, except `destination port ranges` and `protocol`. In destination port ranges, enter `22120-22130`. In protocol, select `UDP`. And if you want, give the rule a name, like `Jamulusports`.
 
 Once you've done this, you're ready to move to step 4 and connect to your Linux machine to install Jamulus!
 
@@ -99,7 +99,7 @@ If you've gotten this far, you're almost done! You will need that SSH key file y
 Now, if you have a Windows computer, open the program PowerShell. Otherwise on Mac/Linux, open your terminal and enter the below command, substituting `<private key path>` and `<public IP address>` for the complete path to your SSH key you downloaded (get it via file properties) and the public IP address of your Linux machine, which you will see if you click on your machine in [portal.azure.com](https://portal.azure.com) under `public IP address`.
 
 ```bash
-ssh -i <private key path> azureuser@ <public IP address>
+ssh -i <private key path> azureuser@<public IP address>
 ```
 
 If all goes well you will see a command prompt that has your Linux machine's name in it, like this:
