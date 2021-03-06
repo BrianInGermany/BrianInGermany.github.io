@@ -30,7 +30,7 @@ And once you're in, you're live! That's it, end of story.
 
 ## You Don't Want to Mooch Someone Else's Server?
 
-Well, that's where this blog post will help you out. In the steps below, I will explain how to make your very own Jamulus server that can either be private, for only you and your friends, or public, for all the world (or at least those with low enough ping times) to benefit from. And the best thing is, by hosting it on Microsoft Azure, it will be completely free! Or at least for one year, and about 7€ a month thereafter if you keep it running.
+Well, that's where this blog post will help you out. In the steps below, I will explain how to make your very own Jamulus server that can either be private, for only you and your friends, or public, for all the world (or at least those with low enough ping times) to benefit from. And the best thing is, by hosting it on Microsoft Azure, it will be completely free! Or at least for one year, and about 15€ a month thereafter if you keep it running.
 
 It's four moderately easy steps. Let's go!
 
