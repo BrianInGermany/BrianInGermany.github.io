@@ -119,7 +119,7 @@ azureuser@jamulusserver:~$
 ```
 Time to install Jamulus! Like I said, we barely have to do anything in this command prompt. 
 
-First type this:
+First type this and press enter:
 
 ```bash
 wget https://worldjam.vip/jamulus/setup-jamulus.sh
