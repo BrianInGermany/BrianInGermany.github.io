@@ -5,7 +5,7 @@ description: "Host a Jamulus server for free with Microsoft Azure"
 date:   2021-03-05 18:37:00 +0100
 categories: jekyll update
 # my_setup: "Raspberry Pi 3B, esp8266 sensors sending MQTT, Mosquitto MQTT broker, Node-Red receiving MQTT"
-tags: cloud-computing jamulus music aws azure
+tags: cloud-computing jamulus music azure
 header:
   teaser: "/assets/images/jamulus.png"
 
