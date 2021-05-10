@@ -20,7 +20,7 @@ permalink: /projects/
 - "Darmstädter Kneipen" Alexa Skill
   - ["Die digitale Kneipenführerin"](https://www.frizzmag.de/urban/darmstadt-digital/die-digitale-kneipenf%C3%BChrerin/)
   - <video width="60%" controls>
-  <source src="/assets/images/darmstädterKneipen.mp4" type="video/mp4">
+  <source src="/assets/images/darmstaedterKneipen.mp4" type="video/mp4">
 </video>
 - Democratic Global Presidential Primary 2020 in Darmstadt
   - ["US-Amerikaner geben in Darmstadt Stimme für Vorwahlen ab"](https://www.echo-online.de/lokales/darmstadt/us-amerikaner-geben-in-darmstadt-stimme-fur-vorwahlen-ab_21383871)
