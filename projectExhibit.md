@@ -19,8 +19,8 @@ permalink: /projects/
 - [My great grandfather's birth certificate](https://s3.amazonaws.com/tei-junker-latocha/Meffert/geburtsurkunde1.xml)
 - "Darmstädter Kneipen" Alexa Skill
   - ["Die digitale Kneipenführerin"](https://www.frizzmag.de/urban/darmstadt-digital/die-digitale-kneipenf%C3%BChrerin/)
-  - <video width="100%" controls>
-  <source src="assets/images/darmstädterKneipen.mp4" type="video/mp4">
+  - <video width="60%" controls>
+  <source src="/assets/images/darmstädterKneipen.mp4" type="video/mp4">
 </video>
 - Democratic Global Presidential Primary 2020 in Darmstadt
   - ["US-Amerikaner geben in Darmstadt Stimme für Vorwahlen ab"](https://www.echo-online.de/lokales/darmstadt/us-amerikaner-geben-in-darmstadt-stimme-fur-vorwahlen-ab_21383871)
