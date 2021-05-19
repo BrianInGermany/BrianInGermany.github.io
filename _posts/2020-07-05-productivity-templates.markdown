@@ -28,11 +28,13 @@ I tend to migrate through different templates a few times a year. But even after
 <figure>
 <a href="https://github.com/BrianInGermany/productivity_templates/archive/master.zip">
 <img src="/assets/images/monthlyPlannerJunkyard.jpg" width="50%">
+<img src="/assets/images/dayPlanner.jpg" width="50%">
+<img src="/assets/images/weekplanner.jpg" width="50%">
 </a>
 <figcaption>I thought I would take a crack at it.</figcaption>
 </figure>
 
-## Why Should I Use Your Monthly Planner?
+## Why Should I Use Your Planner?
 Maybe you shouldn't. Maybe the topics it encourages you to remember are already on your game plan. But maybe, right now, you need just the level of cognitive prodding that this template lays out for you. 
 
 If this is the case, please [download the pdf](https://github.com/BrianInGermany/productivity_templates/archive/master.zip) and print out copies to your heart's desire.
