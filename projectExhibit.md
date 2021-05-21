@@ -11,6 +11,8 @@ permalink: /projects/
   <img src="/assets/images/dialingM5stickc.gif" width="25%" alt="rotaryPhone"> 
 - [IdeaStackr](https://github.com/BrianInGermany/IdeaStackr): a system for organizing ideas and structuring information.  
   - See blog post ["Clustering Ideas with IdeaStackr"](/jekyll/update/2020/03/12/ideastackr.html)  
+- [AgileWorkLog](https://github.com/BrianInGermany/worklog/archive/refs/heads/main.zip)
+  - A digital work log with time management templates for agile projects.
 - Arduino Fun: various projects with microcontrollers like the Arduino and ESP boards  
   - [A timer for Toastmasters speeches with a html interface](https://github.com/BrianInGermany/ToastmastersTimerWiFi)  
   - [A scrolling marquee that you can edit via html interface](https://github.com/BrianInGermany/ESPledMatrixWebserver)  
