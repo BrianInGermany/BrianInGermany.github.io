@@ -11,7 +11,7 @@ permalink: /projects/
   <img src="/assets/images/dialingM5stickc.gif" width="25%" alt="rotaryPhone"> 
 - [IdeaStackr](https://github.com/BrianInGermany/IdeaStackr): a system for organizing ideas and structuring information.  
   - See blog post ["Clustering Ideas with IdeaStackr"](/jekyll/update/2020/03/12/ideastackr.html)  
-- [AgileWorkLog](https://github.com/BrianInGermany/worklog/archive/refs/heads/main.zip)
+- [AgileWorkLog](http://thejunkyard.cc/worklog/tiddly_worklog.html)
   - A digital work log with time management templates for agile projects.
 - Arduino Fun: various projects with microcontrollers like the Arduino and ESP boards  
   - [A timer for Toastmasters speeches with a html interface](https://github.com/BrianInGermany/ToastmastersTimerWiFi)  
