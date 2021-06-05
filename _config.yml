@@ -24,7 +24,7 @@ url: "https://thejunkyard.cc" # the base hostname & protocol for your site, e.g.
 github_username:  BrianInGermany
 linkedin_username: Junker-Latocha
 twitter_username: JunkerLatocha
-telegram_username: BrianJL
+# telegram_username: BrianJL
 
 #headers
 header_pages:
