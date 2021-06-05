@@ -26,8 +26,8 @@ permalink: /projects/
   <video width="80%" controls><source src="/assets/images/darmstaedterKneipen.mp4" type="video/mp4">
 - Democratic Global Presidential Primary 2020 in Darmstadt
   - ["US-Amerikaner geben in Darmstadt Stimme für Vorwahlen ab"](https://www.echo-online.de/lokales/darmstadt/us-amerikaner-geben-in-darmstadt-stimme-fur-vorwahlen-ab_21383871)
-- [www.americansingermany.org](https://americansingermany.org)
-  - Americans in Germany: a Slack community I moderate for Americans and friends in Germany
+- [www.americancultureclub.org](https://americancultureclub.org)
+  - American Culture Club: a Slack community I moderate for Americans and friends in Germany
 - [www.briankenneth.rocks](https://briankenneth.rocks)
   - Brian Kenneth: my folk and country music project
   - ["Ein Lagerfeuer mitten in Darmstadt"](https://www.echo-online.de/freizeit/kunst-und-kultur/musik/ein-lagerfeuer-mitten-in-darmstadt_22032124), article in the Darmstädter Echo
