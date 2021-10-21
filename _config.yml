@@ -33,7 +33,7 @@ header_pages:
   # - recommendations.md
   - profile.md
   # - podcast.md
-  # - post_archive.md
+  - post_archive.md
 
 
   
