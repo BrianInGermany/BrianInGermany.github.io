@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Research Notetaking with Xzerpt"
+title:  "Digitize and Cluster Research with Xzerpt"
 date:   2021-10-27 22:10:00 +0100
 categories: jekyll update
-tags: academic-writing research
+tags: academic-writing research xzerpt
 ---
 
-# Xzerpt: a framework for clustering research notes
+## Xzerpt: a framework for clustering research notes
 ## Description:
 
 Xzerpt uses idea clustering and source management to bring structure to your research notes and keep track of what ideas you found where. 
