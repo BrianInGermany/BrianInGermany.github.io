@@ -13,8 +13,8 @@ title: Welcome to the Junkyard
 *Brian:  
 Computational linguist, hardware tinkerer and jack-of-all-trades*
 ## Latest Projects
-<div class="github-card" data-github="brianingermany/xzerpt" data-width="400" data-height="" data-theme="default"></div>
-<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+### Xzerpt
+<a href="https://xzerpt.com"><img src="assets\images\xzerptCard.png" width="60%"></a>
 <!-- <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Getting my new apartment rigged up with sensors :D <a href="https://t.co/9hj3WmNrNl">pic.twitter.com/9hj3WmNrNl</a></p>&mdash; Brian Junker-Latocha (@JunkerLatocha) <a href="https://twitter.com/JunkerLatocha/status/1312503165565063169?ref_src=twsrc%5Etfw">October 3, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
 
 <!-- <blockquote class="twitter-tweet" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">It has been an entertaining afternoon with the tech team of the Windgarten Hugenotte in Offenbach (<a href="https://t.co/ImhHmVnuPp">https://t.co/ImhHmVnuPp</a>). The dynamo in the bicycle wheel reached its maximum performance of 15.2V :D <a href="https://t.co/3pMxbYA3Ts">pic.twitter.com/3pMxbYA3Ts</a></p>&mdash; Brian Junker-Latocha (@JunkerLatocha) <a href="https://twitter.com/JunkerLatocha/status/1320359808306917376?ref_src=twsrc%5Etfw">October 25, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
