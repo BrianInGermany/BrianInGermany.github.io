@@ -28,7 +28,7 @@ twitter_username: JunkerLatocha
 
 #headers
 header_pages:
-  # - toRead.md
+  - toRead.md
   - projectExhibit.md
   # - recommendations.md
   - profile.md
