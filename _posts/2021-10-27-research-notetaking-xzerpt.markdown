@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Research Notetaking with Xzerpt"
-date:   2020-10-27 22:10:00 +0100
+date:   2021-10-27 22:10:00 +0100
 categories: jekyll update
 tags: academic-writing research
 ---
