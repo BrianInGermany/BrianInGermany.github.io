@@ -4,6 +4,8 @@ title:  "Digitize and Cluster Research with Xzerpt"
 date:   2021-10-27 22:10:00 +0100
 categories: jekyll update
 tags: academic-writing research xzerpt
+header:
+  teaser: "/assets/images/xzerptCard.png"
 ---
 
 ## Xzerpt: a framework for clustering research notes
