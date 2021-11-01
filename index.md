@@ -15,4 +15,4 @@ Computational linguist, hardware tinkerer and jack-of-all-trades*
 
 ### Latest Project
 Cluster Research Excerpts and Visualize the Network with [Miro](https://miro.com), [Xzerpt](https://xzerpt.com) and [Clusterizer](https://miro.com/marketplace/clusterizer/)
-<video src="/assets/images/xzerpt_demo.mp4" autoplay poster="/assets/images/postermiro.png">
+<video src="/assets/images/xzerpt_demo.mp4" autoplay poster="/assets/images/postermiro.png" width="70%">
