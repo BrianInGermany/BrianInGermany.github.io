@@ -8,9 +8,11 @@ tags: thinking-aids graphviz
 header:
   teaser: "/assets/images/contact_skeleton.png"
 ---
+<figure>
 <img src="/assets/images/xray.jpg" alt="hand_skeleton">
-A team's lines of communication make up its organizational backbone for getting tasks done.
-By mapping your contacts to your most important tasks and topics, you can visualize how information flows between you and team members, and better explain to others your role in the project.
+<figcaption>A team's lines of communication make up its organizational backbone for getting tasks done.
+By mapping your contacts to your most important tasks and topics, you can visualize how information flows between you and team members, and better explain to others your role in the project.</figcaption>
+</figure>
 
 ## Enter DOT graph language and Graphviz
 
