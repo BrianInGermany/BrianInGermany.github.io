@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: The Junkyard
+title: thejunkyard.cc
 
 author: Brian Junker-Latocha
 description: >- # this means to ignore newlines until "baseurl:"
@@ -24,11 +24,11 @@ url: "https://thejunkyard.cc" # the base hostname & protocol for your site, e.g.
 github_username:  BrianInGermany
 linkedin_username: Junker-Latocha
 twitter_username: JunkerLatocha
-# telegram_username: BrianJL
+telegram_username: BrianJL
 
 #headers
 header_pages:
-  - toRead.md
+  # - toRead.md
   - projectExhibit.md
   # - recommendations.md
   - profile.md

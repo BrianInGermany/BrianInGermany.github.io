@@ -11,8 +11,7 @@ title: Welcome to the Junkyard
 <img src="/assets/images/spainCircle.png" alt="BrianInHat" width="25%">
 
 *Brian:  
-Computational linguist, hardware tinkerer and jack-of-all-trades*
+IT dude, hardware tinkerer and jack-of-all-trades*
 
 ### Latest Project
-Cluster Research Excerpts and Visualize the Network with [Miro](https://miro.com), [Xzerpt](https://xzerpt.com) and [Clusterizer](https://miro.com/marketplace/clusterizer/)
-<video src="/assets/images/xzerpt_demo.mp4" autoplay muted loop poster="/assets/images/postermiro.png" width="100%">
+Visualize your team communication skeleton by plotting contacts and tasks with [graphviz](https://graphviz.org)!
