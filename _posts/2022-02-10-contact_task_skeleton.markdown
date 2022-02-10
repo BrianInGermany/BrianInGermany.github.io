@@ -21,7 +21,7 @@ In its simplest form, DOT provides a framework for connecting nodes, denoted by 
 ```dot
 graph graph1 {
 	hearing -- sight;  
-	sight-- taste;  
+	sight -- taste;  
 	taste -- hearing;  
 	hearing -- touch;  
 	touch -- taste;
