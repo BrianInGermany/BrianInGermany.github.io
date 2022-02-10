@@ -16,5 +16,5 @@ IT dude, hardware tinkerer and jack-of-all-trades*
 ### Latest Project
 <figure>
 <img src="/assets/images/contact_skeleton.png" alt="contact_skel">
-<figcaption>Brian's contact-task skeleton</figcaption>
+<figcaption>a contact-task skeleton</figcaption>
 </figure>
