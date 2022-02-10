@@ -14,4 +14,7 @@ title: Welcome to the Junkyard
 IT dude, hardware tinkerer and jack-of-all-trades*
 
 ### Latest Project
-Visualize your team communication skeleton by plotting contacts and tasks with [graphviz](https://graphviz.org)!
+<figure>
+<img src="/assets/images/contact_skeleton.png" alt="contact_skel">
+<figcaption>Brian's contact-task skeleton</figcaption>
+</figure>
