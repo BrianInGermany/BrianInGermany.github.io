@@ -12,7 +12,7 @@ header:
 A team's lines of communication make up its organizational backbone for getting tasks done.
 By mapping your contacts to your most important tasks and topics, you can visualize how information flows between you and team members, and better explain to others your role in the project.
 
-## Enter DOT graph language and Graphviz
+## Enter DOT Graph Language and Graphviz
 
 The [DOT graph language](https://graphviz.org/doc/info/lang.html) and [Graphviz](https://graphviz.org) provide a protocol for recording network-structured relationships between elements. 
 
