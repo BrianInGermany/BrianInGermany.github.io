@@ -15,6 +15,6 @@ IT dude, hardware tinkerer and jack-of-all-trades*
 
 ### Latest Project
 <figure>
-<img src="/assets/images/contact_skeleton.png" alt="contact_skel">
+<a href="https://thejunkyard.cc/jekyll/update/2022/02/10/contact_task_skeleton.html"><img src="/assets/images/contact_skeleton.png" alt="contact_skel"></a>
 <figcaption>a contact-task skeleton</figcaption>
 </figure>
