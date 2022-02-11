@@ -4,7 +4,7 @@ title:  "Clustering Ideas with IdeaStackr"
 description: "A technique and app for writing papers and gathering thoughts"
 date:   2020-03-12 20:55:00 +0100
 categories: jekyll update
-tags: organization writing
+tags: organization writing thinking-aids
 header:
     teaser: "/assets/images/clusterCards.jpg"
 ---

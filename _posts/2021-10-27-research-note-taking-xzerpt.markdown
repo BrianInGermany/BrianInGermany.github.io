@@ -3,7 +3,7 @@ layout: post
 title:  "Digitize and Cluster Research with Xzerpt"
 date:   2021-10-27 22:10:00 +0100
 categories: jekyll update
-tags: research xzerpt
+tags: research xzerpt thinking-aids
 header:
   teaser: "/assets/images/xzerptCard.png"
 ---

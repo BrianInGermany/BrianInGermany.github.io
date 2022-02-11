@@ -4,7 +4,7 @@ title:  "Plan the Work, Then Work the Plan"
 description: "Getting organized with daily, weekly and monthly planning templates"
 date:   2020-07-05 19:17:00 +0100
 categories: jekyll update
-tags: organization
+tags: organization thinking-aids
 header:
     teaser: "/assets/images/monthlyPlannerJunkyard.jpg"
 ---
