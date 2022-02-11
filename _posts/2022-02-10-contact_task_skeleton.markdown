@@ -172,4 +172,4 @@ You can generate DOT graphs online with this great website:
 <figcaption>Copy and paste your file on the left and see it generated on the right.</figcaption>
 </figure>
 
-Alternatively, there is a [great extension available](https://marketplace.visualstudio.com/items?itemName=EFanZh.graphviz-preview) for the programming environment VSCode.
+Alternatively, there is a [great extension available](https://marketplace.visualstudio.com/items?itemName=EFanZh.graphviz-preview) for the programming environment, VSCode.
