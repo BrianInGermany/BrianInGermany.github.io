@@ -27,7 +27,7 @@ graph graph1 {
 	touch -- taste;
 }
 ```
-The text file can be rendered using a [Graphviz extension for VSCode](https://marketplace.visualstudio.com/items?itemName=EFanZh.graphviz-preview) with the click of a key combination:
+
 <figure>
 <img src="/assets/images/simple_network.png" alt="simple_network">
 <figcaption>a simple network with DOT</figcaption>
@@ -161,3 +161,15 @@ The final product can be used both to map team members to the tasks you collabor
 <img src="/assets/images/contact_skeleton.png" alt="contact_skel">
 <figcaption>Brian's contact-task skeleton</figcaption>
 </figure>
+
+## Wait a minute, how did you go from file to image?
+
+You can generate DOT graphs online with this great website:
+[dreampuf.github.io/GraphvizOnline](https://dreampuf.github.io/GraphvizOnline):
+
+<figure>
+<img src="/assets/images/graphvizonline.png" alt="graphvizdreampuf">
+<figcaption>Copy and paste your file on the left and see it generated on the right.</figcaption>
+</figure>
+
+Alternatively, there is a [great extension available](https://marketplace.visualstudio.com/items?itemName=EFanZh.graphviz-preview) for the programming environment VSCode.
