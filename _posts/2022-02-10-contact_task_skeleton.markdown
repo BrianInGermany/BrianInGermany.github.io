@@ -155,7 +155,7 @@ graph contacts_tasks {
 	
 }
 ```
-The final product can be used to map both team members to the tasks you collaborate on and tasks to the team members involved:
+The final product can be used to map both team members to the tasks you collaborate on, and tasks to the team members involved:
 
 <figure>
 <img src="/assets/images/contact_skeleton.png" alt="contact_skel">
