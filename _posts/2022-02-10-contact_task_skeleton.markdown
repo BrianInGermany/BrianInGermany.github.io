@@ -33,11 +33,11 @@ graph graph1 {
 <figcaption>a simple network with DOT</figcaption>
 </figure>
 
-## The Contact-Task Skeleton
+## The Contact-Task Graph
 
-To go from a simple network graph to a contact-task skeleton, we need a network plotter that will enable a radial rendering of several (three) layers of nodes, represented in concentric circles. For this, DOT's `twopi` layout comes in handy.
+To go from a simple network graph to a contact-task graph, we need a network plotter that will enable a radial rendering of several (three) layers of nodes, represented in concentric circles. For this, DOT's `twopi` layout comes in handy.
 
-Along with some additional node coloring and font settings metadata, the raw data of the contact skeleton is stored in the below text file. Note that the metadata is set at the beginning, and also includes the specification of the root node. The ring levels of nodes are defined by the separate mappings of the root node to the contact-person nodes, as well as the contact-person nodes to the task nodes. For clarity, the edge lines are shown in alternating rainbow colors. Don't worry about the numbers with hashtags, those are just a notation for a more exact color.
+Along with some additional node coloring and font settings metadata, the raw data of the contact graph is stored in the below text file. Note that the metadata is set at the beginning, and also includes the specification of the root node. The ring levels of nodes are defined by the separate mappings of the root node to the contact-person nodes, as well as the contact-person nodes to the task nodes. For clarity, the edge lines are shown in alternating rainbow colors. Don't worry about the numbers with hashtags, those are just a notation for a more exact color.
 
 ```dot
 graph contacts_tasks {
@@ -159,7 +159,7 @@ The final product can be used to map both team members to the tasks you collabor
 
 <figure>
 <img src="/assets/images/contact_skeleton.png" alt="contact_skel">
-<figcaption>Brian's contact-task skeleton</figcaption>
+<figcaption>Brian's contact-task graph</figcaption>
 </figure>
 
 ## Wait a minute, how did you go from file to image?
