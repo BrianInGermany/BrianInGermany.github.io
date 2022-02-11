@@ -33,9 +33,9 @@ graph graph1 {
 <figcaption>a simple network with DOT</figcaption>
 </figure>
 
-## Radial Network Graph
+## The Contact-Task Skeleton
 
-To go from a simple network to a contact-task skeleton, we need a network plotter that will enable a radial rendering of several (three) layers of nodes, represented in concentric circles. For this, DOT's `twopi` layout comes in handy.
+To go from a simple network graph to a contact-task skeleton, we need a network plotter that will enable a radial rendering of several (three) layers of nodes, represented in concentric circles. For this, DOT's `twopi` layout comes in handy.
 
 After adding some additional node coloring and font settings metadata, the raw data of the contact skeleton above is represented in the below text file. Note that the metadata is set at the beginning, and also includes the specification of the root node. The ring levels of nodes are defined by the separate mappings of the root node to the contact-person nodes, as well as the contact-person nodes to the task nodes. For clarity, the edge lines are shown in alternating rainbow colors:
 
