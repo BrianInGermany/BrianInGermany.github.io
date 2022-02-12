@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Graph Your Tasks"
-description: "Communicate processes to your team visually"
+title:  "Process-Graph Your Tasks"
+description: "Communicate task structures to your team visually"
 date:   2022-02-12 08:43:00 +0100
 categories: jekyll update
 tags: thinking-aids graphviz
@@ -13,7 +13,7 @@ header:
 
 If you want to model the task structure of a given project, it can make sense to list all the different tasks and subtasks, all the recurring processes that project consists of. But how can you best communicate the details of your task network?
 
-## The Task Chart
+## The Task-Process Graph
 
 For a data structure that can represent interconnected tasks and steps, we need collection of lists and connecting arrows:
 
