@@ -17,7 +17,7 @@ If you want to model the task structure of a given project, it can make sense to
 
 For a data structure that can represent interconnected tasks and steps, we need collection of lists and connecting arrows:
 
-In the above task-process graph, specific cells, or task steps, of the task nodes are connected in a flow to show what substeps pertain to which tasks, and which substeps are shared by which tasks in a many-to-one relationship. The below DOT-language representation of the graph consists of three components.
+In the above task-process graph, specific cells, or task steps, of the task nodes are connected in a flow to show what substeps pertain to which tasks, and which substeps are shared by which tasks in a many-to-one relationship.
 
 ## Drawing Tools
 
