@@ -39,6 +39,8 @@ To go from a simple network graph to a contact-task graph, we need a network plo
 
 Along with some additional node coloring and font settings metadata, the raw data of the contact graph is stored in the below text file. Note that the metadata is set at the beginning, and also includes the specification of the root node. The ring levels of nodes are defined by the separate mappings of the root node to the contact-person nodes, as well as the contact-person nodes to the task nodes. For clarity, the edge lines are shown in alternating rainbow colors. Don't worry about the numbers with hashtags, those are just a notation for a more exact color.
 
+Also, if your nodes get too close together because you have so many, try adjusting the `ranksep` value higher.
+
 ```dot
 graph contacts_tasks {
 	fontname=Arial;
