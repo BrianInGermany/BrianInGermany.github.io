@@ -2,7 +2,7 @@
 layout: post
 title:  "Graph Your Tasks"
 description: "Communicate processes to your team visually"
-date:   2022-02-11 18:44:00 +0100
+date:   2022-02-12 08:43:00 +0100
 categories: jekyll update
 tags: thinking-aids graphviz
 header:
