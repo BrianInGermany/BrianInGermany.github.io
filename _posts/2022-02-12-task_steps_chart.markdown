@@ -19,7 +19,7 @@ For a data structure that can represent interconnected tasks and steps, we need 
 
 In the above task graph, specific cells, or task steps, of the task nodes are connected in a flow to show what substeps pertain to which tasks, and which substeps are shared by which tasks in a many-to-one relationship. The below DOT-language representation of the graph consists of three components.
 
-## So how do you plot the image?
+## Drawing Tools
 
 You can generate this data structure using DOT graphs and the `record` node style.
 For example online, with this great website (code to the sample chart included):
