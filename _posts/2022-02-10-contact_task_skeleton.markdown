@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "X-Ray Your Team"
+title:  "X-Ray Your Team with Graphviz"
 description: "Use a Contact-Task Graph to Trace Your Communication Backbone"
 date:   2022-02-10 21:51:00 +0100
 categories: jekyll update
