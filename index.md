@@ -11,6 +11,6 @@ title: Welcome to the Junkyard
 <img src="/assets/images/spainCircle.png" alt="BrianInHat" width="25%">
 
 *Brian:  
-IT dude, hardware tinkerer and jack-of-all-trades*
+IT dude, design thinker and jack-of-all-trades*
 
 <a href="https://thejunkyard.cc/jekyll/update/2020/04/12/retro-voip.html"><img src="/assets/images/dialingM5stickc.gif" alt="contact_skel"></a>
