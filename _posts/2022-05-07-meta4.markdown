@@ -7,7 +7,7 @@ tags: organization thinking-aids
 ---
 
 <a href="/assets/meta4cards.pdf" download="meta4cards">
-  <img src="/assets/images/meta4cards.jpeg" alt="meta4" width="70%">
+  <img src="/assets/images/meta4cards.jpeg" alt="meta4" width="100%">
 </a>
 
 Meta4 is a team communication and ideation tool. It helps you to reflect together on previous work, or identify risks and opportunities in upcoming tasks.
@@ -19,3 +19,4 @@ Meta4 is a team communication and ideation tool. It helps you to reflect togethe
 ### Cluster
 ### Vote
 ### Act
+
