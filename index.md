@@ -13,4 +13,4 @@ title: Welcome to the Junkyard
 *Brian:  
 IT dude, design thinker and jack-of-all-trades*
 
-<a href="https://thejunkyard.cc/jekyll/update/2020/04/12/retro-voip.html"><img src="/assets/images/dialingM5stickc.gif" alt="contact_skel"></a>
+<img src="assets/images/meta4cards.jpeg" alt="meta4">

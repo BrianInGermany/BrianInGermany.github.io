@@ -7,11 +7,11 @@ tags: organization thinking-aids
 ---
 
 <a href="/assets/meta4cards.pdf" download="meta4cards">
-  <img src="/assets/images/meta4cards.jpeg" alt="meta4" width=70%>
+  <img src="/assets/images/meta4cards.jpeg" alt="meta4" width="70%">
 </a>
 
 ## Meta4 cards for team retro and planning
-Meta4 cards help you to reflect on previous work as a team, or identify risks and opportunities in upcoming tasks.
+Meta4 cards help you to reflect as a team on previous work, or identify risks and opportunities in upcoming tasks.
 
 ## How do they work?
 ### Print your Meta4 cards
