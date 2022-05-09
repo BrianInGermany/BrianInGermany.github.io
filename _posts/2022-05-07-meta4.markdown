@@ -16,7 +16,7 @@ header:
 Meta4 is a team communication and ideation tool. It helps you to reflect together on previous work, or identify risks and opportunities in upcoming tasks.
 
 ## How does it work?
-### Print
+### Make
 Download the pdf by clicking the above image. Then print on cardstock, or use regular paper and glue to colorful construction paper.
 
 ### Reflect
