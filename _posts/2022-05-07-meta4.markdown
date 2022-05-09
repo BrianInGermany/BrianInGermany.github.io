@@ -1,9 +1,12 @@
 ---
 layout: post
 title:  "Jumpstart Your Retro with Meta4"
+description: "An ideation tool for reflecting on iterations and identifying risks and opportunities."
 date:   2022-05-08 21:55:00 +0100
 categories: jekyll update
 tags: organization thinking-aids
+header:
+  teaser: "/assets/images/meta4cards.jpeg"
 ---
 
 <a href="/assets/meta4cards.pdf" download="meta4cards">
