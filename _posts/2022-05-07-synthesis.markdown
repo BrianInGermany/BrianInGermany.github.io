@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  "Jumpstart Your Retro with Meta4"
+title:  "Jumpstart Your Retro with Synthesis"
 description: "An ideation tool for reflecting on iterations and identifying risks and opportunities."
-date:   2022-05-08 21:55:00 +0100
+date:   2022-05-08 22:01:00 +0100
 categories: jekyll update
 tags: organization thinking-aids
 header:
-  teaser: "/assets/images/meta4cards.jpeg"
+  teaser: "/assets/images/Synthesiscards.jpeg"
 ---
 
-<a href="/assets/meta4cards.pdf" download="meta4cards">
-  <img src="/assets/images/meta4cards.jpeg" alt="meta4" width="100%">
+<a href="/assets/Synthesiscards.pdf" download="Synthesiscards">
+  <img src="/assets/images/Synthesiscards.jpeg" alt="Synthesis" width="100%">
 </a>
 
-Meta4 is a team communication and ideation tool. It helps you to reflect together on previous work, or identify risks and opportunities in upcoming tasks.
+Synthesis is a team communication and ideation tool. It helps you to reflect together on previous work, or identify risks and opportunities in upcoming tasks.
 
 ## How does it work?
 ### Make
