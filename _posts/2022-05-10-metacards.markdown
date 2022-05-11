@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  "Jumpstart Your Retro with Synthesis"
-description: "An ideation tool for reflecting on iterations and identifying risks and opportunities."
+title:  "Take Your Retro to a Meta Level!"
+description: "Meta: An ideation tool for reflecting on iterations"
 date:   2022-05-08 22:01:00 +0100
 categories: jekyll update
 tags: organization thinking-aids
 header:
-  teaser: "/assets/images/Synthesiscards.jpeg"
+  teaser: "/assets/images/metacards.jpeg"
 ---
 
-<a href="/assets/Synthesiscards.pdf" download="Synthesiscards">
-  <img src="/assets/images/Synthesiscards.jpeg" alt="Synthesis" width="100%">
+<a href="/assets/metacards.pdf" download="metacards">
+  <img src="/assets/images/metacards.jpeg" alt="metacards" width="100%">
 </a>
 
-Synthesis is a team communication and ideation tool. It helps you to reflect together on previous work, or identify risks and opportunities in upcoming tasks.
+Meta is a team communication and ideation tool. It helps you to reflect together on previous work, and identify risks and opportunities in upcoming tasks.
 
 ## How does it work?
 ### Make
@@ -24,8 +24,9 @@ The dealer draws or chooses five cards from the deck to reflect upon one-by-one.
 
 ### Prioritize
 After recording feedback stickies for each card, each team member selects their top three and puts them on the board.
+
 ### Cluster
-Once the stickies are on the board, then can be clustered as a team into topic groups.
+Once the stickies are on the board, they can be clustered as a team into topics.
 
 ### Vote
 Vote on the clusters to identify the most important action points or experiences to remember for the future.

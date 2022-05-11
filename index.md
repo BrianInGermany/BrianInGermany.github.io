@@ -13,4 +13,4 @@ title: Welcome to the Junkyard
 *Brian:  
 IT dude, design thinker and jack-of-all-trades*
 
-<img src="assets/images/Synthesiscards.jpeg" alt="Synthesis">
+<img src="assets/images/metacards.jpeg" alt="meta">
