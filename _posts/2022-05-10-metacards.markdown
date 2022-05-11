@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Take Your Retro to a Meta Level"
-description: "Meta Cards: An ideation tool for reflecting on iterations"
+description: "Meta Cards: an ideation tool for reflecting on iterations"
 date:   2022-05-10 22:01:00 +0100
 categories: jekyll update
 tags: organization thinking-aids
