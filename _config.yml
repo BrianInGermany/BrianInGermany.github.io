@@ -29,11 +29,13 @@ telegram_username: BrianJL
 #headers
 header_pages:
   # - toRead.md
-  - projectExhibit.md
+  # - projectExhibit.md
   # - recommendations.md
   - profile.md
   # - podcast.md
   - post_archive.md
+  - briankeneth.md
+
 
 
   
