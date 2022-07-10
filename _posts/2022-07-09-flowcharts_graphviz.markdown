@@ -78,7 +78,7 @@ Next, the predefined nodes need to be connected to eath other with arrows. To ma
 
 The `->` arrow represents the direction of the connnection between the node names before and after it. Just like with the nodes, the connections can also have labels, defineable in brackets.
 
-The subgraphs represent the big blue boxes in the image, and can also be styled with different colors, rounding, labels, etc. These are the values followed by equals signs. Subgraphs start and end with curly braces.
+The subgraphs represent the big blue boxes in the image, and can also be styled with different colors, rounding, labels, etc. These are the values followed by equals signs. Pro tip: Subgraph names must start with "cluster".
 
 ```dot
 
