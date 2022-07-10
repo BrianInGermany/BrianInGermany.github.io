@@ -135,7 +135,7 @@ subgraph cluster_to_agent {
 
 }
 ```
-Using subgraphs cause separate graphs to be layouted individually. Here is the above example as one single graph:
+Using subgraphs causes subgraphs to be layouted individually. Here is the above example as one single graph:
 
 <a href="/assets/flow_nosubs.dot" download="flow_noubs.dot">
   <img src="/assets/images/flow_nosubs.png" alt="flow_nosubs" width="100%">
