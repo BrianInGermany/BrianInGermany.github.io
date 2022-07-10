@@ -124,12 +124,9 @@ subgraph cluster_to_agent {
 
 }
 ```
-## Develop Collaboratively and Easily Inspect Diffs
-See exactly which lines of your graph code were changed across commits or versions (For example in [VScode](https://code.visualstudio.com/))
-![](/assets/images/diff_flow.png)
 
 ## Rendering the Image
-VScode, with the [Graphviz Preview](https://marketplace.visualstudio.com/items?itemName=EFanZh.graphviz-preview) extension, is a great tool for creating Graphviz graphs, and that allows you to render in a parallel window as you type.
+[VScode](https://code.visualstudio.com/), with the [Graphviz Preview](https://marketplace.visualstudio.com/items?itemName=EFanZh.graphviz-preview) extension, is a great tool for creating Graphviz graphs, and that allows you to render in a parallel window as you type.
 
 All you need to do is create your graph file with a `.dot` ending in VScode and then run the command `Graphviz: Open Preview to the Side`  using `CTRL/CMD-SHIFT-P`.
 
@@ -137,3 +134,7 @@ All you need to do is create your graph file with a `.dot` ending in VScode and 
 
 From this screen, you can export to the file format of your choice.
 
+## Develop Collaboratively and Easily Inspect Diffs
+In VScode, you can use git to track versions of your graph as you develop and change it. Additionally, you can use the compare diff functionality to see exactly what part of the graph was changed in each version.
+
+![](/assets/images/diff_flow.png)
