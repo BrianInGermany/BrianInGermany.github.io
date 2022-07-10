@@ -126,7 +126,7 @@ subgraph cluster_to_agent {
 ```
 
 ## Rendering the Image
-[VScode](https://code.visualstudio.com/), with the [Graphviz Preview](https://marketplace.visualstudio.com/items?itemName=EFanZh.graphviz-preview) extension, is a great tool for creating Graphviz graphs, and that allows you to render in a parallel window as you type.
+[VScode](https://code.visualstudio.com/), with the [Graphviz Preview](https://marketplace.visualstudio.com/items?itemName=EFanZh.graphviz-preview) extension, is a great tool for creating Graphviz graphs that allows you to render in a parallel window as you type.
 
 All you need to do is create your graph file with a `.dot` ending in VScode and then run the command `Graphviz: Open Preview to the Side`  using `CTRL/CMD-SHIFT-P`.
 
