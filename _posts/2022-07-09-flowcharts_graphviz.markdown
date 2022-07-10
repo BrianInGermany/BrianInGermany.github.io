@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Graphviz for Flows: Write the Logic, Render the Image"
-description: "Create elegant flowcharts from code without worrying about layout."
+title:  "Code Your Flow: Write the Logic, Render the Image"
+description: "Create elegant flowcharts in Graphviz without worrying about layout."
 date:   2022-07-09 23:15:00 +0100
 tags: thinking-aids graphviz
 header:
