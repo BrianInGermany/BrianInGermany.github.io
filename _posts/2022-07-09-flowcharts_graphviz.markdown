@@ -150,4 +150,4 @@ In VScode, you can use git to track versions of your graph as you develop and ch
 ![](/assets/images/diff_flow.png)
 
 ## Conclusion
-Creating flowcharts from code is a great way to focus your thoughts on the raw flow structure itself. But it also takes the visual tidying work off your shoulders, and makes collaboration easier by enabling line-for-line comparability across versions.
+Creating flowcharts from code is a great way to focus your thoughts on the raw flow structure itself. But it also takes the visual tidying work off your shoulders, and makes collaboration easier by enabling line-for-line comparability of versions.
