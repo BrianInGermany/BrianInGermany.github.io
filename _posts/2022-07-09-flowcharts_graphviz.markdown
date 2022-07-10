@@ -24,13 +24,11 @@ The basic concept behind flowcharting in Graphviz is to first define your nodes,
 By separating the logical aspect of flow writing from the visual aspect, you can focus on the data and avoid the distraction of layout adjustment.
 
 ## Define nodes
-The first part of creating a code-based flow is to define your nodes' shape, color and contents. Each node is declared on a new line and given a unique name, styling and text label (in the brackets after the name).
+The first part of creating a code-based flow is to define your nodes' shape, color and contents. Each node is declared on a new line and given a unique name.
 
-Certain keywords, like `node`, are universal keywords, whose styling is applied to all future nodes thereafter.
+Certain keywords, like `node`, are universal keywords, whose styling is applied to all nodes thereafter (until redefined).
 
-The rest of the lines represent nodes themselves, for example `prompt_welcome`. In the brackets after it, shape `box`, color `lightblue` and a multi-line text label can be assigned.
-
-The very first line of the graph denotes that the data below will form a directional graph, or `digraph`, and is necessary for the renderer to work right. The graph type is followed by a unique name (`tel_flow`).
+The very first line of the graph denotes that the data below will form a directional graph, or `digraph`, and is necessary for the renderer to work right. The graph type is followed by a unique name.
 
 ```dot
 
