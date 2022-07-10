@@ -27,7 +27,7 @@ The first part of creating a code-based flow is to define your nodes' shape, col
 
 Certain keywords, like `node`, are universal keywords, whose styling is applied to all future nodes thereafter.
 
-The rest of the lines represent nodes themselves, for example `prompt_welcome`, which in brackets is assigned the shape `box`, color `lightblue` and a multi-line text label.
+The rest of the lines represent nodes themselves, for example `prompt_welcome`. In the brackets after it, shape `box`, color `lightblue` and a multi-line text label can be assigned.
 
 The very first line of the graph denotes that the data below will form a directional graph, or `digraph`, and is necessary for the renderer to work right. The graph type is followed by a unique name (`tel_flow`).
 
@@ -78,7 +78,7 @@ Next, the predefined nodes need to be connected to eath other with arrows. To ma
 
 The `->` arrow represents the direction of the connnection between the node names before and after it. Just like with the nodes, the connections can also have labels, defineable in brackets.
 
-The subgraphs represent the big blue boxes in the image, and can also be styled with different colors, rounding,labels, etc. These are the values followed by equals signs. Subgraphs start and end with curly braces.
+The subgraphs represent the big blue boxes in the image, and can also be styled with different colors, rounding, labels, etc. These are the values followed by equals signs. Subgraphs start and end with curly braces.
 
 ```dot
 
