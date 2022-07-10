@@ -107,7 +107,7 @@ subgraph cluster_anliegen {
 
 }
 subgraph cluster_to_agent {
-    label = "Absprung zum Agenten"
+    label = "Übergang zum Agenten"
     intent_anliegen_agent -> prompt_connect_agent
     intent_vnr_agent -> prompt_connect_agent
     intent_anliegen_xx -> prompt_anliegen_success
