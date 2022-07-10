@@ -7,7 +7,9 @@ tags: thinking-aids graphviz
 header:
   teaser: "/assets/images/flow.png"
 ---
-![](/assets/images/flow.png)
+<a href="/assets/flow.pdf" download="flow">
+  <img src="/assets/images/flow.png" alt="flow" width="100%">
+</a>
 
 By defining flows as text, you can focus on the logic and let the rendering engine take care of the rest. Plus, you can take full advantage of version control to pinpoint changes and diffs.
 
