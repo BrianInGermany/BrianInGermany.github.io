@@ -7,6 +7,7 @@ tags: thinking-aids graphviz
 header:
   teaser: "/assets/images/flow.png"
 ---
+Create elegant flowcharts in Graphviz without worrying about layout.
 <a href="/assets/flow.pdf" download="flow">
   <img src="/assets/images/flow.png" alt="flow" width="100%">
 </a>
