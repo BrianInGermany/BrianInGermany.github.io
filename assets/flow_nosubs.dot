@@ -1,7 +1,5 @@
-digraph tel_flow{
-
+digraph tel_flow {
 // NODE DEFINITIONS
-
     // start nodes
     node[style=filled,shape=circle,color=black]
         start[shape=circle,color=black]
@@ -35,7 +33,7 @@ digraph tel_flow{
         prompt_nicht_verstanden_anliegen[label="Ich konnte Sie leider
             nicht verstehen. Um welchen 
             Themenkomplex geht es?"]
-            
+
     // utterance nodes
     node[style=filled,shape=box,color=yellowgreen]
         utterance_vnr[label="VNR-Utterance"]
@@ -60,7 +58,7 @@ digraph tel_flow{
         logic_zweitversuch_vnr[label="Zweitversuch V-Nr?"]
         logic_zweitversuch_anliegen[label="Zweitversuch Anliegen?"]
 
-// CONNECTION DEFINITIONS
+// SUBGRAPH AND CONNECTION DEFINITIONS
 
     start -> prompt_welcome
     prompt_welcome -> prompt_vnr
@@ -71,21 +69,28 @@ digraph tel_flow{
     nlu_vnr -> intent_vnr_no_intent
     intent_vnr_no_intent -> logic_zweitversuch_vnr
     logic_zweitversuch_vnr -> prompt_vnr_fail [label="nein"]
-    logic_zweitversuch_vnr -> prompt_connect_agent [label="ja"]
-    prompt_connect_agent -> end
     prompt_vnr_fail -> utterance_vnr
+    intent_vnr_vnr -> prompt_vnr_success
     prompt_vnr_success -> utterance_anliegen
     utterance_anliegen -> nlu_anliegen
-    intent_vnr_vnr -> prompt_vnr_success
     nlu_anliegen -> intent_anliegen_xx
     nlu_anliegen -> intent_anliegen_agent
     nlu_anliegen -> intent_anliegen_no_intent
     intent_anliegen_no_intent -> logic_zweitversuch_anliegen
     logic_zweitversuch_anliegen -> prompt_nicht_verstanden_anliegen [label="nein"]
     prompt_nicht_verstanden_anliegen -> utterance_anliegen
-    intent_anliegen_agent -> prompt_connect_agent
-    intent_vnr_agent -> prompt_connect_agent
-    intent_anliegen_xx -> prompt_anliegen_success
+    logic_zweitversuch_vnr -> prompt_connect_agent [label="ja"]
     logic_zweitversuch_anliegen -> prompt_connect_agent [label="ja"]
+    intent_vnr_agent -> prompt_connect_agent
+    intent_anliegen_agent -> prompt_connect_agent
+    intent_anliegen_xx -> prompt_anliegen_success
     prompt_anliegen_success -> end
+    prompt_connect_agent -> end
+
 }
+
+
+
+
+
+

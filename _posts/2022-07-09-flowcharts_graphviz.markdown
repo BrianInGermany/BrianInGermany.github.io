@@ -34,10 +34,8 @@ The very first line of the graph denotes that the data below will form a directi
 
 ```dot
 
-digraph tel_flow{
-
+digraph tel_flow {
 // NODE DEFINITIONS
-
     // start nodes
     node[style=filled,shape=circle,color=black]
         start[shape=circle,color=black]
@@ -71,7 +69,7 @@ digraph tel_flow{
         prompt_nicht_verstanden_anliegen[label="Ich konnte Sie leider
             nicht verstehen. Um welchen 
             Themenkomplex geht es?"]
-            
+
     // utterance nodes
     node[style=filled,shape=box,color=yellowgreen]
         utterance_vnr[label="VNR-Utterance"]
@@ -95,7 +93,6 @@ digraph tel_flow{
     node[style=filled,shape=diamond,color=lightgray]  
         logic_zweitversuch_vnr[label="Zweitversuch V-Nr?"]
         logic_zweitversuch_anliegen[label="Zweitversuch Anliegen?"]
-
 ```
 ## Define Relationships
 Next, the predefined nodes need to be connected to eath other with arrows. To make the flow clearer, subgraphs can be used to cluster nodes that belong to the same task or component. 
@@ -119,43 +116,45 @@ subgraph cluster_vnr {
     label = "Versichertennummer verstehen"
     color = blue
     prompt_welcome -> prompt_vnr
-
-    prompt_vnr -> utterance_vnr
     utterance_vnr -> nlu_vnr
     nlu_vnr -> intent_vnr_agent
     nlu_vnr -> intent_vnr_vnr
     nlu_vnr -> intent_vnr_no_intent
     intent_vnr_no_intent -> logic_zweitversuch_vnr
+    prompt_vnr -> utterance_vnr
     logic_zweitversuch_vnr -> prompt_vnr_fail [label="nein"]
-}
-    logic_zweitversuch_vnr -> prompt_connect_agent [label="ja"]
-    prompt_connect_agent -> end
     prompt_vnr_fail -> utterance_vnr
-    prompt_vnr_success -> utterance_anliegen
-    utterance_anliegen -> nlu_anliegen
+
+}
+    
 
 subgraph cluster_anliegen {
     label = "Anliegen verstehen"
     color = blue
-    intent_vnr_vnr -> prompt_vnr_success
-
+    prompt_vnr_success -> utterance_anliegen
+    utterance_anliegen -> nlu_anliegen
     nlu_anliegen -> intent_anliegen_xx
     nlu_anliegen -> intent_anliegen_agent
     nlu_anliegen -> intent_anliegen_no_intent
     intent_anliegen_no_intent -> logic_zweitversuch_anliegen
     logic_zweitversuch_anliegen -> prompt_nicht_verstanden_anliegen [label="nein"]
     prompt_nicht_verstanden_anliegen -> utterance_anliegen
+    intent_vnr_vnr -> prompt_vnr_success
+
 
 
 }
 subgraph cluster_to_agent {
     label = "Übergang zum Agenten"
     color = blue
-    intent_anliegen_agent -> prompt_connect_agent
-    intent_vnr_agent -> prompt_connect_agent
-    intent_anliegen_xx -> prompt_anliegen_success
+    logic_zweitversuch_vnr -> prompt_connect_agent [label="ja"]
     logic_zweitversuch_anliegen -> prompt_connect_agent [label="ja"]
+    intent_vnr_agent -> prompt_connect_agent
+    intent_anliegen_agent -> prompt_connect_agent
+    intent_anliegen_xx -> prompt_anliegen_success
     prompt_anliegen_success -> end
+    prompt_connect_agent -> end
+
 
 }
 
