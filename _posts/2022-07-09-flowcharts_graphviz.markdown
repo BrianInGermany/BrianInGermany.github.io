@@ -23,7 +23,14 @@ The basic concept behind flowcharting in Graphviz is to first define your nodes,
 By separating the logical aspect of flow writing from the visual aspect, you can focus on the data and avoid the distraction of layout adjustment.
 
 ## Define nodes
-The first part of creating a code-based flow is to define your nodes' shape, color and contents:
+The first part of creating a code-based flow is to define your nodes' shape, color and contents. Each node is declared on a new line and given a unique name, styling and text label (in the brackets after the name).
+
+Certain keywords, like `node`, are universal keywords, whose styling is applied to all future nodes thereafter.
+
+The rest of the lines represent nodes themselves, for example `prompt_welcome`, which in brackets is assigned the shape `box`, color `lightblue` and a multi-line text label.
+
+The very first line of the graph denotes that the data below will form a directional graph, or `digraph`, and is necessary for the renderer to work right. The graph type is followed by a unique name (`tel_flow`).
+
 ```dot
 digraph tel_flow {
     node[style=filled]
@@ -67,9 +74,12 @@ digraph tel_flow {
 
 ```
 ## Define Relationships
-Next, the predefined nodes need to be connected to eath other with arrows. To make the flow clearer, subgraphs can be used to cluster nodes that belong to the same task or component.
+Next, the predefined nodes need to be connected to eath other with arrows. To make the flow clearer, subgraphs can be used to cluster nodes that belong to the same task or component. 
 
-The subgraphs represent the big blue boxes in the image, and can also be styled with different colors, rounding, dashed lines, etc.
+The `->` arrow represents the direction of the connnection between the node names before and after it. Just like with the nodes, the connections can also have labels, defineable in brackets.
+
+The subgraphs represent the big blue boxes in the image, and can also be styled with different colors, rounding,labels, etc. These are the values followed by equals signs. Subgraphs start and end with curly braces.
+
 ```dot
 
 subgraph cluster_welcome {
