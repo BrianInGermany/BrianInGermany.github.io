@@ -13,4 +13,4 @@ title: Welcome to the Junkyard
 *Brian:  
 IT dude, design thinker and jack-of-all-trades*
 
-<img src="assets/images/metacards.jpeg" alt="meta">
+<a href="https://thejunkyard.cc/jekyll/update/2022/05/10/metacards.html"><img src="assets/images/metacards.jpeg" alt="meta"></a>
