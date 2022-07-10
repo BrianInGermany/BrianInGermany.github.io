@@ -8,7 +8,7 @@ header:
   teaser: "/assets/images/flow.png"
 ---
 Create elegant flowcharts in Graphviz without worrying about layout.
-<a href="/assets/flow.dot" download="flow_dot_file">
+<a href="/assets/flow.dot" download="flow.dot">
   <img src="/assets/images/flow.png" alt="flow" width="100%">
 </a>
 
@@ -137,7 +137,7 @@ subgraph cluster_to_agent {
 ```
 Using subgraphs cause separate graphs to be layouted individually. Here is the above example as one single graph:
 
-<a href="/assets/flow_nosubs.dot" download="flow_noubs_dot_file">
+<a href="/assets/flow_nosubs.dot" download="flow_noubs.dot">
   <img src="/assets/images/flow_nosubs.png" alt="flow_nosubs" width="100%">
 </a>
 
