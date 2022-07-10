@@ -25,9 +25,6 @@ The first part of creating a code-based flow is to define your nodes' shape, col
 ```dot
 digraph tel_flow {
     node[style=filled]
-    note1[shape=note,label="Dieser Flow wurde als Text/Code definiert und auto-gerendert.
-        Das Knoten-Layout erfolgt automatisch über ein Layout-Engine.
-        Siehe https://graphviz.org für mehr Informationen."]
     start[shape=circle,color=black]
     end[shape=doublecircle,color=black]
     prompt_welcome[shape=box,color=lightblue,label="Willkommen
@@ -70,7 +67,7 @@ digraph tel_flow {
 ## Define Relationships
 Next, the predefined nodes need to be connected to eath other with arrows. To make the flow clearer, subgraphs can be used to cluster nodes that belong to the same task or component.
 
-The subgraphs represent the big blue boxes in the image, and can also be styled with different colors, rounding , dashed lines, etc.
+The subgraphs represent the big blue boxes in the image, and can also be styled with different colors, rounding, dashed lines, etc.
 ```dot
 
 subgraph cluster_welcome {
