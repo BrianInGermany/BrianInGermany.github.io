@@ -1,18 +1,22 @@
 ---
 layout: post
-title:  "Write Your Flows in Code"
-description: "Graphviz for Flowcharts: Write the Logic, Render the Image"
-date:   2022-07-10 00:01:00 +0100
+title:  "Graphviz for Flows: Write the Logic, Render the Image"
+description: "Create elegant flowcharts from code without worrying about layout."
+date:   2022-07-10 09:15:00 +0100
 tags: thinking-aids graphviz
 header:
-  teaser: "/assets/images/dialog_flow.svg"
+  teaser: "/assets/images/flow.png"
 ---
-![](/assets/images/dialog_flow.svg)
+![](/assets/images/flow.png)
 
 By defining flows as text, you can focus on the logic and let the rendering engine take care of the rest. Plus, you can take full advantage of version control to pinpoint changes and diffs.
 
+The [Graphviz](https://graphviz.org) framework was [developed by AT&T Labs Research](https://en.wikipedia.org/wiki/Graphviz) as an open-source tool package for modeling and representing graphs textually.
+
+The [DOT language](https://www.graphviz.org/doc/info/lang.html) is the reasonably intuitive markup language used to define the graphs.
+
 ## Flowcharting in Graphviz
-The basic concept is to first define your nodes, and then describe the connections they have between each other.
+The basic concept behind flowcharting in Graphviz is to first define your nodes, and then describe the connections they have between each other.
 
 By separating the logical aspect of flow writing from the visual aspect, you can focus on the data and avoid the distraction of layout adjustment.
 
@@ -66,19 +70,20 @@ digraph tel_flow {
 ## Define Relationships
 Next, the predefined nodes need to be connected to eath other with arrows. To make the flow clearer, subgraphs can be used to cluster nodes that belong to the same task or component.
 
-Within each subgraph, the relevant connections are defined.
-
+The subgraphs represent the big blue boxes in the image, and can also be styled with different colors, rounding , dashed lines, etc.
 ```dot
+
 subgraph cluster_welcome {
     label = "Willkommen"
+    color = blue
     start -> prompt_welcome
 
 }
 
 subgraph cluster_vnr {
     label = "Versichertennummer verstehen"
+    color = blue
     prompt_welcome -> prompt_vnr
-
     prompt_vnr -> utterance_vnr
     utterance_vnr -> nlu_vnr
     nlu_vnr -> intent_vnr_agent
@@ -95,6 +100,7 @@ subgraph cluster_vnr {
 
 subgraph cluster_anliegen {
     label = "Anliegen verstehen"
+    color = blue
     intent_vnr_vnr -> prompt_vnr_success
 
     nlu_anliegen -> intent_anliegen_xx
@@ -108,6 +114,7 @@ subgraph cluster_anliegen {
 }
 subgraph cluster_to_agent {
     label = "Übergang zum Agenten"
+    color = blue
     intent_anliegen_agent -> prompt_connect_agent
     intent_vnr_agent -> prompt_connect_agent
     intent_anliegen_xx -> prompt_anliegen_success
