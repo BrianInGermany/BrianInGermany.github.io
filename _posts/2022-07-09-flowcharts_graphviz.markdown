@@ -127,6 +127,7 @@ subgraph cluster_to_agent {
 ## Develop Collaboratively and Easily Inspect Diffs
 See exactly which lines of your graph code were changed across commits or versions.
 ![](/assets/images/diff_flow.png)
+
 ## Rendering the Image
 A great tool for creating Graphviz graphs is [VScode](https://code.visualstudio.com/) with the [Graphviz Preview](https://marketplace.visualstudio.com/items?itemName=EFanZh.graphviz-preview) extension that allows you to render in a parallel window as you type and to export to PNG,SVG,PDF, etc.
 
