@@ -33,45 +33,68 @@ The rest of the lines represent nodes themselves, for example `prompt_welcome`. 
 The very first line of the graph denotes that the data below will form a directional graph, or `digraph`, and is necessary for the renderer to work right. The graph type is followed by a unique name (`tel_flow`).
 
 ```dot
-digraph tel_flow {
-    node[style=filled]
-    start[shape=circle,color=black]
-    end[shape=doublecircle,color=black]
-    prompt_welcome[shape=box,color=lightblue,label="Willkommen
-        beim Telefonkontakt der ABC-
-        Krankenkasse! Ein Kundenagent 
-        ist gleich für Sie da."]
-    prompt_vnr[shape=box,color=lightblue,label="Bevor ich Sie verbinde,
-        sagen Sie mir bitte Ihre
-        Versichertennummer. Sie beginnt 
-        mit einem Buchstaben, gefolgt
-        von 8 Ziffern"]
-    utterance_vnr[shape=box,color=yellowgreen,label="VNR-Utterance"]
-    nlu_vnr[shape=invhouse,label="NLU: Versichertennr.?"]
-    nlu_anliegen[shape=invhouse,label="NLU: Anliegen?"]
-    prompt_vnr_fail[shape=box,color=lightblue,label="Das hat leider nicht geklappt. 
-        Probieren wirs nochmal.
-        Sagen Sie mir bitte Ihre
-        Versichertennummer."]
-    prompt_vnr_success[shape=box,color=lightblue,label="Danke! Mit welchem Thema 
-        können wir Sie heute unterstützen?"]
-    utterance_anliegen[shape=box,color=yellowgreen,label="Anliegen-Utterance"]
-    prompt_anliegen_success[shape=box,color=lightblue,label="Zu Thema XX
-        unterstützt Sie gleich ein Kundenagent.
-        Ich verbinde Sie."]
-    intent_vnr_no_intent[shape=house,label="VNR_NO_INTENT"]
-    intent_vnr_agent[shape=house,label="VNR_AGENT"]
-    intent_vnr_vnr[shape=house,label="VNR_VNR"]
-    intent_anliegen_no_intent[shape=house,label="ANLIEGEN_NO_INTENT"]
-    intent_anliegen_agent[shape=house,label="ANLIEGEN_AGENT"]
-    intent_anliegen_xx[shape=house,label="ANLIEGEN_XX"]
-    prompt_connect_agent[shape=box,color=lightblue,label="Ich verbinde Sie mit
-        einem Kundenagenten."]
-    logic_zweitversuch_vnr[shape=diamond,label="Zweitversuch V-Nr?"]
-    prompt_nicht_verstanden_anliegen[shape=box,color=lightblue,label="Ich konnte Sie leider
-        nicht verstehen. Um welchen 
-        Themenkomplex geht es?"]
-    logic_zweitversuch_anliegen[shape=diamond,label="Zweitversuch Anliegen?"]
+
+digraph tel_flow{
+
+// NODE DEFINITIONS
+
+    // start nodes
+    node[style=filled,shape=circle,color=black]
+        start[shape=circle,color=black]
+
+    // end nodes
+    node[style=filled,shape=doublecircle,color=black]
+        end[shape=doublecircle,color=black]
+
+    // prompt nodes
+    node[style=filled,shape=box,color=lightblue]
+        prompt_welcome[label="Willkommen
+            beim Telefonkontakt der ABC-
+            Krankenkasse! Ein Kundenagent 
+            ist gleich für Sie da."]
+        prompt_vnr[label="Bevor ich Sie verbinde,
+            sagen Sie mir bitte Ihre
+            Versichertennummer. Sie beginnt 
+            mit einem Buchstaben, gefolgt
+            von 8 Ziffern"]
+        prompt_vnr_fail[label="Das hat leider nicht geklappt. 
+            Probieren wirs nochmal.
+            Sagen Sie mir bitte Ihre
+            Versichertennummer."]
+        prompt_vnr_success[label="Danke! Mit welchem Thema 
+            können wir Sie heute unterstützen?"]
+        prompt_anliegen_success[label="Zu Thema XX
+            unterstützt Sie gleich ein Kundenagent.
+            Ich verbinde Sie."]
+        prompt_connect_agent[label="Ich verbinde Sie mit
+            einem Kundenagenten."]  
+        prompt_nicht_verstanden_anliegen[label="Ich konnte Sie leider
+            nicht verstehen. Um welchen 
+            Themenkomplex geht es?"]
+            
+    // utterance nodes
+    node[style=filled,shape=box,color=yellowgreen]
+        utterance_vnr[label="VNR-Utterance"]
+        utterance_anliegen[label="Anliegen-Utterance"]
+
+    // nlu nodes
+    node[style=filled,shape=invhouse,color=lightgray]
+        nlu_vnr[label="NLU: Versichertennr.?"]
+        nlu_anliegen[label="NLU: Anliegen?"]
+
+    // intent nodes
+    node[style=filled,shape=house,color=lightgray]
+        intent_vnr_no_intent[label="VNR_NO_INTENT"]
+        intent_vnr_agent[label="VNR_AGENT"]
+        intent_vnr_vnr[label="VNR_VNR"]
+        intent_anliegen_no_intent[label="ANLIEGEN_NO_INTENT"]
+        intent_anliegen_agent[label="ANLIEGEN_AGENT"]
+        intent_anliegen_xx[label="ANLIEGEN_XX"]
+    
+    // logic nodes
+    node[style=filled,shape=diamond,color=lightgray]  
+        logic_zweitversuch_vnr[label="Zweitversuch V-Nr?"]
+        logic_zweitversuch_anliegen[label="Zweitversuch Anliegen?"]
 
 ```
 ## Define Relationships
@@ -82,6 +105,8 @@ The `->` arrow represents the direction of the connnection between the node name
 The subgraphs represent the big blue boxes in the image, and can also be styled with different colors, rounding, labels, etc. These are the values followed by equals signs. Pro tip: Subgraph names must start with "cluster".
 
 ```dot
+
+// SUBGRAPH AND CONNECTION DEFINITIONS
 
 subgraph cluster_welcome {
     label = "Willkommen"
@@ -94,6 +119,7 @@ subgraph cluster_vnr {
     label = "Versichertennummer verstehen"
     color = blue
     prompt_welcome -> prompt_vnr
+
     prompt_vnr -> utterance_vnr
     utterance_vnr -> nlu_vnr
     nlu_vnr -> intent_vnr_agent
