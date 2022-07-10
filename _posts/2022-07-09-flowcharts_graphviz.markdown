@@ -138,3 +138,6 @@ From this screen, you can export to the file format of your choice.
 In VScode, you can use git to track versions of your graph as you develop and change it. Additionally, you can use the compare diff functionality to see exactly what part of the graph was changed in each version.
 
 ![](/assets/images/diff_flow.png)
+
+## Conclusion
+Creating flowcharts from code is a great way to focus your thoughts on the raw flow structure itself. But it also takes the visual tidying work off your shoulders, and makes collaboration easier by enabling line-for-line comparability across versions.
