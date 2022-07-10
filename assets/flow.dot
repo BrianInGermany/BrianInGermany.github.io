@@ -1,7 +1,10 @@
 digraph tel_flow {
+    // define font for subgraph headings
+    graph[fontname="Trebuchet MS"]
 // NODE DEFINITIONS
     // start nodes
-    node[style=filled,shape=circle,color=black]
+    // this definition also includes graph-wide definitions for filling and font
+    node[style=filled,shape=circle,color=black,fontname="Trebuchet MS"]
         start[shape=circle,color=black]
 
     // end nodes
@@ -77,7 +80,7 @@ subgraph cluster_vnr {
     nlu_vnr -> intent_vnr_no_intent
     intent_vnr_no_intent -> logic_zweitversuch_vnr
     prompt_vnr -> utterance_vnr
-    logic_zweitversuch_vnr -> prompt_vnr_fail [label="nein"]
+    logic_zweitversuch_vnr -> prompt_vnr_fail [label="nein",fontname="Trebuchet MS"]
     prompt_vnr_fail -> utterance_vnr
 
 }
@@ -92,7 +95,7 @@ subgraph cluster_anliegen {
     nlu_anliegen -> intent_anliegen_agent
     nlu_anliegen -> intent_anliegen_no_intent
     intent_anliegen_no_intent -> logic_zweitversuch_anliegen
-    logic_zweitversuch_anliegen -> prompt_nicht_verstanden_anliegen [label="nein"]
+    logic_zweitversuch_anliegen -> prompt_nicht_verstanden_anliegen [label="nein",fontname="Trebuchet MS"]
     prompt_nicht_verstanden_anliegen -> utterance_anliegen
     intent_vnr_vnr -> prompt_vnr_success
 
@@ -102,8 +105,8 @@ subgraph cluster_anliegen {
 subgraph cluster_to_agent {
     label = "Übergang zum Agenten"
     color = blue
-    logic_zweitversuch_vnr -> prompt_connect_agent [label="ja"]
-    logic_zweitversuch_anliegen -> prompt_connect_agent [label="ja"]
+    logic_zweitversuch_vnr -> prompt_connect_agent [label="ja",fontname="Trebuchet MS"]
+    logic_zweitversuch_anliegen -> prompt_connect_agent [label="ja",fontname="Trebuchet MS"]
     intent_vnr_agent -> prompt_connect_agent
     intent_anliegen_agent -> prompt_connect_agent
     intent_anliegen_xx -> prompt_anliegen_success

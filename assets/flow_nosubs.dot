@@ -1,15 +1,17 @@
 digraph tel_flow {
+    
 // NODE DEFINITIONS
     // start nodes
-    node[style=filled,shape=circle,color=black]
+    // this definition also includes graph-wide definitions for filling and font
+    node[style=filled,shape=circle,color=black,fontname="Trebuchet MS"]
         start[shape=circle,color=black]
 
     // end nodes
-    node[style=filled,shape=doublecircle,color=black]
+    node[shape=doublecircle,color=black]
         end[shape=doublecircle,color=black]
 
     // prompt nodes
-    node[style=filled,shape=box,color=lightblue]
+    node[shape=box,color=lightblue]
         prompt_welcome[label="Willkommen
             beim Telefonkontakt der ABC-
             Krankenkasse! Ein Kundenagent 
@@ -25,8 +27,8 @@ digraph tel_flow {
             Versichertennummer."]
         prompt_vnr_success[label="Danke! Mit welchem Thema 
             können wir Sie heute unterstützen?"]
-        prompt_anliegen_success[label="Zu Thema XX
-            unterstützt Sie gleich ein Kundenagent.
+        prompt_anliegen_success[label="Zu Thema XX unterstützt 
+            Sie gleich ein Kundenagent.
             Ich verbinde Sie."]
         prompt_connect_agent[label="Ich verbinde Sie mit
             einem Kundenagenten."]  
@@ -35,17 +37,17 @@ digraph tel_flow {
             Themenkomplex geht es?"]
 
     // utterance nodes
-    node[style=filled,shape=box,color=yellowgreen]
+    node[shape=box,color=yellowgreen]
         utterance_vnr[label="VNR-Utterance"]
         utterance_anliegen[label="Anliegen-Utterance"]
 
     // nlu nodes
-    node[style=filled,shape=invhouse,color=lightgray]
+    node[shape=invhouse,color=lightgray]
         nlu_vnr[label="NLU: Versichertennr.?"]
         nlu_anliegen[label="NLU: Anliegen?"]
 
     // intent nodes
-    node[style=filled,shape=house,color=lightgray]
+    node[shape=house,color=lightgray]
         intent_vnr_no_intent[label="VNR_NO_INTENT"]
         intent_vnr_agent[label="VNR_AGENT"]
         intent_vnr_vnr[label="VNR_VNR"]
@@ -54,7 +56,7 @@ digraph tel_flow {
         intent_anliegen_xx[label="ANLIEGEN_XX"]
     
     // logic nodes
-    node[style=filled,shape=diamond,color=lightgray]  
+    node[shape=diamond,color=lightgray]  
         logic_zweitversuch_vnr[label="Zweitversuch V-Nr?"]
         logic_zweitversuch_anliegen[label="Zweitversuch Anliegen?"]
 
@@ -68,7 +70,7 @@ digraph tel_flow {
     nlu_vnr -> intent_vnr_vnr
     nlu_vnr -> intent_vnr_no_intent
     intent_vnr_no_intent -> logic_zweitversuch_vnr
-    logic_zweitversuch_vnr -> prompt_vnr_fail [label="nein"]
+    logic_zweitversuch_vnr -> prompt_vnr_fail [label="nein",fontname="Trebuchet MS"]
     prompt_vnr_fail -> utterance_vnr
     intent_vnr_vnr -> prompt_vnr_success
     prompt_vnr_success -> utterance_anliegen
@@ -77,10 +79,10 @@ digraph tel_flow {
     nlu_anliegen -> intent_anliegen_agent
     nlu_anliegen -> intent_anliegen_no_intent
     intent_anliegen_no_intent -> logic_zweitversuch_anliegen
-    logic_zweitversuch_anliegen -> prompt_nicht_verstanden_anliegen [label="nein"]
+    logic_zweitversuch_anliegen -> prompt_nicht_verstanden_anliegen [label="nein",fontname="Trebuchet MS"]
     prompt_nicht_verstanden_anliegen -> utterance_anliegen
-    logic_zweitversuch_vnr -> prompt_connect_agent [label="ja"]
-    logic_zweitversuch_anliegen -> prompt_connect_agent [label="ja"]
+    logic_zweitversuch_vnr -> prompt_connect_agent [label="ja",fontname="Trebuchet MS"]
+    logic_zweitversuch_anliegen -> prompt_connect_agent [label="ja",fontname="Trebuchet MS"]
     intent_vnr_agent -> prompt_connect_agent
     intent_anliegen_agent -> prompt_connect_agent
     intent_anliegen_xx -> prompt_anliegen_success

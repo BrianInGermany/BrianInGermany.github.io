@@ -33,17 +33,20 @@ The very first line of the graph denotes that the data below will form a directi
 ```dot
 
 digraph tel_flow {
+
+
 // NODE DEFINITIONS
     // start nodes
-    node[style=filled,shape=circle,color=black]
+    // this definition also includes graph-wide definitions for fill and font
+    node[style=filled,shape=circle,color=black,fontname="Work Sans Light 300"]
         start[shape=circle,color=black]
 
     // end nodes
-    node[style=filled,shape=doublecircle,color=black]
+    node[shape=doublecircle,color=black]
         end[shape=doublecircle,color=black]
 
     // prompt nodes
-    node[style=filled,shape=box,color=lightblue]
+    node[shape=box,color=lightblue]
         prompt_welcome[label="Willkommen
             beim Telefonkontakt der ABC-
             Krankenkasse! Ein Kundenagent 
@@ -69,17 +72,17 @@ digraph tel_flow {
             Themenkomplex geht es?"]
 
     // utterance nodes
-    node[style=filled,shape=box,color=yellowgreen]
+    node[shape=box,color=yellowgreen]
         utterance_vnr[label="VNR-Utterance"]
         utterance_anliegen[label="Anliegen-Utterance"]
 
     // nlu nodes
-    node[style=filled,shape=invhouse,color=lightgray]
+    node[shape=invhouse,color=lightgray]
         nlu_vnr[label="NLU: Versichertennr.?"]
         nlu_anliegen[label="NLU: Anliegen?"]
 
     // intent nodes
-    node[style=filled,shape=house,color=lightgray]
+    node[shape=house,color=lightgray]
         intent_vnr_no_intent[label="VNR_NO_INTENT"]
         intent_vnr_agent[label="VNR_AGENT"]
         intent_vnr_vnr[label="VNR_VNR"]
@@ -88,7 +91,7 @@ digraph tel_flow {
         intent_anliegen_xx[label="ANLIEGEN_XX"]
     
     // logic nodes
-    node[style=filled,shape=diamond,color=lightgray]  
+    node[shape=diamond,color=lightgray]  
         logic_zweitversuch_vnr[label="Zweitversuch V-Nr?"]
         logic_zweitversuch_anliegen[label="Zweitversuch Anliegen?"]
 ```
