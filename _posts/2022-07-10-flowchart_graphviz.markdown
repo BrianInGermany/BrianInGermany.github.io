@@ -120,6 +120,6 @@ subgraph cluster_to_agent {
 ```
 ## Develop Collaboratively and Easily Inspect Diffs
 See exactly which lines of your graph code were changed across commits or versions.
-![](../assets/images/diff_flow.png)
+![](/assets/images/diff_flow.png)
 
 
