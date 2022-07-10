@@ -8,7 +8,7 @@ header:
   teaser: "/assets/images/flow.png"
 ---
 Create elegant flowcharts in Graphviz without worrying about layout.
-<a href="/assets/flow.pdf" download="flow">
+<a href="/assets/flow.dot" download="flow_dot_file">
   <img src="/assets/images/flow.png" alt="flow" width="100%">
 </a>
 
@@ -135,6 +135,11 @@ subgraph cluster_to_agent {
 
 }
 ```
+Using subgraphs cause separate graphs to be layouted individually. Here is the above example as one single graph:
+
+<a href="/assets/flow_nosubs.dot" download="flow_noubs_dot_file">
+  <img src="/assets/images/flow_nosubs.png" alt="flow_nosubs" width="100%">
+</a>
 
 ## Rendering the Image
 [VScode](https://code.visualstudio.com/), with the [Graphviz Preview](https://marketplace.visualstudio.com/items?itemName=EFanZh.graphviz-preview) extension, is a great tool for creating Graphviz graphs that allows you to render in a parallel window as you type.
