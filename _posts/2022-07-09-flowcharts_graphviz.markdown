@@ -2,7 +2,7 @@
 layout: post
 title:  "Graphviz for Flows: Write the Logic, Render the Image"
 description: "Create elegant flowcharts from code without worrying about layout."
-date:   2022-07-10 09:15:00 +0100
+date:   2022-07-09 23:15:00 +0100
 tags: thinking-aids graphviz
 header:
   teaser: "/assets/images/flow.png"
