@@ -13,4 +13,4 @@ title: Welcome to the Junkyard
 *Brian:  
 IT dude, design thinker and jack-of-all-trades*
 
-<video src="/assets/images/noderedCAIflow.mp4" autoplay loop muted width="100%"></video>
+<video src="/assets/images/noderedCAIflow.mp4" autoplay loop muted controls width="100%"></video>
