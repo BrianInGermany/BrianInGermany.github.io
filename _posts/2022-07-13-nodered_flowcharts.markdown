@@ -7,10 +7,9 @@ tags: nodered conversational-ai thinking-aids
 header:
   teaser: "/assets/images/noderedShot.png"
 ---
-
 Design CAI user journeys with code snippets, external queries and audio playback.
 <video src="/assets/images/noderedCAIflow.mp4" autoplay loop controls width="100%"></video>
-
+        
 ## CAI on Nodered?
 There are several packages for Nodered out there for building bots with CAI products, such as IBM Watson, Amazon Lex or the Telegram chatbot interface.
 
