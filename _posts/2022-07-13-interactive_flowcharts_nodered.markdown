@@ -2,7 +2,7 @@
 layout: post
 title:  "Crossfunctional Conversational AI Flows with Nodered"
 description: "Design CAI user journeys with code snippets, external queries and audio playback."
-date:   2022-07-13 21:15:00 +0100
+date:   2022-07-13 21:30:00 +0100
 tags: nodered conversational-ai thinking-aids
 header:
   teaser: "/assets/images/noderedShot.png"
