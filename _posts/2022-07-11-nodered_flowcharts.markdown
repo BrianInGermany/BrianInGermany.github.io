@@ -18,6 +18,7 @@ Its rich visual UI and powerful low-code features allow for a crossfunctional de
 
 - Utilize local browser TTS to "speak through" prompts and utterances
 - Utilize code snippets to pre-sketch logic components for developers
+- Store complex or repeated processes in [subflows](https://nodered.org/docs/user-guide/editor/workspace/subflows)
 - Include http calls and responses
   - To query live NLU models within your design
   - To query information/text services
