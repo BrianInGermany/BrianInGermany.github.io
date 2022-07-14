@@ -223,23 +223,25 @@
         "z": "18c3a9bd64d21696",
         "name": "prompt_welcome",
         "voice": "1",
-        "x": 250,
-        "y": 260,
+        "x": 430,
+        "y": 320,
         "wires": []
     },
     {
         "id": "56371cd8ed4423de",
         "type": "inject",
         "z": "18c3a9bd64d21696",
-        "name": "Start Flow",
+        "name": "Nursing Path",
         "props": [
             {
                 "p": "state",
-                "v": "{\"state\":[]}",
+                "v": "{}",
                 "vt": "json"
             },
             {
-                "p": "payload"
+                "p": "utterance",
+                "v": "{\"ins_no\":\"W 1 2 3 4 5 6 7 8\",\"topic\":\"I want to find out about nursing care.\",\"help_y_n1\":\"no, thanks.\"}",
+                "vt": "json"
             }
         ],
         "repeat": "",
@@ -247,9 +249,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "",
-        "payloadType": "str",
-        "x": 100,
+        "x": 90,
         "y": 80,
         "wires": [
             [
@@ -267,8 +267,8 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "W 1 2 3 4 5 6 7 8",
-                "tot": "str"
+                "to": "utterance.ins_no",
+                "tot": "msg"
             }
         ],
         "action": "",
@@ -276,8 +276,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 530,
-        "y": 80,
+        "x": 710,
+        "y": 140,
         "wires": [
             [
                 "7e5c151e17117c6a",
@@ -292,8 +292,8 @@
         "z": "18c3a9bd64d21696",
         "name": "utterance_ins_no",
         "voice": "3",
-        "x": 590,
-        "y": 260,
+        "x": 770,
+        "y": 320,
         "wires": []
     },
     {
@@ -315,8 +315,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 290,
-        "y": 80,
+        "x": 470,
+        "y": 140,
         "wires": [
             [
                 "08db20c88ad844f2",
@@ -344,8 +344,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 770,
-        "y": 80,
+        "x": 950,
+        "y": 140,
         "wires": [
             [
                 "a2a248b50dc9c9ae",
@@ -360,8 +360,8 @@
         "z": "18c3a9bd64d21696",
         "name": "prompt_topic",
         "voice": "1",
-        "x": 830,
-        "y": 260,
+        "x": 1010,
+        "y": 320,
         "wires": []
     },
     {
@@ -374,8 +374,8 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "I want to find out about nursing care.",
-                "tot": "str"
+                "to": "utterance.topic",
+                "tot": "msg"
             }
         ],
         "action": "",
@@ -383,12 +383,12 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1020,
-        "y": 80,
+        "x": 1120,
+        "y": 520,
         "wires": [
             [
                 "1f7b19d7a189706b",
-                "305e70fa8396a95d"
+                "0185b3304d136403"
             ]
         ],
         "icon": "font-awesome/fa-commenting"
@@ -399,77 +399,9 @@
         "z": "18c3a9bd64d21696",
         "name": "utterance_topic",
         "voice": "3",
-        "x": 1100,
-        "y": 260,
+        "x": 1200,
+        "y": 700,
         "wires": []
-    },
-    {
-        "id": "2523f9f7278b09e1",
-        "type": "switch",
-        "z": "18c3a9bd64d21696",
-        "name": "intent-based logic",
-        "property": "state.intent",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "nursing_care",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "membership",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "vaccination",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 1730,
-        "y": 80,
-        "wires": [
-            [
-                "ee566db13f6f6700"
-            ],
-            [
-                "f4f79b8b07ea4620"
-            ],
-            [
-                "b6387a0c39a7a76f"
-            ]
-        ]
-    },
-    {
-        "id": "305e70fa8396a95d",
-        "type": "change",
-        "z": "18c3a9bd64d21696",
-        "name": "update state with NLU",
-        "rules": [
-            {
-                "t": "set",
-                "p": "state.intent",
-                "pt": "msg",
-                "to": "nursing_care",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1500,
-        "y": 80,
-        "wires": [
-            [
-                "2523f9f7278b09e1"
-            ]
-        ]
     },
     {
         "id": "9c3e3115f921020e",
@@ -490,8 +422,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3350,
-        "y": 180,
+        "x": 3090,
+        "y": 1060,
         "wires": [
             [
                 "87cc8f03b09ac5eb"
@@ -505,8 +437,8 @@
         "z": "18c3a9bd64d21696",
         "name": "prompt_goodbye",
         "voice": "1",
-        "x": 3130,
-        "y": 380,
+        "x": 2870,
+        "y": 1260,
         "wires": []
     },
     {
@@ -528,8 +460,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2570,
-        "y": 440,
+        "x": 2210,
+        "y": 1060,
         "wires": [
             [
                 "ea2d31dabbcbcf3d",
@@ -544,22 +476,22 @@
         "z": "18c3a9bd64d21696",
         "name": "prompt_help",
         "voice": "1",
-        "x": 2570,
-        "y": 620,
+        "x": 2210,
+        "y": 1240,
         "wires": []
     },
     {
         "id": "960a3236d98bd956",
         "type": "change",
         "z": "18c3a9bd64d21696",
-        "name": "utterance_help_y_n",
+        "name": "utterance_help_y_n1",
         "rules": [
             {
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "no, thank you.",
-                "tot": "str"
+                "to": "utterance.help_y_n1",
+                "tot": "msg"
             }
         ],
         "action": "",
@@ -567,12 +499,12 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2850,
-        "y": 440,
+        "x": 2500,
+        "y": 1060,
         "wires": [
             [
                 "9a21bcd8ccde181e",
-                "0359d6f390af67b7"
+                "019a9e65e683fb88"
             ]
         ],
         "icon": "font-awesome/fa-commenting"
@@ -583,37 +515,17 @@
         "z": "18c3a9bd64d21696",
         "name": "utterance_help_y_n",
         "voice": "3",
-        "x": 2830,
-        "y": 620,
+        "x": 2470,
+        "y": 1240,
         "wires": []
-    },
-    {
-        "id": "8c045ff0708ee76d",
-        "type": "http request",
-        "z": "18c3a9bd64d21696",
-        "name": "NLU endpoint query",
-        "method": "GET",
-        "ret": "txt",
-        "paytoqs": "ignore",
-        "url": "https://google.com",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "authType": "",
-        "senderr": false,
-        "x": 1260,
-        "y": 40,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "f4f79b8b07ea4620",
         "type": "subflow:8a0c0ad22f3f4958",
         "z": "18c3a9bd64d21696",
         "name": "Membership Flow",
-        "x": 2050,
-        "y": 160,
+        "x": 1830,
+        "y": 580,
         "wires": [
             [
                 "b661505aea2b2c13"
@@ -625,8 +537,8 @@
         "type": "subflow:33f517d15d4553b6",
         "z": "18c3a9bd64d21696",
         "name": "Nursing Flow",
-        "x": 2030,
-        "y": 40,
+        "x": 1850,
+        "y": 500,
         "wires": [
             [
                 "b661505aea2b2c13"
@@ -638,8 +550,8 @@
         "type": "subflow:d98975f61196ce5d",
         "z": "18c3a9bd64d21696",
         "name": "Vaccination Flow",
-        "x": 2050,
-        "y": 220,
+        "x": 1870,
+        "y": 680,
         "wires": [
             [
                 "b661505aea2b2c13"
@@ -650,31 +562,29 @@
         "id": "019a9e65e683fb88",
         "type": "switch",
         "z": "18c3a9bd64d21696",
-        "name": "logic_help_y_n",
-        "property": "state.intent",
+        "name": "nlu_help_y_n",
+        "property": "payload",
         "propertyType": "msg",
         "rules": [
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "yes",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "no",
                 "vt": "str"
             },
             {
-                "t": "eq",
-                "v": "no_intent",
-                "vt": "str"
+                "t": "else"
             }
         ],
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 3120,
-        "y": 180,
+        "x": 2850,
+        "y": 1060,
         "wires": [
             [
                 "ee2131cd293cc23f"
@@ -684,33 +594,6 @@
             ],
             [
                 "b534de4ec5081c8d"
-            ]
-        ]
-    },
-    {
-        "id": "0359d6f390af67b7",
-        "type": "change",
-        "z": "18c3a9bd64d21696",
-        "name": "update state with NLU",
-        "rules": [
-            {
-                "t": "set",
-                "p": "state.intent",
-                "pt": "msg",
-                "to": "no",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 2860,
-        "y": 180,
-        "wires": [
-            [
-                "019a9e65e683fb88"
             ]
         ]
     },
@@ -733,8 +616,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3430,
-        "y": 100,
+        "x": 3170,
+        "y": 980,
         "wires": [
             [
                 "165fdfe317b2e252"
@@ -746,7 +629,7 @@
         "id": "165fdfe317b2e252",
         "type": "change",
         "z": "18c3a9bd64d21696",
-        "name": "utterance_help_y_n",
+        "name": "utterance_help_y_n2",
         "rules": [
             {
                 "t": "set",
@@ -761,13 +644,193 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3530,
-        "y": 400,
+        "x": 3280,
+        "y": 1280,
         "wires": [
-            [
-                "0359d6f390af67b7"
-            ]
+            []
         ],
         "icon": "font-awesome/fa-commenting"
+    },
+    {
+        "id": "0185b3304d136403",
+        "type": "switch",
+        "z": "18c3a9bd64d21696",
+        "name": "nlu_topic",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "nursing",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "membership",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "vaccination",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 1340,
+        "y": 520,
+        "wires": [
+            [
+                "37034be3f0316b3b"
+            ],
+            [
+                "46efe8360c9cb45b"
+            ],
+            [
+                "63b7a1eeb982e586"
+            ]
+        ]
+    },
+    {
+        "id": "46efe8360c9cb45b",
+        "type": "change",
+        "z": "18c3a9bd64d21696",
+        "name": "intent membership",
+        "rules": [
+            {
+                "t": "set",
+                "p": "state.intent",
+                "pt": "msg",
+                "to": "membership",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1590,
+        "y": 500,
+        "wires": [
+            [
+                "f4f79b8b07ea4620"
+            ]
+        ]
+    },
+    {
+        "id": "63b7a1eeb982e586",
+        "type": "change",
+        "z": "18c3a9bd64d21696",
+        "name": "intent vaccination",
+        "rules": [
+            {
+                "t": "set",
+                "p": "state.intent",
+                "pt": "msg",
+                "to": "membership",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1590,
+        "y": 540,
+        "wires": [
+            [
+                "b6387a0c39a7a76f"
+            ]
+        ]
+    },
+    {
+        "id": "37034be3f0316b3b",
+        "type": "change",
+        "z": "18c3a9bd64d21696",
+        "name": "intent  nursing_care",
+        "rules": [
+            {
+                "t": "set",
+                "p": "state.intent",
+                "pt": "msg",
+                "to": "membership",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1590,
+        "y": 460,
+        "wires": [
+            [
+                "ee566db13f6f6700"
+            ]
+        ]
+    },
+    {
+        "id": "581e93eded3578b9",
+        "type": "inject",
+        "z": "18c3a9bd64d21696",
+        "name": "Vaccination Path",
+        "props": [
+            {
+                "p": "state",
+                "v": "{}",
+                "vt": "json"
+            },
+            {
+                "p": "utterance",
+                "v": "{\"ins_no\":\"W 1 2 3 4 5 6 7 8\",\"topic\":\"I want to hear more about vaccinations.\",\"help_y_n1\":\"no, thanks\"}",
+                "vt": "json"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 100,
+        "y": 120,
+        "wires": [
+            [
+                "93775f74ddb2f5d5"
+            ]
+        ]
+    },
+    {
+        "id": "99b876a822307c99",
+        "type": "inject",
+        "z": "18c3a9bd64d21696",
+        "name": "Membership Path",
+        "props": [
+            {
+                "p": "state",
+                "v": "{}",
+                "vt": "json"
+            },
+            {
+                "p": "utterance",
+                "v": "{\"ins_no\":\"W 1 2 3 4 5 6 7 8\",\"topic\":\"I want to hear more about membership.\",\"help_y_n1\":\"no, thanks\"}",
+                "vt": "json"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 100,
+        "y": 160,
+        "wires": [
+            [
+                "93775f74ddb2f5d5"
+            ]
+        ]
     }
 ]

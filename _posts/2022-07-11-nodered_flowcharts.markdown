@@ -17,6 +17,7 @@ But why is no one using Nodered for Conversational AI *design*?
 Its rich visual UI and powerful low-code features allow for a crossfunctional design experience.
 
 - Utilize local browser TTS to "speak through" prompts and utterances
+  - Path by path
 - Utilize code snippets to pre-sketch logic components for developers
 - Store complex or repeated processes in [subflows](https://nodered.org/docs/user-guide/editor/workspace/subflows)
 - Include http calls and responses
@@ -26,7 +27,5 @@ Its rich visual UI and powerful low-code features allow for a crossfunctional de
 - Export flow to a machine-readable graph JSON 
   - JSON can be postprocessed to calculate and list all possible flow paths
   - Statistics on longest and shortest path combinations
-
-<video src="/assets/images/noderedNodes.mp4" autoplay loop controls width="100%"></video>
 
 ### [Download this flow](/assets/ABCflow.json)
