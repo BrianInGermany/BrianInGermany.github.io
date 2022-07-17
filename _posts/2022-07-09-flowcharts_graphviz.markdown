@@ -178,7 +178,7 @@ But they're not.
 So help business deciders prioritize user journeys by telling them which flow paths are the most important-- visually.
 
 <a href="/assets/flow_arterial.dot" download="flow_arterial.dot">
-  <img src="/assets/images/flowarterial.png" alt="flow_arterial" width="100%">
+  <img src="/assets/images/arterieContrast.png" alt="flow_arterial" width="100%">
 </a>
 
 Click the above image to download the example arterial flow, or just use the `edge[penwidth=1]` label above the edges you want to make thicker or thinner. 

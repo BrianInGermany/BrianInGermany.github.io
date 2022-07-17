@@ -61,7 +61,6 @@ digraph tel_flow {
         logic_zweitversuch_anliegen[label="Zweitversuch Anliegen?"]
 
 // SUBGRAPH AND CONNECTION DEFINITIONS
-
     start -> prompt_welcome
     prompt_welcome -> prompt_vnr
     prompt_vnr -> utterance_vnr
