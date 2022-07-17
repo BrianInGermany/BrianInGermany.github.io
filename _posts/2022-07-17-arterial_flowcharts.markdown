@@ -33,3 +33,5 @@ While path thickness can indicate which journeys are most important or have the 
 
 ## Conclusion
 Standard flowcharts are great, but too egalitarian. Use arterial flows to communicate the priority of user journeys and focus on what matters most. 
+
+Check out my [article on Graphviz graphing language](https://thejunkyard.cc/2022/07/09/flowcharts_graphviz.html) to see how I made this flow.
