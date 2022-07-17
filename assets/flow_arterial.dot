@@ -1,0 +1,143 @@
+digraph tel_flow {
+    // define font for subgraph headings
+    graph[fontname="Trebuchet MS"]
+// NODE DEFINITIONS
+    // start nodes
+    // this definition also includes graph-wide definitions for filling and font
+    node[style=filled,shape=circle,color=black,fontname="Trebuchet MS"]
+        start[shape=circle,color=black]
+
+    // end nodes
+    node[style=filled,shape=doublecircle,color=black]
+        end[shape=doublecircle,color=black]
+
+    // prompt nodes
+    node[style=filled,shape=box,color=lightblue]
+        prompt_welcome[label="Willkommen
+            beim Telefonkontakt der ABC-
+            Krankenkasse! Ein Kundenagent 
+            ist gleich für Sie da."]
+        prompt_vnr[label="Bevor ich Sie verbinde,
+            sagen Sie mir bitte Ihre
+            Versichertennummer. Sie beginnt 
+            mit einem Buchstaben, gefolgt
+            von 8 Ziffern"]
+        prompt_vnr_fail[label="Das hat leider nicht geklappt. 
+            Probieren wirs nochmal.
+            Sagen Sie mir bitte Ihre
+            Versichertennummer."]
+        prompt_vnr_success[label="Danke! Mit welchem Thema 
+            können wir Sie heute unterstützen?"]
+        prompt_anliegen_success[label="Zu Thema XX
+            unterstützt Sie gleich ein Kundenagent.
+            Ich verbinde Sie."]
+        prompt_connect_agent[label="Ich verbinde Sie mit
+            einem Kundenagenten."]  
+        prompt_nicht_verstanden_anliegen[label="Ich konnte Sie leider
+            nicht verstehen. Um welchen 
+            Themenkomplex geht es?"]
+
+    // utterance nodes
+    node[style=filled,shape=box,color=yellowgreen]
+        utterance_vnr[label="VNR-Utterance"]
+        utterance_anliegen[label="Anliegen-Utterance"]
+
+    // nlu nodes
+    node[style=filled,shape=invhouse,color=lightgray]
+        nlu_vnr[label="NLU: Versichertennr.?"]
+        nlu_anliegen[label="NLU: Anliegen?"]
+
+    // intent nodes
+    node[style=filled,shape=house,color=lightgray]
+        intent_vnr_no_intent[label="VNR_NO_INTENT"]
+        intent_vnr_agent[label="VNR_AGENT"]
+        intent_vnr_vnr[label="VNR_VNR"]
+        intent_anliegen_no_intent[label="ANLIEGEN_NO_INTENT"]
+        intent_anliegen_agent[label="ANLIEGEN_AGENT"]
+        intent_anliegen_xx[label="ANLIEGEN_XX"]
+    
+    // logic nodes
+    node[style=filled,shape=diamond,color=lightgray]  
+        logic_zweitversuch_vnr[label="Zweitversuch V-Nr?"]
+        logic_zweitversuch_anliegen[label="Zweitversuch Anliegen?"]
+
+// SUBGRAPH AND CONNECTION DEFINITIONS
+
+subgraph cluster_welcome {
+    label = "Willkommen"
+    color = blue
+    edge[penwidth=5]
+    start -> prompt_welcome
+
+}
+
+subgraph cluster_vnr {
+    label = "Versichertennummer verstehen"
+    color = blue
+    edge[penwidth=5]
+    prompt_welcome -> prompt_vnr
+    prompt_vnr -> utterance_vnr
+    utterance_vnr -> nlu_vnr
+    nlu_vnr -> intent_vnr_vnr
+    edge[penwidth=2.5]
+    nlu_vnr -> intent_vnr_agent
+    edge[penwidth=1]
+    
+    
+    
+    
+    nlu_vnr -> intent_vnr_no_intent
+    intent_vnr_no_intent -> logic_zweitversuch_vnr
+    logic_zweitversuch_vnr -> prompt_vnr_fail [label="nein",fontname="Trebuchet MS"]
+    prompt_vnr_fail -> utterance_vnr
+
+}
+    
+
+subgraph cluster_anliegen {
+    label = "Anliegen verstehen"
+    color = blue
+    edge[penwidth=5]
+    intent_vnr_vnr -> prompt_vnr_success
+    prompt_vnr_success -> utterance_anliegen
+    utterance_anliegen -> nlu_anliegen
+    nlu_anliegen -> intent_anliegen_xx
+
+
+    edge[penwidth=2.5]
+    nlu_anliegen -> intent_anliegen_agent
+
+    edge[penwidth=1]
+    nlu_anliegen -> intent_anliegen_no_intent
+    intent_anliegen_no_intent -> logic_zweitversuch_anliegen
+    logic_zweitversuch_anliegen -> prompt_nicht_verstanden_anliegen [label="nein",fontname="Trebuchet MS"]
+    prompt_nicht_verstanden_anliegen -> utterance_anliegen
+    
+
+
+
+}
+subgraph cluster_to_agent {
+    label = "Übergang zum Agenten"
+    color = blue
+    edge[penwidth=5]
+    intent_anliegen_xx -> prompt_anliegen_success
+    prompt_anliegen_success -> end
+    edge[penwidth=2.5]
+    intent_anliegen_agent -> prompt_connect_agent
+    intent_vnr_agent -> prompt_connect_agent
+    prompt_connect_agent -> end
+    edge[penwidth=1]
+    logic_zweitversuch_vnr -> prompt_connect_agent [label="ja",fontname="Trebuchet MS"]
+    logic_zweitversuch_anliegen -> prompt_connect_agent [label="ja",fontname="Trebuchet MS"]
+
+
+}
+
+}
+
+
+
+
+
+
