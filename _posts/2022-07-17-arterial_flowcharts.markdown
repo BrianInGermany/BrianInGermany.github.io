@@ -23,8 +23,10 @@ So help business deciders prioritize user journeys by telling them which flow pa
 ## What are Your Top Use Cases?
 By estimating what parts of the flow will bring the most added value to the user, you can prioritize where to invest your focus. 
 
-- Trying to slim down your flow? Focus on the main arteries of usage and consider dropping secondary ones or routing them to a fallback.
-- Trying to distribute your capacity based on user-criticality? Use arterie thickness as a importance ranking.
+- Trying to slim down your flow? 
+  - Focus on the main arteries of usage and consider dropping secondary ones or routing them to a fallback.
+- Trying to distribute your capacity based on user-criticality? 
+  - Use arterie thickness as a importance ranking.
 
 ## Arteries and Veins
 While path thickness can indicate which journeys are most important or have the most traffic, red and blue can make the analogy complete and underscore movement forward and backward within the flow.
