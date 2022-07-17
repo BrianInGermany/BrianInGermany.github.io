@@ -29,4 +29,7 @@ By estimating what parts of the flow will bring the most added value to the user
   - Use arterie thickness as a importance ranking.
 
 ## Arteries and Veins
-While path thickness can indicate which journeys are most important or have the most traffic, red and blue can make the analogy complete and underscore movement forward and backward within the flow.
+While path thickness can indicate which journeys are most important or have the most traffic, red and blue can make the analogy complete and underscore movement forward and backward within the flow. This can help highlight error cases.
+
+## Conclusion
+Standard flowcharts are great, but too egalitarian. Use arterial graphing to communicate the importance of flow paths and focus on what matters most. 
