@@ -24,7 +24,7 @@ So help business deciders prioritize user journeys by telling them which flow pa
 By estimating what parts of the flow will bring the most added value to the user, you can prioritize where to invest your focus. 
 
 - Trying to slim down your flow? 
-  - Focus on the main arteries of usage and consider dropping secondary ones or routing them to a fallback.
+  - Focus on the main arteries of usage and consider treating secondary ones accordingly.
 - Trying to distribute your capacity based on user-criticality? 
   - Use arterie thickness as a importance ranking.
 
