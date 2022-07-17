@@ -32,4 +32,4 @@ By estimating what parts of the flow will bring the most added value to the user
 While path thickness can indicate which journeys are most important or have the most traffic, red and blue can make the analogy complete and underscore movement forward and backward within the flow. This can help highlight error cases.
 
 ## Conclusion
-Standard flowcharts are great, but too egalitarian. Use arterial graphing to communicate the priority of flow journeys and focus on what matters most. 
+Standard flowcharts are great, but too egalitarian. Use arterial flows to communicate the priority of user journeys and focus on what matters most. 
