@@ -21,4 +21,4 @@ But they're not.
 So help business deciders prioritize user journeys by telling them which flow paths are the most important-- visually.
 
 ## Red and Blue
-While path thickness can indicate which journeys are most important or have the most traffic, red and blue can be used to make the analogy complete, and underscore movement forward and backward within the flow.
+While path thickness can indicate which journeys are most important or have the most traffic, red and blue can be used to make the analogy complete and underscore movement forward and backward within the flow.
