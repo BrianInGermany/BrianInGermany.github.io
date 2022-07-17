@@ -12,7 +12,7 @@ Visualize the prominence of journeys with path thickness and directional color-c
 ![](/assets/images/flowarterial_body.png)
 
 ## Why Visualize Path Prominence?
-Plotting a chart of all the possible tips and turns of the flow paths is well and good. But if you're trying to make business decisions about the user journeys most central to your business goals, what information does the standard flow chart offer to support?
+Plotting a chart of all the possible tips and turns of a flow's paths is well and good. But if you're trying to make business decisions about the user journeys most central to your business goals, what information does the standard flow chart offer to support?
 
 Imagine trying to understand the human vascular system without an indication of how big each blood vessel is: you would have no idea about how much traffic is going through the various pipelines, and they all would appear equally important.
 
