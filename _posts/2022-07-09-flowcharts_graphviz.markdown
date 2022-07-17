@@ -181,7 +181,7 @@ So help business deciders prioritize user journeys by telling them which flow pa
   <img src="/assets/images/flowarterial.png" alt="flow_arterial" width="100%">
 </a>
 
-
+Click the above image to download the example arterial flow, or just use the `edge[penwidth=1]` label above the edges you want to make thicker or thinner. 
 ## Rendering the Image
 [VScode](https://code.visualstudio.com/), with the [Graphviz Preview](https://marketplace.visualstudio.com/items?itemName=EFanZh.graphviz-preview) extension, is a great tool for creating Graphviz graphs that allows you to render in a parallel window as you type. 
 
