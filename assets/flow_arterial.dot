@@ -61,6 +61,7 @@ digraph tel_flow {
         logic_zweitversuch_anliegen[label="Zweitversuch Anliegen?"]
 
 // SUBGRAPH AND CONNECTION DEFINITIONS
+    edge[color=darkred]
     edge[penwidth=5]
     start -> prompt_welcome
     prompt_welcome -> prompt_vnr
@@ -75,23 +76,28 @@ digraph tel_flow {
     prompt_anliegen_success -> end
 
     edge[penwidth=2.5]
+    nlu_anliegen -> intent_anliegen_no_intent
+    intent_anliegen_no_intent -> logic_zweitversuch_anliegen
+    logic_zweitversuch_anliegen -> prompt_nicht_verstanden_anliegen [label="nein",fontname="Trebuchet MS"]
+    nlu_vnr -> intent_vnr_no_intent
+    intent_vnr_no_intent -> logic_zweitversuch_vnr
+    logic_zweitversuch_vnr -> prompt_vnr_fail [label="nein",fontname="Trebuchet MS"]
+
+    edge[color=blue]
+    prompt_nicht_verstanden_anliegen -> utterance_anliegen
+    prompt_vnr_fail -> utterance_vnr
+
+    edge[penwidth=1,color=darkred]
+    logic_zweitversuch_vnr -> prompt_connect_agent [label="ja",fontname="Trebuchet MS"]
+    logic_zweitversuch_anliegen -> prompt_connect_agent [label="ja",fontname="Trebuchet MS"]
     nlu_vnr -> intent_vnr_agent
     intent_vnr_agent -> prompt_connect_agent
     prompt_connect_agent -> end
     nlu_anliegen -> intent_anliegen_agent
     intent_anliegen_agent -> prompt_connect_agent
 
-    edge[penwidth=1]
-    nlu_vnr -> intent_vnr_no_intent
-    intent_vnr_no_intent -> logic_zweitversuch_vnr
-    logic_zweitversuch_vnr -> prompt_vnr_fail [label="nein",fontname="Trebuchet MS"]
-    prompt_vnr_fail -> utterance_vnr
-    nlu_anliegen -> intent_anliegen_no_intent
-    intent_anliegen_no_intent -> logic_zweitversuch_anliegen
-    logic_zweitversuch_anliegen -> prompt_nicht_verstanden_anliegen [label="nein",fontname="Trebuchet MS"]
-    prompt_nicht_verstanden_anliegen -> utterance_anliegen
-    logic_zweitversuch_vnr -> prompt_connect_agent [label="ja",fontname="Trebuchet MS"]
-    logic_zweitversuch_anliegen -> prompt_connect_agent [label="ja",fontname="Trebuchet MS"]
+
+    
 
 }
 

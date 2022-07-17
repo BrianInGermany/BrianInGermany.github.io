@@ -3,7 +3,7 @@ layout: post
 title:  "Code Your Flow: Write the Logic, Render the Image"
 description: "Create elegant flowcharts in Graphviz without worrying about layout."
 date:   2022-07-09 23:15:00 +0100
-tags: thinking-aids graphviz conversational-ai
+tags: thinking-aids graphviz conversational-ai flow-graphing
 header:
   teaser: "/assets/images/flow.png"
 ---

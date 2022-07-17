@@ -3,7 +3,7 @@ layout: post
 title:  "Crossfunctional CAI Design with Node-Red"
 description: "Design conversational user journeys with code snippets, external queries and audio playback."
 date:   2022-07-11 21:30:00 +0100
-tags: nodered conversational-ai thinking-aids
+tags: nodered conversational-ai flow-graphing
 header:
   teaser: "/assets/images/noderedShot.png"
 ---
