@@ -55,8 +55,7 @@ And if you want multiple lines on one graph, just press the `+ Query` button to 
 
 Once you have a few panels configured, it may start to look like this:
 
-
-<iframe src="https://snapshot.raintank.io/dashboard/snapshot/QObgfnMNMAv5lu4ywZcFkI4mRd7uePeE" width="100%" height="500" frameborder="0" allowfullscreen></iframe>
+![](../assets/images/grafanaDash.png)
 
 And that is how you set up InfluxDB and Grafana with Node-Red. But there's more...
 
@@ -144,5 +143,4 @@ The final step here is to import the dashboard into our Grafana. There is an eas
 
 You did it! Now, navigate to your new dashboard, and gaze in awe at your new Raspberry metrics...
 
-<iframe src="https://snapshot.raintank.io/dashboard/snapshot/509taxle0hnDviCj91Ob8LQnc0ImbSBZ?orgId=2" width="100%" height="500" frameborder="0" allowfullscreen></iframe>
 
