@@ -167,7 +167,7 @@ Using subgraphs causes subgraphs to be layouted individually. Here is the above 
   <img src="/assets/images/flow_nosubs.png" alt="flow_nosubs" width="100%">
 </a>
 
-## Extra Credit: Arterial Flow Charts
+## Arterial Flow Charts
 Plotting a chart of all the possible tips and turns of the flow paths is well and good. But if you're trying to make business decisions about the user journeys most central to your business goals, what information does the standard flow chart offer to support?
 <img align="right" src="/assets/images/human_body.png" alt="vascular_system" width="25%">
 
