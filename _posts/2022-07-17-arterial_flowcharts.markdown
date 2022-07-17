@@ -5,7 +5,7 @@ description: "Visualize the prominence of journeys with path thickness and direc
 date:   2022-07-17 12:10:00 +0100
 tags: flow-graphing conversational-ai thinking-aids
 header:
-  teaser: "/assets/images/flowarterial_body.png"
+  teaser: "/assets/images/flowarterial_body_small.png"
 ---
 Visualize the prominence of journeys with path thickness and directional color-coding.
 
