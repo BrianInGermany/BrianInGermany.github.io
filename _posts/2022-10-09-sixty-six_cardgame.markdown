@@ -13,7 +13,7 @@ Use memory and strategy to make tricks and reach 66 before your opponent!
 
 66 is played with a 24-card deck, using only the nines through aces.
 - For added fun, you can use a [German-face deck](https://www.piatnik.com/spiele/spielkarten/regionale-karten/blitz-salzburger) as pictured above, but an ordinary pack of cards will work just as well.
-- The game is played best with 2 players.  
+- The game is played with 2 players.  
 - A nearly identical Austrian variant played without the nines (Schnapsen), using only 20 cards.
 
 ## Setup
@@ -39,7 +39,7 @@ To make a trick, the opponent must play a higher card of the same suit or a trum
 
 Announcements (marriages) consist of a queen and king of the same suit.
 - You can make only make an announcement if it's your turn to begin the trick. 
-Announcements are worth the following points:
+Announcements are worth the following points:  
 - 40 points for an announcement in trump
 - 20 points for each non-trump announcement  
 
