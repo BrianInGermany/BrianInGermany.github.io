@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Card Game Review: Blitz"
+title:  "German Game Review: Blitz"
 description: "Win by not losing! In this fun Blackjack predecessor, keep your lives to stay afloat."
 date:   2022-10-09 12:10:00 +0100
 tags: game-reviews
