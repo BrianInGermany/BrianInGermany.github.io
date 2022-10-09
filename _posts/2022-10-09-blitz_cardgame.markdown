@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Card Game: Blitz (a.k.a. 31)"
-description: "Win by not losing! In this fun Blackjack-predecessor, keep your lives to stay afloat."
+description: "Win by not losing! In this fun Blackjack predecessor, keep your lives to stay afloat."
 date:   2022-10-09 12:10:00 +0100
 tags: game-reviews
 header:
   teaser: "/assets/images/blitz.jpg"
 ---
-Win by not losing! In this fun Blackjack-predecessor, keep your lives to stay afloat.
+Win by not losing! In this fun Blackjack predecessor, keep your lives to stay afloat.
 
 ![](/assets/images/blitz.jpg)
 
@@ -19,7 +19,7 @@ Blitz is played with a 32-card deck, using only the sevens through aces.
 At the start of the game, each player is given three lives (matchsticks, coins, etc.).  
 Each player is dealt three cards.
  - The dealer has the right to keep his cards or exchange them.
- - If the dealer wants to exchange his cards, he puts his original cards in the center of the table as the bank, and draws three new cards.
+ - If the dealer wants to exchange his cards, he puts his original cards in the center of the table as the bank, and draws three new cards. Otherwise three additional cards are placed in the center as the bank.
 The player to the left of the dealer is first.
 
 ## Gameplay
@@ -29,18 +29,22 @@ The aim of Blitz is to gather three cards of the same suit for the highest score
 - The round ends in one of three ways:
   1. A player reaches 31 points
   2. A player has three aces (blitz).
-  3. A player closed the round 
-     - Closing is denoted by knocking and is only possible after the first round of exchanging cards.
+  3. A player closes the round 
+     - Closing is denoted by knocking and is only possible after the first round.
      - If you choose to close, you may not exchange cards, and the game ends after every other player has one more chance to play.
 
 ## End of Game
 The player(s) with the lowest score loses one life. Once all a player's lives are gone, she is "swimming" on one final life, after which she loses.
 
 ## Additional Important Rules
-If a player gets three aces, the game is immediately over, and every other player loses one life.
+- If a player gets three aces, the game is immediately over, and every other player loses one life.
   - "Blitz!"
-If you have three-of-a-kind, your hand is worth exactly 30.5 points.
+- If you have three-of-a-kind, your hand is worth exactly 30.5 points.
+- You can always pass instead of exchanging cards or closing.
 
-## Conclusion
-The earlier you can get a high score, the earlier you can "knock" to jump the gun on opponents that haven't had time to collect points.
+## Strategy Tips
+- The earlier you can get a high score, the earlier you can "knock" to jump the gun on opponents that haven't had time to collect points.
+- Make sure you don't accidentally create a good hand in the bank by exchanging cards.
+  - Remember, the next player can take all three cards!
+
 
