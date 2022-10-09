@@ -11,4 +11,4 @@ title: Welcome to the Junkyard
 <img src="/assets/images/spainCircle.png" alt="BrianInHat" width="25%">
 
 *Brian:  
-IT dude, folk singer and curious george*
+Tech dude, folk singer and curious George*
