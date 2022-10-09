@@ -17,24 +17,25 @@ title: thejunkyard.cc
 
 author: Brian Junker-Latocha
 description: >- # this means to ignore newlines until "baseurl:"
-  The Junkyard: A Myriad of Tech Musings
+  The Junkyard: Brian's Idea Space
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://thejunkyard.cc" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  BrianInGermany
-linkedin_username: Junker-Latocha
+# linkedin_username: Junker-Latocha
 # twitter_username: JunkerLatocha
 telegram_username: BrianJL
 
 #headers
 header_pages:
   # - toRead.md
-  # - projectExhibit.md
+  - projectExhibit.md
   # - recommendations.md
-  - profile.md
+  # - profile.md
   # - podcast.md
+  - briankenneth.md
   - post_archive.md
-  # - briankenneth.md
+
 
 
 

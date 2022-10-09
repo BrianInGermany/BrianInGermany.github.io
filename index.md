@@ -11,6 +11,4 @@ title: Welcome to the Junkyard
 <img src="/assets/images/spainCircle.png" alt="BrianInHat" width="25%">
 
 *Brian:  
-IT dude, design thinker and jack-of-all-trades*
-
-![](/assets/images/flowarterial_body.png)
+IT dude, folk singer and curious george*

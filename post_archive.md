@@ -1,5 +1,5 @@
 ---
 layout: posts_page
-title: Post Archive
+title: Posts
 permalink: /posts/
 ---
