@@ -50,6 +50,6 @@ permalink: /show-and-tell/
   - Brian Kenneth: my folk and bluegrass solo act
   - ["Ein Lagerfeuer mitten in Darmstadt"](https://www.echo-online.de/freizeit/kunst-und-kultur/musik/ein-lagerfeuer-mitten-in-darmstadt_22032124), article in the Darmstädter Echo
 - [www.opencreekstringband.com](https://opencreekstringband.com)
-  - Fiddle, Banjolele Guitar Trio for Oldtime Folk!
+  - Fiddle, Banjolele, Guitar Trio for Oldtime Folk!
 
  
