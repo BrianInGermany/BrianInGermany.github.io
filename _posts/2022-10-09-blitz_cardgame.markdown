@@ -16,11 +16,11 @@ Blitz is played with a 32-card deck, using only the sevens through aces.
 - The game is played best with 3-7 players.  
 
 ## Setup
-At the start of the game, each player is given three lives (matchsticks, coins, etc.).  
-Each player is dealt three cards.
- - The dealer has the right to keep his cards or exchange them.
- - If the dealer wants to exchange his cards, he puts his original cards in the center of the table as the bank, and draws three new cards. Otherwise three additional cards are placed in the center as the bank.
-The player to the left of the dealer is first.
+- At the start of the game, each player is given three lives (matchsticks, coins, etc.).  
+- Each player is dealt three cards.
+  - The dealer has the right to keep his cards or exchange them.
+  - If the dealer wants to exchange his cards, he puts his original cards in the center of the table as the bank, and draws three new cards. Otherwise three additional cards are placed in the center as the bank.
+- The player to the left of the dealer is first.
 
 ## Gameplay
 The aim of Blitz is to gather three cards of the same suit for the highest score.
