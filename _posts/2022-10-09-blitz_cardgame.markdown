@@ -40,7 +40,7 @@ The player(s) with the lowest score loses one life. Once all a player's lives ar
 ## Additional Important Rules
 - If a player gets three aces, the game is immediately over, and every other player loses one life.
   - "Blitz!"
-- If you have three-of-a-kind, your hand is worth exactly 30.5 points.
+- Three-of-a-kind is worth exactly 30.5 points.
 - You can always pass instead of exchanging cards or closing.
 
 ## Strategy Tips
