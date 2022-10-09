@@ -1,13 +1,6 @@
 ---
 layout: default
 ---
-<script src="https://utteranc.es/client.js"
-        repo="BrianInGermany/BrianInGermany.github.io"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -50,8 +43,11 @@ layout: default
   </div>
 
   
-
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-  {% endif %}
+  <script src="https://utteranc.es/client.js"
+  repo="BrianInGermany/BrianInGermany.github.io"
+  issue-term="pathname"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
+</script>
 </article>
