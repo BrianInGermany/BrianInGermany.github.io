@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Card Game: Blitz (a.k.a. 31)"
+title:  "Card Game Review: Blitz"
 description: "Win by not losing! In this fun Blackjack predecessor, keep your lives to stay afloat."
 date:   2022-10-09 12:10:00 +0100
 tags: game-reviews
@@ -14,6 +14,7 @@ Win by not losing! In this fun Blackjack predecessor, keep your lives to stay af
 Blitz is played with a 32-card deck, using only the sevens through aces.
 - For added fun, you can use a [German-face deck](https://www.piatnik.com/spiele/spielkarten/regionale-karten/doppeldeutsche-blitz-36-blatt) as pictured above, but an ordinary pack of cards will work just as well.
 - The game is played best with 3-7 players.  
+- It's also known as 31 or Scat
 
 ## Setup
 - At the start of the game, each player is given three lives (matchsticks, coins, etc.).  
