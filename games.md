@@ -16,7 +16,7 @@ Before I joined the meetup, the world of gaming seemed rule-heavy and impenetrab
 
 Have a look, and if you have any suggestions for new games, please comment!
 
-:heart: = Favorite games linked to my own instructions.
+:heart: = Favorite games with instructions on this website.
 
 | Game                                                                        | Players | Pace   | Description                                                                                                                                                                                                                              | Pic                                                                 |
 | --------------------------------------------------------------------------- | ------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
