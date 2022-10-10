@@ -18,7 +18,7 @@ Use memory and strategy to make tricks and reach 66 before your opponent!
 
 ## Setup
 - At the start of the game, each player is dealt six cards.
-- A thirteenth card is uncovered an placed under the drawpile perpendicularly. This is the trump suit.
+- A thirteenth card is uncovered an placed under the deck perpendicularly. This is the trump suit.
 - The game begins by the first player putting down a card.
 
 ## Gameplay
@@ -51,7 +51,7 @@ If the deck was closed, the closing player must win (by reaching 66)!
 Once the deck has been closed, the defending player does not get points for any tricks or announcements they may make from that time until the end of the round.  
 
 ### Exchanging a low trump
-- If you have the lowest trump card, you can exchange it when it's your turn for the trum under the deck.  
+- If you have the lowest trump card, you can exchange it when it's your turn for the trump under the deck.  
 
 ## End of Game
 - If you think you have reached 66 points, just say "66" or "enough!" when it's your turn to end the round. But watch out-- if you don't actually have 66 your opponent will get extra points!

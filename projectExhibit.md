@@ -40,7 +40,7 @@ permalink: /show-and-tell/
 
 - [www.mainandwine.eu](https://mainandwine.eu)
   - Offenbach English Speakers social group
-  - We meet regulary for evening drinks or remote lunch breaks.
+  - We meet regularly for evening drinks or remote lunch breaks.
 - [www.americancultureclub.org](https://americancultureclub.org)
   - American Culture Club: a Slack community I moderate for Americans and friends in Germany
 

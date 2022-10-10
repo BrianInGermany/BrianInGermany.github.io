@@ -1,17 +1,32 @@
 ---
 layout: page
-title: Game Reviews
+title: Brian's Game Reviews
+description: "Short introductions to quick tabletop games I discover here, there and everywhere."
 permalink: /games/
+header:
+  teaser: "/assets/images/66.jpg"
 ---
 
 <a href="https://boardgamegeek.com/user/Brianingermany"><img src="https://boardgamegeek.com/jswidget.php?username=Brianingermany&numitems=6&header=1&text=none&images=medium&show=random&imagesonly=1&imagepos=right&inline=1&domains%5B%5D=boardgame&imagewidget=1" border="0"/></a>
-# Brian's Game Reviews
+
+Short introductions to quick tabletop games I discover here, there and everywhere.
+# Traditional Games
 
 - [Blitz](https://thejunkyard.cc/2022/10/09/blitz_cardgame.html)
-  - Win by not losing! In this fun Blackjack predecessor, keep your lives to stay afloat.  
+  - Win by not losing! In this fun Blackjack predecessor, keep your lives to stay afloat. 
+- [66](https://thejunkyard.cc/2022/10/09/sixty-six_cardgame.html)
+  - Use memory and strategy to make tricks and reach 66 before your opponent! 
 - Durak
   - Gang up on (defenseless? :) ) opponents in this souped-up version of war for 3-8 players.
+- Scopa!
+  - In this traditional Italian two-player, use your numbered cards in the suits coins, sticks, swords and cups to match as many cards on the board as possible. If you sweep them all away: "Scopa!", you get an extra point.
+
+# Modern Games
 - Banana Bandido
   - Banana generators, stick stealers and baboon's butts: in this fast-paced card game, use any means necessary to collect the most bananas!
 - Hive
-  - Boardless boardgame for two players. Move your insects around the field to surround your opponent's queen bee and win the hive.
+  - Boardless boardgame for two players. Move your hexagonal insect pieces around the field to surround your opponent's queen bee and win the hive.
+- Spicy
+  - Lie your way to the top with these beautifully illustrated, Korean-style cards numbered 1-10 in the suits wasabi, chili, and pepper. Kind of like the American game "BS", but more fancy. :)
+- Wizard
+  - This trick-making game is more about guessing how many tricks your hand can make than actually making the tricks themselves. It's basically a 52-card deck plus four wizards and four jokers.
