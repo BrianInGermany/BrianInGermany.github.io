@@ -30,7 +30,6 @@ permalink: /show-and-tell/
 # Organizations
 
 - Democratic Global Presidential Primary 2020 in Darmstadt
-  - https://www.pilotsrheinmain.de/
   - ["US-Amerikaner geben in Darmstadt Stimme für Vorwahlen ab"](https://www.echo-online.de/lokales/darmstadt/us-amerikaner-geben-in-darmstadt-stimme-fur-vorwahlen-ab_21383871)
 - [Pilots Rhein-Main Baseball Team](https://www.pilotsrheinmain.de/)
 - [Offenbacher helfen e.V.](https://offenbacherhelfen.de/)
