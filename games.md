@@ -14,7 +14,8 @@ I got hooked on a rowdy German card game called [Banana Bandido](https://thejunk
 
 Before I joined the meetup, the world of gaming seemed rule-heavy and impenetrable to my only casual interest. But I've been having fun discovering games that liven up a get-together and make it easy to join in, instead of erecting a wall of rules...
 
-Have a look, and if you have any suggestions for new games, please comment!
+Have a look, and if you have any suggestions for new games, please comment!  
+Note: please view table in horizontal mode if using mobile.
 
 :heart: = Favorite games with instructions on this website.
 
