@@ -16,6 +16,18 @@ header:
 .tg .tg-bsv2{background-color:#efefef}
 .tg .tg-3we0{background-color:#ffffff;vertical-align:top}
 .tg .tg-yw4l{vertical-align:top}
+.zoom {
+  /* padding: 50px;
+  background-color: green; */
+  transition: transform .2s; /* Animation */
+  /* width: 200px;
+  height: 200px; */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.7); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 @media all and (max-width: 479px) {
   table,
   thead,
@@ -26,18 +38,7 @@ header:
     display: block	;
   }
 
-.zoom {
-  padding: 50px;
-  background-color: green;
-  transition: transform .2s; /* Animation */
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-}
 
-.zoom:hover {
-  transform: scale(1.7); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
 }
 </style>
 
