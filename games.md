@@ -25,6 +25,8 @@ header:
   tr {
     display: block	;
   }
+  </style>
+  <style>
 .zoom {
   padding: 50px;
   background-color: green;
