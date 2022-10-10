@@ -6,7 +6,7 @@ permalink: /games/
 header:
   teaser: "/assets/images/bananabandido.jpg"
 ---
-Short introductions to quick tabletop games I discover here, there and everywhere.   
+Short introductions to tabletop games I discover here, there and everywhere.   
 <a href="https://boardgamegeek.com/user/Brianingermany"><img src="https://boardgamegeek.com/jswidget.php?username=Brianingermany&numitems=6&header=1&text=none&images=medium&show=random&imagesonly=1&imagepos=right&inline=1&domains%5B%5D=boardgame&imagewidget=1" border="0"/></a>
 
 1. I'm a fan of brief games you can still hold a conversation over.
