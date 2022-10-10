@@ -16,6 +16,20 @@ header:
 .tg .tg-bsv2{background-color:#efefef}
 .tg .tg-3we0{background-color:#ffffff;vertical-align:top}
 .tg .tg-yw4l{vertical-align:top}
+
+@media all and (max-width: 479px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block	;
+  }
+
+
+}
+@media all and (min-width: 480px)  {
 .zoom {
   /* padding: 50px;
   background-color: green; */
@@ -28,17 +42,6 @@ header:
 .zoom:hover {
   transform: scale(1.7); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-@media all and (max-width: 479px) {
-  table,
-  thead,
-  tbody,
-  th,
-  td,
-  tr {
-    display: block	;
-  }
-
-
 }
 </style>
 
