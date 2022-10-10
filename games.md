@@ -43,3 +43,10 @@ Short introductions to tabletop games I discover here, there and everywhere.
   - 2-7-player dice-rolling game where you have to match the rolled numbers with numbered domino-like pieces on the table. Weird worm-and-chicken based theme, but if it's fun, who cares?  
   <img src="/assets/images/heckmeck.jpg" width="50%" alt="heckmeck">   
 
+  <script src="https://utteranc.es/client.js"
+  repo="BrianInGermany/BrianInGermany.github.io"
+  issue-term="pathname"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
+</script>
