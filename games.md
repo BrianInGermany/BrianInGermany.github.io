@@ -25,19 +25,19 @@ header:
   tr {
     display: block	;
   }
-  </style>
-  <style>
+
 .zoom {
-  /* padding: 50px; */
-  /* background-color: green; */
+  padding: 50px;
+  background-color: green;
   transition: transform .2s; /* Animation */
-  /* width: 200px;
-  height: 200px; */
+  width: 200px;
+  height: 200px;
   margin: 0 auto;
 }
 
 .zoom:hover {
   transform: scale(1.7); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 }
 </style>
 
