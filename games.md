@@ -6,13 +6,16 @@ permalink: /games/
 header:
   teaser: "/assets/images/bananabandido.jpg"
 ---
-Short introductions to tabletop games I discover here, there and everywhere.   
 <a href="https://boardgamegeek.com/user/Brianingermany"><img src="https://boardgamegeek.com/jswidget.php?username=Brianingermany&numitems=6&header=1&text=none&images=medium&show=random&imagesonly=1&imagepos=right&inline=1&domains%5B%5D=boardgame&imagewidget=1" border="0"/></a>
-
-1. I'm a fan of brief games you can still hold a conversation over.
-2. I like simple games that you don't have to be an expert for.
-3. And I prefer games that aren't pinned to one language.  
    
+Last year I joined my first tabletop games meetup in Offenbach, Germany.
+
+I got hooked on a rowdy German card game called [Banana Bandido](https://thejunkyard.cc/games/#:~:text=Modern%20Games-,Banana%20Bandido,-Banana%20generators%2C%20stick), and proceeded expanding my collection little by little :)
+
+Before I joined the meetup, the world of gaming seemed rule-heavy and impenetrable to my only casual interest. But I've been having fun discovering games that liven up a get-together and make it easy to join in, instead of erecting a wall of rules...
+
+Have a look, and if you have any suggestions for new games, please comment!
+
 # Traditional Games
 
 - [66](https://thejunkyard.cc/2022/10/09/sixty-six_cardgame.html)
