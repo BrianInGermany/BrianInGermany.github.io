@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tabletop Arcade
-description: "Short introductions to quick tabletop games I discover here, there and everywhere."
+description: "Short introductions to tabletop games I discover here, there and everywhere."
 permalink: /games/
 header:
   teaser: "/assets/images/bananabandido.jpg"
