@@ -10,8 +10,9 @@ header:
 <a href="https://boardgamegeek.com/user/Brianingermany"><img src="https://boardgamegeek.com/jswidget.php?username=Brianingermany&numitems=6&header=1&text=none&images=medium&show=random&imagesonly=1&imagepos=right&inline=1&domains%5B%5D=boardgame&imagewidget=1" border="0"/></a>
 
 Short introductions to quick tabletop games I discover here, there and everywhere. 
-- I'm a fan of brief games you can still hold a conversation over.
-- And I prefer games that aren't pinned to one language.
+1. I'm a fan of brief games you can still hold a conversation over.
+2. I like simple games that you don't have to be an expert for.
+3. And I prefer games that aren't pinned to one language.
 # Traditional Games
 
 - [Blitz](https://thejunkyard.cc/2022/10/09/blitz_cardgame.html)
