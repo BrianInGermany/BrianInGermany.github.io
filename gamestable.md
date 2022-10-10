@@ -1,21 +1,3 @@
----
-layout: page
-title: Tabletop Arcade
-description: "Short introductions to quick tabletop games I discover here, there and everywhere."
-permalink: /games/
-header:
-  teaser: "/assets/images/bananabandido.jpg"
----
-<a href="https://boardgamegeek.com/user/Brianingermany"><img src="https://boardgamegeek.com/jswidget.php?username=Brianingermany&numitems=6&header=1&text=none&images=medium&show=random&imagesonly=1&imagepos=right&inline=1&domains%5B%5D=boardgame&imagewidget=1" border="0"/></a>
-   
-Last year I joined my first tabletop games meetup in Offenbach, Germany.
-
-I got hooked on a rowdy German card game called [Banana Bandido](https://thejunkyard.cc/games/#:~:text=Modern%20Games-,Banana%20Bandido,-Banana%20generators%2C%20stick), and proceeded expanding my collection little by little :)
-
-Before I joined the meetup, the world of gaming seemed rule-heavy and impenetrable to my only casual interest. But I've been having fun discovering games that liven up a get-together and make it easy to join in, instead of erecting a wall of rules...
-
-Have a look, and if you have any suggestions for new games, please comment!
-
 | Game                                                                        | Players | Pace   | Description                                                                                                                                                                                                                              | Pic                                                                 |
 | --------------------------------------------------------------------------- | ------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | [Durak](https://boardgamegeek.com/boardgame/29351/durak)                    | 2-8     | fast   | Gang up on (defenseless? :) ) opponents in this souped-up version of war for 3-8 players.                                                                                                                                                |                                                                     |
@@ -28,12 +10,3 @@ Have a look, and if you have any suggestions for new games, please comment!
 | [Wizard](https://boardgamegeek.com/boardgame/1465/wizard)                   | 3-6     | medium | This trick-making game and variant of Oh Hell is more about guessing how many tricks your hand can make than actually making the tricks themselves. It's basically a 52-card deck plus four wizards and four jokers.                     |                                                                     |
 | [Blitz](https://thejunkyard.cc/2022/10/09/blitz_cardgame.html)              | 2-7     | slow   | Win by not losing! In this fun Blackjack predecessor, keep your lives to stay afloat.                                                                                                                                                    | <img src="/assets/images/blitz.jpg" alt="blitz">                    |
 | [Hive](https://boardgamegeek.com/boardgame/2655/hive)                       | 2       | slow   | Boardless boardgame for two players. Move your hexagonal insect pieces around the field to surround your opponent's queen bee and win the hive.                                                                                          | <img src="/assets/images/hive.jpg" alt="hive">                      |
-
-
-<script src="https://utteranc.es/client.js"
-  repo="BrianInGermany/BrianInGermany.github.io"
-  issue-term="pathname"
-  theme="github-light"
-  crossorigin="anonymous"
-  async>
-</script>
