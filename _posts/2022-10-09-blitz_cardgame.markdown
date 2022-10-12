@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Duck and Cover to Escape the Blitz: A Cardgame"
+title:  "An Electrified Take on Blackjack: Blitz!"
 description: "Win by not losing! In this fun Blackjack predecessor, keep your lives to stay afloat."
 date:   2022-10-09 12:10:00 +0100
 tags: game-reviews
