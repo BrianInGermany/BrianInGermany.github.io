@@ -49,9 +49,9 @@ header:
    
 Last year I joined my first tabletop games meetup in Offenbach, Germany.
 
-I got hooked on a rowdy German card game called [Banana Bandido](https://thejunkyard.cc/games/#:~:text=Modern%20Games-,Banana%20Bandido,-Banana%20generators%2C%20stick), and proceeded expanding my collection little by little :)
+I got hooked on a rowdy German card game called Banana Bandido, and proceeded expanding my collection little by little :)
 
-Before I joined the meetup, the world of gaming seemed rule-heavy and impenetrable to my only casual interest. But I've been having fun discovering games that liven up a get-together and make it easy to join in, instead of erecting a wall of rules...
+Before I joined the meetup, the world of gaming seemed rule-heavy and impenetrable to my only casual interest. But I've been having fun discovering games that liven up a get-together and make it easy to join in!
 
 Have a look, and if you have any suggestions for new games, please comment!  
 
