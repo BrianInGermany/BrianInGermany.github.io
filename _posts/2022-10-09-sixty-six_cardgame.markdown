@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "German Game Review: 66"
+title:  "Get Your Kicks With '66': A Classic German Cardgame"
 description: "Use memory and strategy to make tricks and reach 66 before your opponent!"
 date:   2022-10-09 21:34:00 +0100
 tags: game-reviews
