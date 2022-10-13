@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Gang Up on Opponents and Don't be the Dummy: Durak"
-description: "Gang up on (defenseless? :) ) opponents in this souped-up version of War for 4-8 players."
+description: "Gang up on (defenseless? :grin: ) opponents in this souped-up version of War for 4-8 players."
 date:   2022-10-12 15:39:00 +0100
 tags: game-reviews
 header:
   teaser: "/assets/images/durak.jpg"
 ---
-Gang up on (defenseless? :) ) opponents in this souped-up version of War for 4-8 players.
+Gang up on (defenseless? :grin: ) opponents in this souped-up version of War for 4-8 players.
 
 ![](/assets/images/durak.jpg)
 

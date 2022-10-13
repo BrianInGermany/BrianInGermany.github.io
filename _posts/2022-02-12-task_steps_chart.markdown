@@ -27,4 +27,4 @@ For example online, with this great website (code to the sample chart included):
 
 Another option could be to draw and connect the nodes from scratch with the amazing diagramming tool, [draw.io](https://app.diagrams.net/).
 
-And don't forget pen and paper :)
+And don't forget pen and paper :grin:
