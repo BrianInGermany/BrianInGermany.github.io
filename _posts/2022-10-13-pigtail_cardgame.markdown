@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Japanese Party Hit: Pigtail"
+title:  "Japanese Party Hit: Pigtail!"
 description: "Turn over cards from the pigtail. Just not the same suit twice-in-a-row! :joy:"
 date:   2022-10-13 17:14:00 +0100
 tags: game-reviews
