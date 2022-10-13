@@ -10,7 +10,7 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Latest Posts" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: "Latest Brain Dumps" }}</h2>
     <ul class="post-list">
       {% assign last_posts = site.posts | slice: 0, 4 %}
       {%- for post in last_posts -%}
