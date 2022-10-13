@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Two-Player Easy as Taking out Trash: Garbage"
+title:  "A Two-Player Easy as Taking Out Trash: Garbage"
 description: "Be the first to collect the cards A-10 on a 10-card grid."
 date:   2022-10-13 17:39:00 +0100
 tags: game-reviews
