@@ -13,7 +13,7 @@ Gang up on (defenseless? :grin: ) opponents in this souped-up version of War for
 
 Durak can be played with a standard 52-card deck or, for a faster version, with a 36-card (6-A) deck.
 - This fast-paced party game is popular in former Soviet countries and well-known in parts of central Europe.
-- The game is best with 4-8 players. If playing with more than four, use a 52-card deck.
+- The game is best with 4-8 players. If playing with more than six, use a 52-card deck.
 
 ## Setup
 - At the start of the game, each player is dealt six cards.
