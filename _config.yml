@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: thejunkyard.cc
+title: The Junkyard
 
 author: Brian Junker-Latocha
 description: >- # this means to ignore newlines until "baseurl:"
   The Junkyard: Brian's Idea Space
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://thejunkyard.cc" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://brianingermany.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  BrianInGermany
 # linkedin_username: Junker-Latocha
