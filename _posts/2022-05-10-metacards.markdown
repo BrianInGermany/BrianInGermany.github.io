@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Take Your Retro to a Meta Level"
-description: "Meta Cards: an ideation tool for reflecting on iterations"
+description: "Meta4 Cards: an ideation tool for reflecting on iterations"
 date:   2022-05-10 22:01:00 +0100
 categories: jekyll update
 tags: organization thinking-aids
@@ -13,7 +13,7 @@ header:
   <img src="/assets/images/metacards.jpeg" alt="metacards" width="100%">
 </a>
 
-Meta Cards are a team communication and ideation tool. They help you to reflect together on previous work, and identify risks and opportunities in upcoming tasks.
+Meta4 Cards are a team communication and ideation tool. They help you to reflect together on previous work, and identify risks and opportunities in upcoming tasks.
 
 ## How does it work?
 ### Make
